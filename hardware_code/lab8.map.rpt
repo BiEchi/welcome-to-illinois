@@ -1,0 +1,591 @@
+Analysis & Synthesis report for lab8
+Tue Jan  4 21:44:30 2022
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Messages
+  6. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Failed - Tue Jan  4 21:44:30 2022           ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                      ; lab8                                        ;
+; Top-level Entity Name              ; final_high_level                            ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; N/A until Partition Merge                   ;
+;     Total combinational functions  ; N/A until Partition Merge                   ;
+;     Dedicated logic registers      ; N/A until Partition Merge                   ;
+; Total registers                    ; N/A until Partition Merge                   ;
+; Total pins                         ; N/A until Partition Merge                   ;
+; Total virtual pins                 ; N/A until Partition Merge                   ;
+; Total memory bits                  ; N/A until Partition Merge                   ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
+; Total PLLs                         ; N/A until Partition Merge                   ;
++------------------------------------+---------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; EP4CE115F29C7      ;                    ;
+; Top-level entity name                                            ; final_high_level   ; lab8               ;
+; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
+; Use smart compilation                                            ; On                 ; Off                ;
+; Maximum processors allowed for parallel compilation              ; All                ;                    ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 8           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Tue Jan  4 21:44:06 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab8 -c lab8
+Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
+Info (12248): Elaborating Platform Designer system entity "lab8_soc.qsys"
+Info (12250): 2022.01.04.21:44:14 Progress: Loading hardware_code/lab8_soc.qsys
+Info (12250): 2022.01.04.21:44:14 Progress: Reading input file
+Info (12250): 2022.01.04.21:44:14 Progress: Adding BEGINPOINT [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module BEGINPOINT
+Info (12250): 2022.01.04.21:44:14 Progress: Adding DEBUG_MIN_INDEX [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module DEBUG_MIN_INDEX
+Info (12250): 2022.01.04.21:44:14 Progress: Adding DEBUG_MIN_NUM [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module DEBUG_MIN_NUM
+Info (12250): 2022.01.04.21:44:14 Progress: Adding DEBUG_STATE [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module DEBUG_STATE
+Info (12250): 2022.01.04.21:44:14 Progress: Adding ENDPOINT [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module ENDPOINT
+Info (12250): 2022.01.04.21:44:14 Progress: Adding FINISH [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module FINISH
+Info (12250): 2022.01.04.21:44:14 Progress: Adding MIN_PATH_LENGTH [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module MIN_PATH_LENGTH
+Info (12250): 2022.01.04.21:44:14 Progress: Adding PATH1 [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module PATH1
+Info (12250): 2022.01.04.21:44:14 Progress: Adding PATH2 [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module PATH2
+Info (12250): 2022.01.04.21:44:14 Progress: Adding PATH3 [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module PATH3
+Info (12250): 2022.01.04.21:44:14 Progress: Adding PATH4 [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module PATH4
+Info (12250): 2022.01.04.21:44:14 Progress: Adding POS_X [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module POS_X
+Info (12250): 2022.01.04.21:44:14 Progress: Adding POS_Y [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module POS_Y
+Info (12250): 2022.01.04.21:44:14 Progress: Adding SOURCE_INDEX [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module SOURCE_INDEX
+Info (12250): 2022.01.04.21:44:14 Progress: Adding START [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module START
+Info (12250): 2022.01.04.21:44:14 Progress: Adding TARGET_INDEX [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module TARGET_INDEX
+Info (12250): 2022.01.04.21:44:14 Progress: Adding clk_0 [clock_source 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module clk_0
+Info (12250): 2022.01.04.21:44:14 Progress: Adding distancehigh [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module distancehigh
+Info (12250): 2022.01.04.21:44:14 Progress: Adding distancelow [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module distancelow
+Info (12250): 2022.01.04.21:44:14 Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module jtag_uart_0
+Info (12250): 2022.01.04.21:44:14 Progress: Adding keycode [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module keycode
+Info (12250): 2022.01.04.21:44:14 Progress: Adding nios2_gen2_0 [altera_nios2_gen2 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module nios2_gen2_0
+Info (12250): 2022.01.04.21:44:14 Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module onchip_memory2_0
+Info (12250): 2022.01.04.21:44:14 Progress: Adding otg_hpi_address [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module otg_hpi_address
+Info (12250): 2022.01.04.21:44:14 Progress: Adding otg_hpi_cs [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module otg_hpi_cs
+Info (12250): 2022.01.04.21:44:14 Progress: Adding otg_hpi_data [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module otg_hpi_data
+Info (12250): 2022.01.04.21:44:14 Progress: Adding otg_hpi_r [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module otg_hpi_r
+Info (12250): 2022.01.04.21:44:14 Progress: Adding otg_hpi_reset [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module otg_hpi_reset
+Info (12250): 2022.01.04.21:44:14 Progress: Adding otg_hpi_w [altera_avalon_pio 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module otg_hpi_w
+Info (12250): 2022.01.04.21:44:14 Progress: Adding sdram [altera_avalon_new_sdram_controller 18.1]
+Info (12250): 2022.01.04.21:44:14 Progress: Parameterizing module sdram
+Info (12250): 2022.01.04.21:44:14 Progress: Adding sdram_pll [altpll 18.1]
+Info (12250): 2022.01.04.21:44:15 Progress: Parameterizing module sdram_pll
+Info (12250): 2022.01.04.21:44:15 Progress: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 18.1]
+Info (12250): 2022.01.04.21:44:15 Progress: Parameterizing module sysid_qsys_0
+Info (12250): 2022.01.04.21:44:15 Progress: Adding timer_0 [altera_avalon_timer 18.1]
+Info (12250): 2022.01.04.21:44:15 Progress: Parameterizing module timer_0
+Info (12250): 2022.01.04.21:44:15 Progress: Building connections
+Info (12250): 2022.01.04.21:44:15 Progress: Parameterizing connections
+Info (12250): 2022.01.04.21:44:15 Progress: Validating
+Info (12250): 2022.01.04.21:44:15 Progress: Done reading input file
+Info (12250): Lab8_soc.DEBUG_MIN_INDEX: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info (12250): Lab8_soc.DEBUG_MIN_NUM: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info (12250): Lab8_soc.DEBUG_STATE: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info (12250): Lab8_soc.FINISH: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info (12250): Lab8_soc.MIN_PATH_LENGTH: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info (12250): Lab8_soc.POS_X: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info (12250): Lab8_soc.POS_Y: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info (12250): Lab8_soc.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info (12250): Lab8_soc.otg_hpi_data: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info (12250): Lab8_soc.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info (12250): Lab8_soc.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info (12250): Lab8_soc.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Info (12250): Lab8_soc: Generating lab8_soc "lab8_soc" for QUARTUS_SYNTH
+Info (12250): Inserting clock-crossing logic between cmd_demux.src5 and cmd_mux_005.sink0
+Info (12250): Inserting clock-crossing logic between cmd_demux_001.src4 and cmd_mux_005.sink1
+Info (12250): Inserting clock-crossing logic between rsp_demux_005.src0 and rsp_mux.sink5
+Info (12250): Inserting clock-crossing logic between rsp_demux_005.src1 and rsp_mux_001.sink4
+Info (12250): BEGINPOINT: Starting RTL generation for module 'lab8_soc_BEGINPOINT'
+Info (12250): BEGINPOINT:   Generation command is [exec /root/intelFPGA_lite/18.1/quartus/linux64/perl/bin/perl -I /root/intelFPGA_lite/18.1/quartus/linux64/perl/lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=lab8_soc_BEGINPOINT --dir=/tmp/alt8996_5969939926128777444.dir/0002_BEGINPOINT_gen/ --quartus_dir=/root/intelFPGA_lite/18.1/quartus --verilog --config=/tmp/alt8996_5969939926128777444.dir/0002_BEGINPOINT_gen//lab8_soc_BEGINPOINT_component_configuration.pl  --do_build_sim=0  ]
+Info (12250): BEGINPOINT: Done RTL generation for module 'lab8_soc_BEGINPOINT'
+Info (12250): BEGINPOINT: "lab8_soc" instantiated altera_avalon_pio "BEGINPOINT"
+Info (12250): DEBUG_MIN_INDEX: Starting RTL generation for module 'lab8_soc_DEBUG_MIN_INDEX'
+Info (12250): DEBUG_MIN_INDEX:   Generation command is [exec /root/intelFPGA_lite/18.1/quartus/linux64/perl/bin/perl -I /root/intelFPGA_lite/18.1/quartus/linux64/perl/lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=lab8_soc_DEBUG_MIN_INDEX --dir=/tmp/alt8996_5969939926128777444.dir/0003_DEBUG_MIN_INDEX_gen/ --quartus_dir=/root/intelFPGA_lite/18.1/quartus --verilog --config=/tmp/alt8996_5969939926128777444.dir/0003_DEBUG_MIN_INDEX_gen//lab8_soc_DEBUG_MIN_INDEX_component_configuration.pl  --do_build_sim=0  ]
+Info (12250): DEBUG_MIN_INDEX: Done RTL generation for module 'lab8_soc_DEBUG_MIN_INDEX'
+Info (12250): DEBUG_MIN_INDEX: "lab8_soc" instantiated altera_avalon_pio "DEBUG_MIN_INDEX"
+Info (12250): DEBUG_MIN_NUM: Starting RTL generation for module 'lab8_soc_DEBUG_MIN_NUM'
+Info (12250): DEBUG_MIN_NUM:   Generation command is [exec /root/intelFPGA_lite/18.1/quartus/linux64/perl/bin/perl -I /root/intelFPGA_lite/18.1/quartus/linux64/perl/lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=lab8_soc_DEBUG_MIN_NUM --dir=/tmp/alt8996_5969939926128777444.dir/0004_DEBUG_MIN_NUM_gen/ --quartus_dir=/root/intelFPGA_lite/18.1/quartus --verilog --config=/tmp/alt8996_5969939926128777444.dir/0004_DEBUG_MIN_NUM_gen//lab8_soc_DEBUG_MIN_NUM_component_configuration.pl  --do_build_sim=0  ]
+Info (12250): DEBUG_MIN_NUM: Done RTL generation for module 'lab8_soc_DEBUG_MIN_NUM'
+Info (12250): DEBUG_MIN_NUM: "lab8_soc" instantiated altera_avalon_pio "DEBUG_MIN_NUM"
+Info (12250): DEBUG_STATE: Starting RTL generation for module 'lab8_soc_DEBUG_STATE'
+Info (12250): DEBUG_STATE:   Generation command is [exec /root/intelFPGA_lite/18.1/quartus/linux64/perl/bin/perl -I /root/intelFPGA_lite/18.1/quartus/linux64/perl/lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=lab8_soc_DEBUG_STATE --dir=/tmp/alt8996_5969939926128777444.dir/0005_DEBUG_STATE_gen/ --quartus_dir=/root/intelFPGA_lite/18.1/quartus --verilog --config=/tmp/alt8996_5969939926128777444.dir/0005_DEBUG_STATE_gen//lab8_soc_DEBUG_STATE_component_configuration.pl  --do_build_sim=0  ]
+Info (12250): DEBUG_STATE: Done RTL generation for module 'lab8_soc_DEBUG_STATE'
+Info (12250): DEBUG_STATE: "lab8_soc" instantiated altera_avalon_pio "DEBUG_STATE"
+Info (12250): FINISH: Starting RTL generation for module 'lab8_soc_FINISH'
+Info (12250): FINISH:   Generation command is [exec /root/intelFPGA_lite/18.1/quartus/linux64/perl/bin/perl -I /root/intelFPGA_lite/18.1/quartus/linux64/perl/lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=lab8_soc_FINISH --dir=/tmp/alt8996_5969939926128777444.dir/0006_FINISH_gen/ --quartus_dir=/root/intelFPGA_lite/18.1/quartus --verilog --config=/tmp/alt8996_5969939926128777444.dir/0006_FINISH_gen//lab8_soc_FINISH_component_configuration.pl  --do_build_sim=0  ]
+Info (12250): FINISH: Done RTL generation for module 'lab8_soc_FINISH'
+Info (12250): FINISH: "lab8_soc" instantiated altera_avalon_pio "FINISH"
+Info (12250): POS_X: Starting RTL generation for module 'lab8_soc_POS_X'
+Info (12250): POS_X:   Generation command is [exec /root/intelFPGA_lite/18.1/quartus/linux64/perl/bin/perl -I /root/intelFPGA_lite/18.1/quartus/linux64/perl/lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=lab8_soc_POS_X --dir=/tmp/alt8996_5969939926128777444.dir/0007_POS_X_gen/ --quartus_dir=/root/intelFPGA_lite/18.1/quartus --verilog --config=/tmp/alt8996_5969939926128777444.dir/0007_POS_X_gen//lab8_soc_POS_X_component_configuration.pl  --do_build_sim=0  ]
+Info (12250): POS_X: Done RTL generation for module 'lab8_soc_POS_X'
+Info (12250): POS_X: "lab8_soc" instantiated altera_avalon_pio "POS_X"
+Info (12250): SOURCE_INDEX: Starting RTL generation for module 'lab8_soc_SOURCE_INDEX'
+Info (12250): SOURCE_INDEX:   Generation command is [exec /root/intelFPGA_lite/18.1/quartus/linux64/perl/bin/perl -I /root/intelFPGA_lite/18.1/quartus/linux64/perl/lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=lab8_soc_SOURCE_INDEX --dir=/tmp/alt8996_5969939926128777444.dir/0008_SOURCE_INDEX_gen/ --quartus_dir=/root/intelFPGA_lite/18.1/quartus --verilog --config=/tmp/alt8996_5969939926128777444.dir/0008_SOURCE_INDEX_gen//lab8_soc_SOURCE_INDEX_component_configuration.pl  --do_build_sim=0  ]
+Info (12250): SOURCE_INDEX: Done RTL generation for module 'lab8_soc_SOURCE_INDEX'
+Info (12250): SOURCE_INDEX: "lab8_soc" instantiated altera_avalon_pio "SOURCE_INDEX"
+Info (12250): START: Starting RTL generation for module 'lab8_soc_START'
+Info (12250): START:   Generation command is [exec /root/intelFPGA_lite/18.1/quartus/linux64/perl/bin/perl -I /root/intelFPGA_lite/18.1/quartus/linux64/perl/lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=lab8_soc_START --dir=/tmp/alt8996_5969939926128777444.dir/0009_START_gen/ --quartus_dir=/root/intelFPGA_lite/18.1/quartus --verilog --config=/tmp/alt8996_5969939926128777444.dir/0009_START_gen//lab8_soc_START_component_configuration.pl  --do_build_sim=0  ]
+Info (12250): START: Done RTL generation for module 'lab8_soc_START'
+Info (12250): START: "lab8_soc" instantiated altera_avalon_pio "START"
+Info (12250): Jtag_uart_0: Starting RTL generation for module 'lab8_soc_jtag_uart_0'
+Info (12250): Jtag_uart_0:   Generation command is [exec /root/intelFPGA_lite/18.1/quartus/linux64/perl/bin/perl -I /root/intelFPGA_lite/18.1/quartus/linux64/perl/lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=lab8_soc_jtag_uart_0 --dir=/tmp/alt8996_5969939926128777444.dir/0010_jtag_uart_0_gen/ --quartus_dir=/root/intelFPGA_lite/18.1/quartus --verilog --config=/tmp/alt8996_5969939926128777444.dir/0010_jtag_uart_0_gen//lab8_soc_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info (12250): Jtag_uart_0: Done RTL generation for module 'lab8_soc_jtag_uart_0'
+Info (12250): Jtag_uart_0: "lab8_soc" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info (12250): Nios2_gen2_0: "lab8_soc" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info (12250): Onchip_memory2_0: Starting RTL generation for module 'lab8_soc_onchip_memory2_0'
+Info (12250): Onchip_memory2_0:   Generation command is [exec /root/intelFPGA_lite/18.1/quartus/linux64/perl/bin/perl -I /root/intelFPGA_lite/18.1/quartus/linux64/perl/lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=lab8_soc_onchip_memory2_0 --dir=/tmp/alt8996_5969939926128777444.dir/0011_onchip_memory2_0_gen/ --quartus_dir=/root/intelFPGA_lite/18.1/quartus --verilog --config=/tmp/alt8996_5969939926128777444.dir/0011_onchip_memory2_0_gen//lab8_soc_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info (12250): Onchip_memory2_0: Done RTL generation for module 'lab8_soc_onchip_memory2_0'
+Info (12250): Onchip_memory2_0: "lab8_soc" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info (12250): Otg_hpi_address: Starting RTL generation for module 'lab8_soc_otg_hpi_address'
+Info (12250): Otg_hpi_address:   Generation command is [exec /root/intelFPGA_lite/18.1/quartus/linux64/perl/bin/perl -I /root/intelFPGA_lite/18.1/quartus/linux64/perl/lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=lab8_soc_otg_hpi_address --dir=/tmp/alt8996_5969939926128777444.dir/0012_otg_hpi_address_gen/ --quartus_dir=/root/intelFPGA_lite/18.1/quartus --verilog --config=/tmp/alt8996_5969939926128777444.dir/0012_otg_hpi_address_gen//lab8_soc_otg_hpi_address_component_configuration.pl  --do_build_sim=0  ]
+Info (12250): Otg_hpi_address: Done RTL generation for module 'lab8_soc_otg_hpi_address'
+Info (12250): Otg_hpi_address: "lab8_soc" instantiated altera_avalon_pio "otg_hpi_address"
+Info (12250): Otg_hpi_data: Starting RTL generation for module 'lab8_soc_otg_hpi_data'
+Info (12250): Otg_hpi_data:   Generation command is [exec /root/intelFPGA_lite/18.1/quartus/linux64/perl/bin/perl -I /root/intelFPGA_lite/18.1/quartus/linux64/perl/lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=lab8_soc_otg_hpi_data --dir=/tmp/alt8996_5969939926128777444.dir/0013_otg_hpi_data_gen/ --quartus_dir=/root/intelFPGA_lite/18.1/quartus --verilog --config=/tmp/alt8996_5969939926128777444.dir/0013_otg_hpi_data_gen//lab8_soc_otg_hpi_data_component_configuration.pl  --do_build_sim=0  ]
+Info (12250): Otg_hpi_data: Done RTL generation for module 'lab8_soc_otg_hpi_data'
+Info (12250): Otg_hpi_data: "lab8_soc" instantiated altera_avalon_pio "otg_hpi_data"
+Info (12250): Sdram: Starting RTL generation for module 'lab8_soc_sdram'
+Info (12250): Sdram:   Generation command is [exec /root/intelFPGA_lite/18.1/quartus/linux64/perl/bin/perl -I /root/intelFPGA_lite/18.1/quartus/linux64/perl/lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=lab8_soc_sdram --dir=/tmp/alt8996_5969939926128777444.dir/0014_sdram_gen/ --quartus_dir=/root/intelFPGA_lite/18.1/quartus --verilog --config=/tmp/alt8996_5969939926128777444.dir/0014_sdram_gen//lab8_soc_sdram_component_configuration.pl  --do_build_sim=0  ]
+Info (12250): Sdram: Done RTL generation for module 'lab8_soc_sdram'
+Info (12250): Sdram: "lab8_soc" instantiated altera_avalon_new_sdram_controller "sdram"
+Info (12250): Sdram_pll: "lab8_soc" instantiated altpll "sdram_pll"
+Info (12250): Sysid_qsys_0: "lab8_soc" instantiated altera_avalon_sysid_qsys "sysid_qsys_0"
+Info (12250): Timer_0: Starting RTL generation for module 'lab8_soc_timer_0'
+Info (12250): Timer_0:   Generation command is [exec /root/intelFPGA_lite/18.1/quartus/linux64//perl/bin/perl -I /root/intelFPGA_lite/18.1/quartus/linux64//perl/lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- /root/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=lab8_soc_timer_0 --dir=/tmp/alt8996_5969939926128777444.dir/0018_timer_0_gen/ --quartus_dir=/root/intelFPGA_lite/18.1/quartus --verilog --config=/tmp/alt8996_5969939926128777444.dir/0018_timer_0_gen//lab8_soc_timer_0_component_configuration.pl  --do_build_sim=0  ]
+Info (12250): Timer_0: Done RTL generation for module 'lab8_soc_timer_0'
+Info (12250): Timer_0: "lab8_soc" instantiated altera_avalon_timer "timer_0"
+Info (12250): Avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_010: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_011: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_012: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_013: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_014: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_015: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_016: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_017: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_018: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_019: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_020: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_021: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_022: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_023: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_024: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_025: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_026: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_027: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_028: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_029: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_030: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_031: Inserting error_adapter: error_adapter_0
+Info (12250): Mm_interconnect_0: "lab8_soc" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info (12250): Irq_mapper: "lab8_soc" instantiated altera_irq_mapper "irq_mapper"
+Info (12250): Rst_controller: "lab8_soc" instantiated altera_reset_controller "rst_controller"
+Info (12250): Cpu: Starting RTL generation for module 'lab8_soc_nios2_gen2_0_cpu'
+Info (12250): Cpu:   Generation command is [exec /root/intelFPGA_lite/18.1/quartus/linux64//eperlcmd -I /root/intelFPGA_lite/18.1/quartus/linux64//perl/lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /root/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I /root/intelFPGA_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- /root/intelFPGA_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=lab8_soc_nios2_gen2_0_cpu --dir=/tmp/alt8996_5969939926128777444.dir/0021_cpu_gen/ --quartus_bindir=/root/intelFPGA_lite/18.1/quartus/linux64/ --verilog --config=/tmp/alt8996_5969939926128777444.dir/0021_cpu_gen//lab8_soc_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info (12250): Cpu: # 2022.01.04 21:44:25 (*) Starting Nios II generation
+Info (12250): Cpu: # 2022.01.04 21:44:25 (*)   Checking for plaintext license.
+Info (12250): Cpu: # 2022.01.04 21:44:26 (*)   Couldn't query license setup in Quartus directory /root/intelFPGA_lite/18.1/quartus/linux64/
+Info (12250): Cpu: # 2022.01.04 21:44:26 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info (12250): Cpu: # 2022.01.04 21:44:26 (*)   LM_LICENSE_FILE environment variable is empty
+Info (12250): Cpu: # 2022.01.04 21:44:26 (*)   Plaintext license not found.
+Info (12250): Cpu: # 2022.01.04 21:44:26 (*)   No license required to generate encrypted Nios II/e.
+Info (12250): Cpu: # 2022.01.04 21:44:26 (*)   Elaborating CPU configuration settings
+Info (12250): Cpu: # 2022.01.04 21:44:26 (*)   Creating all objects for CPU
+Info (12250): Cpu: # 2022.01.04 21:44:26 (*)   Generating RTL from CPU objects
+Info (12250): Cpu: # 2022.01.04 21:44:26 (*)   Creating plain-text RTL
+Info (12250): Cpu: # 2022.01.04 21:44:26 (*) Done Nios II generation
+Info (12250): Cpu: Done RTL generation for module 'lab8_soc_nios2_gen2_0_cpu'
+Info (12250): Cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info (12250): Nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
+Info (12250): Jtag_uart_0_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_0_avalon_jtag_slave_translator"
+Info (12250): Nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info (12250): Jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info (12250): Jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info (12250): Router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info (12250): Router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info (12250): Router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info (12250): Router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info (12250): Cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info (12250): Cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info (12250): Cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info (12250): Cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info (12250): Reusing file /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/altera_merlin_arbitrator.sv
+Info (12250): Rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info (12250): Rsp_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_001"
+Info (12250): Rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info (12250): Reusing file /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/altera_merlin_arbitrator.sv
+Info (12250): Rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info (12250): Reusing file /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/altera_merlin_arbitrator.sv
+Info (12250): Crosser: "mm_interconnect_0" instantiated altera_avalon_st_handshake_clock_crosser "crosser"
+Info (12250): Avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info (12250): Error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info (12250): Lab8_soc: Done "lab8_soc" with 42 modules, 59 files
+Info (12249): Finished elaborating Platform Designer system entity "lab8_soc.qsys"
+Info (12021): Found 1 design units, including 1 entities, in source file Backgroundmusic_music.v
+    Info (12023): Found entity 1: Backgroundmusic_music File: /home/dell/welcome-to-illinois/hardware_code/Backgroundmusic_music.v Line: 42
+Info (12021): Found 1 design units, including 1 entities, in source file Backgroundmusic_effect.v
+    Info (12023): Found entity 1: Backgroundmusic_effect File: /home/dell/welcome-to-illinois/hardware_code/Backgroundmusic_effect.v Line: 42
+Info (12021): Found 1 design units, including 1 entities, in source file I2C_Protocol.v
+    Info (12023): Found entity 1: I2C_Protocol File: /home/dell/welcome-to-illinois/hardware_code/I2C_Protocol.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file Top.v
+    Info (12023): Found entity 1: Top File: /home/dell/welcome-to-illinois/hardware_code/Top.v Line: 11
+Info (12021): Found 1 design units, including 1 entities, in source file USB_Clock_PLL.v
+    Info (12023): Found entity 1: USB_Clock_PLL File: /home/dell/welcome-to-illinois/hardware_code/USB_Clock_PLL.v Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file hpi_io_intf.sv
+    Info (12023): Found entity 1: hpi_io_intf File: /home/dell/welcome-to-illinois/hardware_code/hpi_io_intf.sv Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file VGA_controller.sv
+    Info (12023): Found entity 1: VGA_controller File: /home/dell/welcome-to-illinois/hardware_code/VGA_controller.sv Line: 26
+Info (12021): Found 1 design units, including 1 entities, in source file lab8.sv
+    Info (12023): Found entity 1: lab8 File: /home/dell/welcome-to-illinois/hardware_code/lab8.sv Line: 16
+Info (12021): Found 1 design units, including 1 entities, in source file HexDriver.sv
+    Info (12023): Found entity 1: HexDriver File: /home/dell/welcome-to-illinois/hardware_code/HexDriver.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file vga_clk.v
+    Info (12023): Found entity 1: vga_clk File: /home/dell/welcome-to-illinois/hardware_code/vga_clk.v Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file ramstore.sv
+    Info (12023): Found entity 1: ramstore File: /home/dell/welcome-to-illinois/hardware_code/ramstore.sv Line: 1
+Warning (10275): Verilog HDL Module Instantiation warning at final_high_level.sv(67): ignored dangling comma in List of Port Connections File: /home/dell/welcome-to-illinois/hardware_code/final_high_level.sv Line: 67
+Info (12021): Found 1 design units, including 1 entities, in source file final_high_level.sv
+    Info (12023): Found entity 1: final_high_level File: /home/dell/welcome-to-illinois/hardware_code/final_high_level.sv Line: 1
+Warning (12019): Can't analyze file -- file SEG7_LUT.v is missing
+Warning (12019): Can't analyze file -- file mouse.sv is missing
+Warning (12019): Can't analyze file -- file usbmouse.sv is missing
+Warning (12019): Can't analyze file -- file Color_Map_For_Mouse.sv is missing
+Info (12021): Found 1 design units, including 1 entities, in source file ramstore2.sv
+    Info (12023): Found entity 1: ramstore2 File: /home/dell/welcome-to-illinois/hardware_code/ramstore2.sv Line: 2
+Warning (12019): Can't analyze file -- file detectBeginEnd.sv is missing
+Warning (12019): Can't analyze file -- file randomprocessor.sv is missing
+Warning (12019): Can't analyze file -- file detectBeginEndmouse.sv is missing
+Info (12021): Found 1 design units, including 1 entities, in source file ramstore3.sv
+    Info (12023): Found entity 1: ramstore3 File: /home/dell/welcome-to-illinois/hardware_code/ramstore3.sv Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file ramstore4.sv
+    Info (12023): Found entity 1: ramstore4 File: /home/dell/welcome-to-illinois/hardware_code/ramstore4.sv Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file ramstore5.sv
+    Info (12023): Found entity 1: ramstore5 File: /home/dell/welcome-to-illinois/hardware_code/ramstore5.sv Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file INPUTCONTROL.sv
+    Info (12023): Found entity 1: INPUTCONTROL File: /home/dell/welcome-to-illinois/hardware_code/INPUTCONTROL.sv Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/lab8_soc.v
+    Info (12023): Found entity 1: lab8_soc File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/lab8_soc.v Line: 6
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/altera_avalon_sc_fifo.v
+    Info (12023): Found entity 1: altera_avalon_sc_fifo File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/altera_avalon_sc_fifo.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/altera_avalon_st_clock_crosser.v
+    Info (12023): Found entity 1: altera_avalon_st_clock_crosser File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/altera_avalon_st_clock_crosser.v Line: 22
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/altera_avalon_st_handshake_clock_crosser.v
+    Info (12023): Found entity 1: altera_avalon_st_handshake_clock_crosser File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/altera_avalon_st_handshake_clock_crosser.v Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/altera_avalon_st_pipeline_base.v
+    Info (12023): Found entity 1: altera_avalon_st_pipeline_base File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/altera_avalon_st_pipeline_base.v Line: 22
+Info (12021): Found 2 design units, including 2 entities, in source file db/ip/lab8_soc/submodules/altera_merlin_arbitrator.sv
+    Info (12023): Found entity 1: altera_merlin_arbitrator File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/altera_merlin_arbitrator.sv Line: 103
+    Info (12023): Found entity 2: altera_merlin_arb_adder File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/altera_merlin_arbitrator.sv Line: 228
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/altera_merlin_burst_uncompressor.sv
+    Info (12023): Found entity 1: altera_merlin_burst_uncompressor File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/altera_merlin_burst_uncompressor.sv Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/altera_merlin_master_agent.sv
+    Info (12023): Found entity 1: altera_merlin_master_agent File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/altera_merlin_master_agent.sv Line: 28
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/altera_merlin_master_translator.sv
+    Info (12023): Found entity 1: altera_merlin_master_translator File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/altera_merlin_master_translator.sv Line: 32
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/altera_merlin_slave_agent.sv
+    Info (12023): Found entity 1: altera_merlin_slave_agent File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/altera_merlin_slave_agent.sv Line: 34
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/altera_merlin_slave_translator.sv
+    Info (12023): Found entity 1: altera_merlin_slave_translator File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/altera_merlin_slave_translator.sv Line: 35
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/altera_reset_controller.v
+    Info (12023): Found entity 1: altera_reset_controller File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/altera_reset_controller.v Line: 42
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/altera_reset_synchronizer.v
+    Info (12023): Found entity 1: altera_reset_synchronizer File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/altera_reset_synchronizer.v Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/altera_std_synchronizer_nocut.v
+    Info (12023): Found entity 1: altera_std_synchronizer_nocut File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/altera_std_synchronizer_nocut.v Line: 44
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_BEGINPOINT.v
+    Info (12023): Found entity 1: lab8_soc_BEGINPOINT File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_BEGINPOINT.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_DEBUG_MIN_INDEX.v
+    Info (12023): Found entity 1: lab8_soc_DEBUG_MIN_INDEX File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_DEBUG_MIN_INDEX.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_DEBUG_MIN_NUM.v
+    Info (12023): Found entity 1: lab8_soc_DEBUG_MIN_NUM File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_DEBUG_MIN_NUM.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_DEBUG_STATE.v
+    Info (12023): Found entity 1: lab8_soc_DEBUG_STATE File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_DEBUG_STATE.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_FINISH.v
+    Info (12023): Found entity 1: lab8_soc_FINISH File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_FINISH.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_POS_X.v
+    Info (12023): Found entity 1: lab8_soc_POS_X File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_POS_X.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_SOURCE_INDEX.v
+    Info (12023): Found entity 1: lab8_soc_SOURCE_INDEX File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_SOURCE_INDEX.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_START.v
+    Info (12023): Found entity 1: lab8_soc_START File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_START.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_irq_mapper.sv
+    Info (12023): Found entity 1: lab8_soc_irq_mapper File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_irq_mapper.sv Line: 31
+Info (12021): Found 5 design units, including 5 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_jtag_uart_0.v
+    Info (12023): Found entity 1: lab8_soc_jtag_uart_0_sim_scfifo_w File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_jtag_uart_0.v Line: 21
+    Info (12023): Found entity 2: lab8_soc_jtag_uart_0_scfifo_w File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_jtag_uart_0.v Line: 78
+    Info (12023): Found entity 3: lab8_soc_jtag_uart_0_sim_scfifo_r File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_jtag_uart_0.v Line: 164
+    Info (12023): Found entity 4: lab8_soc_jtag_uart_0_scfifo_r File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_jtag_uart_0.v Line: 243
+    Info (12023): Found entity 5: lab8_soc_jtag_uart_0 File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_jtag_uart_0.v Line: 331
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0.v
+    Info (12023): Found entity 1: lab8_soc_mm_interconnect_0 File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0.v Line: 9
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_avalon_st_adapter.v
+    Info (12023): Found entity 1: lab8_soc_mm_interconnect_0_avalon_st_adapter File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_avalon_st_adapter.v Line: 9
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+    Info (12023): Found entity 1: lab8_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0 File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv Line: 66
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_cmd_demux.sv
+    Info (12023): Found entity 1: lab8_soc_mm_interconnect_0_cmd_demux File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_cmd_demux.sv Line: 43
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_cmd_demux_001.sv
+    Info (12023): Found entity 1: lab8_soc_mm_interconnect_0_cmd_demux_001 File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_cmd_demux_001.sv Line: 43
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_cmd_mux.sv
+    Info (12023): Found entity 1: lab8_soc_mm_interconnect_0_cmd_mux File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_cmd_mux.sv Line: 51
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_cmd_mux_001.sv
+    Info (12023): Found entity 1: lab8_soc_mm_interconnect_0_cmd_mux_001 File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_cmd_mux_001.sv Line: 51
+Info (12021): Found 2 design units, including 2 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_router.sv
+    Info (12023): Found entity 1: lab8_soc_mm_interconnect_0_router_default_decode File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_router.sv Line: 45
+    Info (12023): Found entity 2: lab8_soc_mm_interconnect_0_router File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_router.sv Line: 84
+Info (12021): Found 2 design units, including 2 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_router_001.sv
+    Info (12023): Found entity 1: lab8_soc_mm_interconnect_0_router_001_default_decode File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_router_001.sv Line: 45
+    Info (12023): Found entity 2: lab8_soc_mm_interconnect_0_router_001 File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_router_001.sv Line: 84
+Info (12021): Found 2 design units, including 2 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_router_002.sv
+    Info (12023): Found entity 1: lab8_soc_mm_interconnect_0_router_002_default_decode File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_router_002.sv Line: 45
+    Info (12023): Found entity 2: lab8_soc_mm_interconnect_0_router_002 File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_router_002.sv Line: 84
+Info (12021): Found 2 design units, including 2 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_router_003.sv
+    Info (12023): Found entity 1: lab8_soc_mm_interconnect_0_router_003_default_decode File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_router_003.sv Line: 45
+    Info (12023): Found entity 2: lab8_soc_mm_interconnect_0_router_003 File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_router_003.sv Line: 84
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_rsp_demux.sv
+    Info (12023): Found entity 1: lab8_soc_mm_interconnect_0_rsp_demux File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_rsp_demux.sv Line: 43
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_rsp_demux_001.sv
+    Info (12023): Found entity 1: lab8_soc_mm_interconnect_0_rsp_demux_001 File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_rsp_demux_001.sv Line: 43
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_rsp_mux.sv
+    Info (12023): Found entity 1: lab8_soc_mm_interconnect_0_rsp_mux File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_rsp_mux.sv Line: 51
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_rsp_mux_001.sv
+    Info (12023): Found entity 1: lab8_soc_mm_interconnect_0_rsp_mux_001 File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_mm_interconnect_0_rsp_mux_001.sv Line: 51
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0.v
+    Info (12023): Found entity 1: lab8_soc_nios2_gen2_0 File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0.v Line: 9
+Info (12021): Found 21 design units, including 21 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v
+    Info (12023): Found entity 1: lab8_soc_nios2_gen2_0_cpu_register_bank_a_module File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v Line: 21
+    Info (12023): Found entity 2: lab8_soc_nios2_gen2_0_cpu_register_bank_b_module File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v Line: 87
+    Info (12023): Found entity 3: lab8_soc_nios2_gen2_0_cpu_nios2_oci_debug File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v Line: 153
+    Info (12023): Found entity 4: lab8_soc_nios2_gen2_0_cpu_nios2_oci_break File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v Line: 295
+    Info (12023): Found entity 5: lab8_soc_nios2_gen2_0_cpu_nios2_oci_xbrk File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v Line: 588
+    Info (12023): Found entity 6: lab8_soc_nios2_gen2_0_cpu_nios2_oci_dbrk File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v Line: 795
+    Info (12023): Found entity 7: lab8_soc_nios2_gen2_0_cpu_nios2_oci_itrace File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v Line: 982
+    Info (12023): Found entity 8: lab8_soc_nios2_gen2_0_cpu_nios2_oci_td_mode File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v Line: 1115
+    Info (12023): Found entity 9: lab8_soc_nios2_gen2_0_cpu_nios2_oci_dtrace File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v Line: 1183
+    Info (12023): Found entity 10: lab8_soc_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v Line: 1265
+    Info (12023): Found entity 11: lab8_soc_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v Line: 1337
+    Info (12023): Found entity 12: lab8_soc_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v Line: 1380
+    Info (12023): Found entity 13: lab8_soc_nios2_gen2_0_cpu_nios2_oci_fifo File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v Line: 1427
+    Info (12023): Found entity 14: lab8_soc_nios2_gen2_0_cpu_nios2_oci_pib File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v Line: 1913
+    Info (12023): Found entity 15: lab8_soc_nios2_gen2_0_cpu_nios2_oci_im File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v Line: 1936
+    Info (12023): Found entity 16: lab8_soc_nios2_gen2_0_cpu_nios2_performance_monitors File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v Line: 2006
+    Info (12023): Found entity 17: lab8_soc_nios2_gen2_0_cpu_nios2_avalon_reg File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v Line: 2023
+    Info (12023): Found entity 18: lab8_soc_nios2_gen2_0_cpu_ociram_sp_ram_module File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v Line: 2116
+    Info (12023): Found entity 19: lab8_soc_nios2_gen2_0_cpu_nios2_ocimem File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v Line: 2181
+    Info (12023): Found entity 20: lab8_soc_nios2_gen2_0_cpu_nios2_oci File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v Line: 2362
+    Info (12023): Found entity 21: lab8_soc_nios2_gen2_0_cpu File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu.v Line: 2834
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v
+    Info (12023): Found entity 1: lab8_soc_nios2_gen2_0_cpu_debug_slave_sysclk File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu_debug_slave_tck.v
+    Info (12023): Found entity 1: lab8_soc_nios2_gen2_0_cpu_debug_slave_tck File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu_debug_slave_tck.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v
+    Info (12023): Found entity 1: lab8_soc_nios2_gen2_0_cpu_debug_slave_wrapper File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu_test_bench.v
+    Info (12023): Found entity 1: lab8_soc_nios2_gen2_0_cpu_test_bench File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_nios2_gen2_0_cpu_test_bench.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_onchip_memory2_0.v
+    Info (12023): Found entity 1: lab8_soc_onchip_memory2_0 File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_onchip_memory2_0.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_otg_hpi_address.v
+    Info (12023): Found entity 1: lab8_soc_otg_hpi_address File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_otg_hpi_address.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_otg_hpi_data.v
+    Info (12023): Found entity 1: lab8_soc_otg_hpi_data File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_otg_hpi_data.v Line: 21
+Info (12021): Found 2 design units, including 2 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_sdram.v
+    Info (12023): Found entity 1: lab8_soc_sdram_input_efifo_module File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_sdram.v Line: 21
+    Info (12023): Found entity 2: lab8_soc_sdram File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_sdram.v Line: 159
+Info (12021): Found 4 design units, including 4 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_sdram_pll.v
+    Info (12023): Found entity 1: lab8_soc_sdram_pll_dffpipe_l2c File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_sdram_pll.v Line: 37
+    Info (12023): Found entity 2: lab8_soc_sdram_pll_stdsync_sv6 File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_sdram_pll.v Line: 98
+    Info (12023): Found entity 3: lab8_soc_sdram_pll_altpll_lqa2 File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_sdram_pll.v Line: 130
+    Info (12023): Found entity 4: lab8_soc_sdram_pll File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_sdram_pll.v Line: 217
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_sysid_qsys_0.v
+    Info (12023): Found entity 1: lab8_soc_sysid_qsys_0 File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_sysid_qsys_0.v Line: 34
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/lab8_soc/submodules/lab8_soc_timer_0.v
+    Info (12023): Found entity 1: lab8_soc_timer_0 File: /home/dell/welcome-to-illinois/hardware_code/db/ip/lab8_soc/submodules/lab8_soc_timer_0.v Line: 21
+Critical Warning (10846): Verilog HDL Instantiation warning at lab8.sv(196): instance has no name File: /home/dell/welcome-to-illinois/hardware_code/lab8.sv Line: 196
+Error (10932): SystemVerilog error at lab8.sv(203): can't resolve implicit port connection(s) to instance "instance_cursor_click" without a module declaration or an extern equivalent File: /home/dell/welcome-to-illinois/hardware_code/lab8.sv Line: 203
+Error (10932): SystemVerilog error at lab8.sv(204): can't resolve implicit port connection(s) to instance "instance_color_mapper" without a module declaration or an extern equivalent File: /home/dell/welcome-to-illinois/hardware_code/lab8.sv Line: 204
+Error (10932): SystemVerilog error at lab8.sv(205): can't resolve implicit port connection(s) to instance "instance_cursor_detect" without a module declaration or an extern equivalent File: /home/dell/welcome-to-illinois/hardware_code/lab8.sv Line: 205
+Error (10932): SystemVerilog error at lab8.sv(206): can't resolve implicit port connection(s) to instance "instance_cursor_driver" without a module declaration or an extern equivalent File: /home/dell/welcome-to-illinois/hardware_code/lab8.sv Line: 206
+Info (144001): Generated suppressed messages file /home/dell/welcome-to-illinois/hardware_code/lab8.map.smsg
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 4 errors, 9 warnings
+    Error: Peak virtual memory: 2004 megabytes
+    Error: Processing ended: Tue Jan  4 21:44:30 2022
+    Error: Elapsed time: 00:00:24
+    Error: Total CPU time (on all processors): 00:01:05
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in /home/dell/welcome-to-illinois/hardware_code/lab8.map.smsg.
+
+

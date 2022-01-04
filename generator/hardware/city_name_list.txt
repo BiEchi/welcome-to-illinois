@@ -1,0 +1,3704 @@
+32'd1:
+	cityname=Elm[10'd29-DrawY][10'd449-DrawX];
+32'd2:
+	cityname=Glasford[10'd29-DrawY][10'd449-DrawX];
+32'd3:
+	cityname=Manito[10'd29-DrawY][10'd449-DrawX];
+32'd4:
+	cityname=Jct[10'd29-DrawY][10'd449-DrawX];
+32'd5:
+	cityname=lles[10'd29-DrawY][10'd449-DrawX];
+32'd6:
+	cityname=Starnes[10'd29-DrawY][10'd449-DrawX];
+32'd7:
+	cityname=Riverton[10'd29-DrawY][10'd449-DrawX];
+32'd8:
+	cityname=Sherman[10'd29-DrawY][10'd449-DrawX];
+32'd9:
+	cityname=BarrStation[10'd29-DrawY][10'd449-DrawX];
+32'd10:
+	cityname=Luther[10'd29-DrawY][10'd449-DrawX];
+32'd11:
+	cityname=GreenValley[10'd29-DrawY][10'd449-DrawX];
+32'd12:
+	cityname=SouthPekin[10'd29-DrawY][10'd449-DrawX];
+32'd13:
+	cityname=Powerton[10'd29-DrawY][10'd449-DrawX];
+32'd14:
+	cityname=HannaCity[10'd29-DrawY][10'd449-DrawX];
+32'd15:
+	cityname=Mossville[10'd29-DrawY][10'd449-DrawX];
+32'd16:
+	cityname=EastPeoria[10'd29-DrawY][10'd449-DrawX];
+32'd17:
+	cityname=Delavan[10'd29-DrawY][10'd449-DrawX];
+32'd18:
+	cityname=Farmdale[10'd29-DrawY][10'd449-DrawX];
+32'd19:
+	cityname=Washington[10'd29-DrawY][10'd449-DrawX];
+32'd20:
+	cityname=Eureka[10'd29-DrawY][10'd449-DrawX];
+32'd21:
+	cityname=ElPaso[10'd29-DrawY][10'd449-DrawX];
+32'd22:
+	cityname=Lincoin[10'd29-DrawY][10'd449-DrawX];
+32'd23:
+	cityname=MtPulaski[10'd29-DrawY][10'd449-DrawX];
+32'd24:
+	cityname=Illiopoils[10'd29-DrawY][10'd449-DrawX];
+32'd25:
+	cityname=Harristown[10'd29-DrawY][10'd449-DrawX];
+32'd26:
+	cityname=Decatur[10'd29-DrawY][10'd449-DrawX];
+32'd27:
+	cityname=Warrensburg[10'd29-DrawY][10'd449-DrawX];
+32'd28:
+	cityname=Kenney[10'd29-DrawY][10'd449-DrawX];
+32'd29:
+	cityname=Clinton[10'd29-DrawY][10'd449-DrawX];
+32'd30:
+	cityname=Heyworth[10'd29-DrawY][10'd449-DrawX];
+32'd31:
+	cityname=Atlanta[10'd29-DrawY][10'd449-DrawX];
+32'd32:
+	cityname=Bloomington[10'd29-DrawY][10'd449-DrawX];
+32'd33:
+	cityname=Carlock[10'd29-DrawY][10'd449-DrawX];
+32'd34:
+	cityname=Crandall[10'd29-DrawY][10'd449-DrawX];
+32'd35:
+	cityname=Lexington[10'd29-DrawY][10'd449-DrawX];
+32'd36:
+	cityname=Chenoa[10'd29-DrawY][10'd449-DrawX];
+32'd37:
+	cityname=Macon[10'd29-DrawY][10'd449-DrawX];
+32'd38:
+	cityname=BlueMound[10'd29-DrawY][10'd449-DrawX];
+32'd39:
+	cityname=Boody[10'd29-DrawY][10'd449-DrawX];
+32'd40:
+	cityname=HerveyCity[10'd29-DrawY][10'd449-DrawX];
+32'd41:
+	cityname=LongCreek[10'd29-DrawY][10'd449-DrawX];
+32'd42:
+	cityname=Atwood[10'd29-DrawY][10'd449-DrawX];
+32'd43:
+	cityname=Arthur[10'd29-DrawY][10'd449-DrawX];
+32'd44:
+	cityname=Tuscola[10'd29-DrawY][10'd449-DrawX];
+32'd45:
+	cityname=Arcola[10'd29-DrawY][10'd449-DrawX];
+32'd46:
+	cityname=Murdock[10'd29-DrawY][10'd449-DrawX];
+32'd47:
+	cityname=Newman[10'd29-DrawY][10'd449-DrawX];
+32'd48:
+	cityname=Metcalf[10'd29-DrawY][10'd449-DrawX];
+32'd49:
+	cityname=Chrisman[10'd29-DrawY][10'd449-DrawX];
+32'd50:
+	cityname=WestDana[10'd29-DrawY][10'd449-DrawX];
+32'd51:
+	cityname=RidgeFarm[10'd29-DrawY][10'd449-DrawX];
+32'd52:
+	cityname=Westville[10'd29-DrawY][10'd449-DrawX];
+32'd53:
+	cityname=Tilton[10'd29-DrawY][10'd449-DrawX];
+32'd54:
+	cityname=Danville[10'd29-DrawY][10'd449-DrawX];
+32'd55:
+	cityname=Collison[10'd29-DrawY][10'd449-DrawX];
+32'd56:
+	cityname=Henning[10'd29-DrawY][10'd449-DrawX];
+32'd57:
+	cityname=Rossville[10'd29-DrawY][10'd449-DrawX];
+32'd58:
+	cityname=Hoopston[10'd29-DrawY][10'd449-DrawX];
+32'd59:
+	cityname=Milford[10'd29-DrawY][10'd449-DrawX];
+32'd60:
+	cityname=WoodlandJct[10'd29-DrawY][10'd449-DrawX];
+32'd61:
+	cityname=Watseka[10'd29-DrawY][10'd449-DrawX];
+32'd62:
+	cityname=Webster[10'd29-DrawY][10'd449-DrawX];
+32'd63:
+	cityname=Gilman[10'd29-DrawY][10'd449-DrawX];
+32'd64:
+	cityname=Onarga[10'd29-DrawY][10'd449-DrawX];
+32'd65:
+	cityname=Paxton[10'd29-DrawY][10'd449-DrawX];
+32'd66:
+	cityname=Rantoul[10'd29-DrawY][10'd449-DrawX];
+32'd67:
+	cityname=Dillsburg[10'd29-DrawY][10'd449-DrawX];
+32'd68:
+	cityname=Fisher[10'd29-DrawY][10'd449-DrawX];
+32'd69:
+	cityname=Thomasboro[10'd29-DrawY][10'd449-DrawX];
+32'd70:
+	cityname=Urbana[10'd29-DrawY][10'd449-DrawX];
+32'd71:
+	cityname=Champaign[10'd29-DrawY][10'd449-DrawX];
+32'd72:
+	cityname=Savoy[10'd29-DrawY][10'd449-DrawX];
+32'd73:
+	cityname=Tolono[10'd29-DrawY][10'd449-DrawX];
+32'd74:
+	cityname=Sidney[10'd29-DrawY][10'd449-DrawX];
+32'd75:
+	cityname=Homer[10'd29-DrawY][10'd449-DrawX];
+32'd76:
+	cityname=Glover[10'd29-DrawY][10'd449-DrawX];
+32'd77:
+	cityname=Goodwine[10'd29-DrawY][10'd449-DrawX];
+32'd78:
+	cityname=CissnaPark[10'd29-DrawY][10'd449-DrawX];
+32'd79:
+	cityname=VillaGrove[10'd29-DrawY][10'd449-DrawX];
+32'd80:
+	cityname=Boradland[10'd29-DrawY][10'd449-DrawX];
+32'd81:
+	cityname=Bement[10'd29-DrawY][10'd449-DrawX];
+32'd82:
+	cityname=CerroGordo[10'd29-DrawY][10'd449-DrawX];
+32'd83:
+	cityname=Cisco[10'd29-DrawY][10'd449-DrawX];
+32'd84:
+	cityname=Monticello[10'd29-DrawY][10'd449-DrawX];
+32'd85:
+	cityname=Lodge[10'd29-DrawY][10'd449-DrawX];
+32'd86:
+	cityname=Mansfield[10'd29-DrawY][10'd449-DrawX];
+32'd87:
+	cityname=Lotus[10'd29-DrawY][10'd449-DrawX];
+32'd88:
+	cityname=GibsonCity[10'd29-DrawY][10'd449-DrawX];
+32'd89:
+	cityname=Melvin[10'd29-DrawY][10'd449-DrawX];
+32'd90:
+	cityname=LeRoy[10'd29-DrawY][10'd449-DrawX];
+32'd91:
+	cityname=Arrowsmith[10'd29-DrawY][10'd449-DrawX];
+32'd92:
+	cityname=Risk[10'd29-DrawY][10'd449-DrawX];
+32'd93:
+	cityname=Colfax[10'd29-DrawY][10'd449-DrawX];
+32'd94:
+	cityname=Chatsworth[10'd29-DrawY][10'd449-DrawX];
+32'd95:
+	cityname=Forrest[10'd29-DrawY][10'd449-DrawX];
+32'd96:
+	cityname=Fairbury[10'd29-DrawY][10'd449-DrawX];
+32'd97:
+	cityname=FarmerCity[10'd29-DrawY][10'd449-DrawX];
+default:
+	cityname=1'd0;32'd1:
+	cityname=Elm[10'd29-DrawY][10'd449-DrawX];
+32'd2:
+	cityname=Glasford[10'd29-DrawY][10'd449-DrawX];
+32'd3:
+	cityname=Manito[10'd29-DrawY][10'd449-DrawX];
+32'd4:
+	cityname=Jct[10'd29-DrawY][10'd449-DrawX];
+32'd5:
+	cityname=lles[10'd29-DrawY][10'd449-DrawX];
+32'd6:
+	cityname=Starnes[10'd29-DrawY][10'd449-DrawX];
+32'd7:
+	cityname=Riverton[10'd29-DrawY][10'd449-DrawX];
+32'd8:
+	cityname=Sherman[10'd29-DrawY][10'd449-DrawX];
+32'd9:
+	cityname=BarrStation[10'd29-DrawY][10'd449-DrawX];
+32'd10:
+	cityname=Luther[10'd29-DrawY][10'd449-DrawX];
+32'd11:
+	cityname=GreenValley[10'd29-DrawY][10'd449-DrawX];
+32'd12:
+	cityname=SouthPekin[10'd29-DrawY][10'd449-DrawX];
+32'd13:
+	cityname=Powerton[10'd29-DrawY][10'd449-DrawX];
+32'd14:
+	cityname=HannaCity[10'd29-DrawY][10'd449-DrawX];
+32'd15:
+	cityname=Mossville[10'd29-DrawY][10'd449-DrawX];
+32'd16:
+	cityname=EastPeoria[10'd29-DrawY][10'd449-DrawX];
+32'd17:
+	cityname=Delavan[10'd29-DrawY][10'd449-DrawX];
+32'd18:
+	cityname=Farmdale[10'd29-DrawY][10'd449-DrawX];
+32'd19:
+	cityname=Washington[10'd29-DrawY][10'd449-DrawX];
+32'd20:
+	cityname=Eureka[10'd29-DrawY][10'd449-DrawX];
+32'd21:
+	cityname=ElPaso[10'd29-DrawY][10'd449-DrawX];
+32'd22:
+	cityname=Lincoin[10'd29-DrawY][10'd449-DrawX];
+32'd23:
+	cityname=MtPulaski[10'd29-DrawY][10'd449-DrawX];
+32'd24:
+	cityname=Illiopoils[10'd29-DrawY][10'd449-DrawX];
+32'd25:
+	cityname=Harristown[10'd29-DrawY][10'd449-DrawX];
+32'd26:
+	cityname=Decatur[10'd29-DrawY][10'd449-DrawX];
+32'd27:
+	cityname=Warrensburg[10'd29-DrawY][10'd449-DrawX];
+32'd28:
+	cityname=Kenney[10'd29-DrawY][10'd449-DrawX];
+32'd29:
+	cityname=Clinton[10'd29-DrawY][10'd449-DrawX];
+32'd30:
+	cityname=Heyworth[10'd29-DrawY][10'd449-DrawX];
+32'd31:
+	cityname=Atlanta[10'd29-DrawY][10'd449-DrawX];
+32'd32:
+	cityname=Bloomington[10'd29-DrawY][10'd449-DrawX];
+32'd33:
+	cityname=Carlock[10'd29-DrawY][10'd449-DrawX];
+32'd34:
+	cityname=Crandall[10'd29-DrawY][10'd449-DrawX];
+32'd35:
+	cityname=Lexington[10'd29-DrawY][10'd449-DrawX];
+32'd36:
+	cityname=Chenoa[10'd29-DrawY][10'd449-DrawX];
+32'd37:
+	cityname=Macon[10'd29-DrawY][10'd449-DrawX];
+32'd38:
+	cityname=BlueMound[10'd29-DrawY][10'd449-DrawX];
+32'd39:
+	cityname=Boody[10'd29-DrawY][10'd449-DrawX];
+32'd40:
+	cityname=HerveyCity[10'd29-DrawY][10'd449-DrawX];
+32'd41:
+	cityname=LongCreek[10'd29-DrawY][10'd449-DrawX];
+32'd42:
+	cityname=Atwood[10'd29-DrawY][10'd449-DrawX];
+32'd43:
+	cityname=Arthur[10'd29-DrawY][10'd449-DrawX];
+32'd44:
+	cityname=Tuscola[10'd29-DrawY][10'd449-DrawX];
+32'd45:
+	cityname=Arcola[10'd29-DrawY][10'd449-DrawX];
+32'd46:
+	cityname=Murdock[10'd29-DrawY][10'd449-DrawX];
+32'd47:
+	cityname=Newman[10'd29-DrawY][10'd449-DrawX];
+32'd48:
+	cityname=Metcalf[10'd29-DrawY][10'd449-DrawX];
+32'd49:
+	cityname=Chrisman[10'd29-DrawY][10'd449-DrawX];
+32'd50:
+	cityname=WestDana[10'd29-DrawY][10'd449-DrawX];
+32'd51:
+	cityname=RidgeFarm[10'd29-DrawY][10'd449-DrawX];
+32'd52:
+	cityname=Westville[10'd29-DrawY][10'd449-DrawX];
+32'd53:
+	cityname=Tilton[10'd29-DrawY][10'd449-DrawX];
+32'd54:
+	cityname=Danville[10'd29-DrawY][10'd449-DrawX];
+32'd55:
+	cityname=Collison[10'd29-DrawY][10'd449-DrawX];
+32'd56:
+	cityname=Henning[10'd29-DrawY][10'd449-DrawX];
+32'd57:
+	cityname=Rossville[10'd29-DrawY][10'd449-DrawX];
+32'd58:
+	cityname=Hoopston[10'd29-DrawY][10'd449-DrawX];
+32'd59:
+	cityname=Milford[10'd29-DrawY][10'd449-DrawX];
+32'd60:
+	cityname=WoodlandJct[10'd29-DrawY][10'd449-DrawX];
+32'd61:
+	cityname=Watseka[10'd29-DrawY][10'd449-DrawX];
+32'd62:
+	cityname=Webster[10'd29-DrawY][10'd449-DrawX];
+32'd63:
+	cityname=Gilman[10'd29-DrawY][10'd449-DrawX];
+32'd64:
+	cityname=Onarga[10'd29-DrawY][10'd449-DrawX];
+32'd65:
+	cityname=Paxton[10'd29-DrawY][10'd449-DrawX];
+32'd66:
+	cityname=Rantoul[10'd29-DrawY][10'd449-DrawX];
+32'd67:
+	cityname=Dillsburg[10'd29-DrawY][10'd449-DrawX];
+32'd68:
+	cityname=Fisher[10'd29-DrawY][10'd449-DrawX];
+32'd69:
+	cityname=Thomasboro[10'd29-DrawY][10'd449-DrawX];
+32'd70:
+	cityname=Urbana[10'd29-DrawY][10'd449-DrawX];
+32'd71:
+	cityname=Champaign[10'd29-DrawY][10'd449-DrawX];
+32'd72:
+	cityname=Savoy[10'd29-DrawY][10'd449-DrawX];
+32'd73:
+	cityname=Tolono[10'd29-DrawY][10'd449-DrawX];
+32'd74:
+	cityname=Sidney[10'd29-DrawY][10'd449-DrawX];
+32'd75:
+	cityname=Homer[10'd29-DrawY][10'd449-DrawX];
+32'd76:
+	cityname=Glover[10'd29-DrawY][10'd449-DrawX];
+32'd77:
+	cityname=Goodwine[10'd29-DrawY][10'd449-DrawX];
+32'd78:
+	cityname=CissnaPark[10'd29-DrawY][10'd449-DrawX];
+32'd79:
+	cityname=VillaGrove[10'd29-DrawY][10'd449-DrawX];
+32'd80:
+	cityname=Boradland[10'd29-DrawY][10'd449-DrawX];
+32'd81:
+	cityname=Bement[10'd29-DrawY][10'd449-DrawX];
+32'd82:
+	cityname=CerroGordo[10'd29-DrawY][10'd449-DrawX];
+32'd83:
+	cityname=Cisco[10'd29-DrawY][10'd449-DrawX];
+32'd84:
+	cityname=Monticello[10'd29-DrawY][10'd449-DrawX];
+32'd85:
+	cityname=Lodge[10'd29-DrawY][10'd449-DrawX];
+32'd86:
+	cityname=Mansfield[10'd29-DrawY][10'd449-DrawX];
+32'd87:
+	cityname=Lotus[10'd29-DrawY][10'd449-DrawX];
+32'd88:
+	cityname=GibsonCity[10'd29-DrawY][10'd449-DrawX];
+32'd89:
+	cityname=Melvin[10'd29-DrawY][10'd449-DrawX];
+32'd90:
+	cityname=LeRoy[10'd29-DrawY][10'd449-DrawX];
+32'd91:
+	cityname=Arrowsmith[10'd29-DrawY][10'd449-DrawX];
+32'd92:
+	cityname=Risk[10'd29-DrawY][10'd449-DrawX];
+32'd93:
+	cityname=Colfax[10'd29-DrawY][10'd449-DrawX];
+32'd94:
+	cityname=Chatsworth[10'd29-DrawY][10'd449-DrawX];
+32'd95:
+	cityname=Forrest[10'd29-DrawY][10'd449-DrawX];
+32'd96:
+	cityname=Fairbury[10'd29-DrawY][10'd449-DrawX];
+32'd97:
+	cityname=FarmerCity[10'd29-DrawY][10'd449-DrawX];
+32'd1:
+	cityname=Elm[10'd29-DrawY][10'd449-DrawX];
+32'd2:
+	cityname=Glasford[10'd29-DrawY][10'd449-DrawX];
+32'd3:
+	cityname=Manito[10'd29-DrawY][10'd449-DrawX];
+32'd4:
+	cityname=Jct[10'd29-DrawY][10'd449-DrawX];
+32'd5:
+	cityname=lles[10'd29-DrawY][10'd449-DrawX];
+32'd6:
+	cityname=Starnes[10'd29-DrawY][10'd449-DrawX];
+32'd7:
+	cityname=Riverton[10'd29-DrawY][10'd449-DrawX];
+32'd8:
+	cityname=Sherman[10'd29-DrawY][10'd449-DrawX];
+32'd9:
+	cityname=BarrStation[10'd29-DrawY][10'd449-DrawX];
+32'd10:
+	cityname=Luther[10'd29-DrawY][10'd449-DrawX];
+32'd11:
+	cityname=GreenValley[10'd29-DrawY][10'd449-DrawX];
+32'd12:
+	cityname=SouthPekin[10'd29-DrawY][10'd449-DrawX];
+32'd13:
+	cityname=Powerton[10'd29-DrawY][10'd449-DrawX];
+32'd14:
+	cityname=HannaCity[10'd29-DrawY][10'd449-DrawX];
+32'd15:
+	cityname=Mossville[10'd29-DrawY][10'd449-DrawX];
+32'd16:
+	cityname=EastPeoria[10'd29-DrawY][10'd449-DrawX];
+32'd17:
+	cityname=Delavan[10'd29-DrawY][10'd449-DrawX];
+32'd18:
+	cityname=Farmdale[10'd29-DrawY][10'd449-DrawX];
+32'd19:
+	cityname=Washington[10'd29-DrawY][10'd449-DrawX];
+32'd20:
+	cityname=Eureka[10'd29-DrawY][10'd449-DrawX];
+32'd21:
+	cityname=ElPaso[10'd29-DrawY][10'd449-DrawX];
+32'd22:
+	cityname=Lincoin[10'd29-DrawY][10'd449-DrawX];
+32'd23:
+	cityname=MtPulaski[10'd29-DrawY][10'd449-DrawX];
+32'd24:
+	cityname=Illiopoils[10'd29-DrawY][10'd449-DrawX];
+32'd25:
+	cityname=Harristown[10'd29-DrawY][10'd449-DrawX];
+32'd26:
+	cityname=Decatur[10'd29-DrawY][10'd449-DrawX];
+32'd27:
+	cityname=Warrensburg[10'd29-DrawY][10'd449-DrawX];
+32'd28:
+	cityname=Kenney[10'd29-DrawY][10'd449-DrawX];
+32'd29:
+	cityname=Clinton[10'd29-DrawY][10'd449-DrawX];
+32'd30:
+	cityname=Heyworth[10'd29-DrawY][10'd449-DrawX];
+32'd31:
+	cityname=Atlanta[10'd29-DrawY][10'd449-DrawX];
+32'd32:
+	cityname=Bloomington[10'd29-DrawY][10'd449-DrawX];
+32'd33:
+	cityname=Carlock[10'd29-DrawY][10'd449-DrawX];
+32'd34:
+	cityname=Crandall[10'd29-DrawY][10'd449-DrawX];
+32'd35:
+	cityname=Lexington[10'd29-DrawY][10'd449-DrawX];
+32'd36:
+	cityname=Chenoa[10'd29-DrawY][10'd449-DrawX];
+32'd37:
+	cityname=Macon[10'd29-DrawY][10'd449-DrawX];
+32'd38:
+	cityname=BlueMound[10'd29-DrawY][10'd449-DrawX];
+32'd39:
+	cityname=Boody[10'd29-DrawY][10'd449-DrawX];
+32'd40:
+	cityname=HerveyCity[10'd29-DrawY][10'd449-DrawX];
+32'd41:
+	cityname=LongCreek[10'd29-DrawY][10'd449-DrawX];
+32'd42:
+	cityname=Atwood[10'd29-DrawY][10'd449-DrawX];
+32'd43:
+	cityname=Arthur[10'd29-DrawY][10'd449-DrawX];
+32'd44:
+	cityname=Tuscola[10'd29-DrawY][10'd449-DrawX];
+32'd45:
+	cityname=Arcola[10'd29-DrawY][10'd449-DrawX];
+32'd46:
+	cityname=Murdock[10'd29-DrawY][10'd449-DrawX];
+32'd47:
+	cityname=Newman[10'd29-DrawY][10'd449-DrawX];
+32'd48:
+	cityname=Metcalf[10'd29-DrawY][10'd449-DrawX];
+32'd49:
+	cityname=Chrisman[10'd29-DrawY][10'd449-DrawX];
+32'd50:
+	cityname=WestDana[10'd29-DrawY][10'd449-DrawX];
+32'd51:
+	cityname=RidgeFarm[10'd29-DrawY][10'd449-DrawX];
+32'd52:
+	cityname=Westville[10'd29-DrawY][10'd449-DrawX];
+32'd53:
+	cityname=Tilton[10'd29-DrawY][10'd449-DrawX];
+32'd54:
+	cityname=Danville[10'd29-DrawY][10'd449-DrawX];
+32'd55:
+	cityname=Collison[10'd29-DrawY][10'd449-DrawX];
+32'd56:
+	cityname=Henning[10'd29-DrawY][10'd449-DrawX];
+32'd57:
+	cityname=Rossville[10'd29-DrawY][10'd449-DrawX];
+32'd58:
+	cityname=Hoopston[10'd29-DrawY][10'd449-DrawX];
+32'd59:
+	cityname=Milford[10'd29-DrawY][10'd449-DrawX];
+32'd60:
+	cityname=WoodlandJct[10'd29-DrawY][10'd449-DrawX];
+32'd61:
+	cityname=Watseka[10'd29-DrawY][10'd449-DrawX];
+32'd62:
+	cityname=Webster[10'd29-DrawY][10'd449-DrawX];
+32'd63:
+	cityname=Gilman[10'd29-DrawY][10'd449-DrawX];
+32'd64:
+	cityname=Onarga[10'd29-DrawY][10'd449-DrawX];
+32'd65:
+	cityname=Paxton[10'd29-DrawY][10'd449-DrawX];
+32'd66:
+	cityname=Rantoul[10'd29-DrawY][10'd449-DrawX];
+32'd67:
+	cityname=Dillsburg[10'd29-DrawY][10'd449-DrawX];
+32'd68:
+	cityname=Fisher[10'd29-DrawY][10'd449-DrawX];
+32'd69:
+	cityname=Thomasboro[10'd29-DrawY][10'd449-DrawX];
+32'd70:
+	cityname=Urbana[10'd29-DrawY][10'd449-DrawX];
+32'd71:
+	cityname=Champaign[10'd29-DrawY][10'd449-DrawX];
+32'd72:
+	cityname=Savoy[10'd29-DrawY][10'd449-DrawX];
+32'd73:
+	cityname=Tolono[10'd29-DrawY][10'd449-DrawX];
+32'd74:
+	cityname=Sidney[10'd29-DrawY][10'd449-DrawX];
+32'd75:
+	cityname=Homer[10'd29-DrawY][10'd449-DrawX];
+32'd76:
+	cityname=Glover[10'd29-DrawY][10'd449-DrawX];
+32'd77:
+	cityname=Goodwine[10'd29-DrawY][10'd449-DrawX];
+32'd78:
+	cityname=CissnaPark[10'd29-DrawY][10'd449-DrawX];
+32'd79:
+	cityname=VillaGrove[10'd29-DrawY][10'd449-DrawX];
+32'd80:
+	cityname=Boradland[10'd29-DrawY][10'd449-DrawX];
+32'd81:
+	cityname=Bement[10'd29-DrawY][10'd449-DrawX];
+32'd82:
+	cityname=CerroGordo[10'd29-DrawY][10'd449-DrawX];
+32'd83:
+	cityname=Cisco[10'd29-DrawY][10'd449-DrawX];
+32'd84:
+	cityname=Monticello[10'd29-DrawY][10'd449-DrawX];
+32'd85:
+	cityname=Lodge[10'd29-DrawY][10'd449-DrawX];
+32'd86:
+	cityname=Mansfield[10'd29-DrawY][10'd449-DrawX];
+32'd87:
+	cityname=Lotus[10'd29-DrawY][10'd449-DrawX];
+32'd88:
+	cityname=GibsonCity[10'd29-DrawY][10'd449-DrawX];
+32'd89:
+	cityname=Melvin[10'd29-DrawY][10'd449-DrawX];
+32'd90:
+	cityname=LeRoy[10'd29-DrawY][10'd449-DrawX];
+32'd91:
+	cityname=Arrowsmith[10'd29-DrawY][10'd449-DrawX];
+32'd92:
+	cityname=Risk[10'd29-DrawY][10'd449-DrawX];
+32'd93:
+	cityname=Colfax[10'd29-DrawY][10'd449-DrawX];
+32'd94:
+	cityname=Chatsworth[10'd29-DrawY][10'd449-DrawX];
+32'd95:
+	cityname=Forrest[10'd29-DrawY][10'd449-DrawX];
+32'd96:
+	cityname=Fairbury[10'd29-DrawY][10'd449-DrawX];
+32'd97:
+	cityname=FarmerCity[10'd29-DrawY][10'd449-DrawX];
+32'd1:
+	cityname=Elm[10'd29-DrawY][10'd449-DrawX];
+32'd2:
+	cityname=Glasford[10'd29-DrawY][10'd449-DrawX];
+32'd3:
+	cityname=Manito[10'd29-DrawY][10'd449-DrawX];
+32'd4:
+	cityname=Jct[10'd29-DrawY][10'd449-DrawX];
+32'd5:
+	cityname=lles[10'd29-DrawY][10'd449-DrawX];
+32'd6:
+	cityname=Starnes[10'd29-DrawY][10'd449-DrawX];
+32'd7:
+	cityname=Riverton[10'd29-DrawY][10'd449-DrawX];
+32'd8:
+	cityname=Sherman[10'd29-DrawY][10'd449-DrawX];
+32'd9:
+	cityname=BarrStation[10'd29-DrawY][10'd449-DrawX];
+32'd10:
+	cityname=Luther[10'd29-DrawY][10'd449-DrawX];
+32'd11:
+	cityname=GreenValley[10'd29-DrawY][10'd449-DrawX];
+32'd12:
+	cityname=SouthPekin[10'd29-DrawY][10'd449-DrawX];
+32'd13:
+	cityname=Powerton[10'd29-DrawY][10'd449-DrawX];
+32'd14:
+	cityname=HannaCity[10'd29-DrawY][10'd449-DrawX];
+32'd15:
+	cityname=Mossville[10'd29-DrawY][10'd449-DrawX];
+32'd16:
+	cityname=EastPeoria[10'd29-DrawY][10'd449-DrawX];
+32'd17:
+	cityname=Delavan[10'd29-DrawY][10'd449-DrawX];
+32'd18:
+	cityname=Farmdale[10'd29-DrawY][10'd449-DrawX];
+32'd19:
+	cityname=Washington[10'd29-DrawY][10'd449-DrawX];
+32'd20:
+	cityname=Eureka[10'd29-DrawY][10'd449-DrawX];
+32'd21:
+	cityname=ElPaso[10'd29-DrawY][10'd449-DrawX];
+32'd22:
+	cityname=Lincoin[10'd29-DrawY][10'd449-DrawX];
+32'd23:
+	cityname=MtPulaski[10'd29-DrawY][10'd449-DrawX];
+32'd24:
+	cityname=Illiopoils[10'd29-DrawY][10'd449-DrawX];
+32'd25:
+	cityname=Harristown[10'd29-DrawY][10'd449-DrawX];
+32'd26:
+	cityname=Decatur[10'd29-DrawY][10'd449-DrawX];
+32'd27:
+	cityname=Warrensburg[10'd29-DrawY][10'd449-DrawX];
+32'd28:
+	cityname=Kenney[10'd29-DrawY][10'd449-DrawX];
+32'd29:
+	cityname=Clinton[10'd29-DrawY][10'd449-DrawX];
+32'd30:
+	cityname=Heyworth[10'd29-DrawY][10'd449-DrawX];
+32'd31:
+	cityname=Atlanta[10'd29-DrawY][10'd449-DrawX];
+32'd32:
+	cityname=Bloomington[10'd29-DrawY][10'd449-DrawX];
+32'd33:
+	cityname=Carlock[10'd29-DrawY][10'd449-DrawX];
+32'd34:
+	cityname=Crandall[10'd29-DrawY][10'd449-DrawX];
+32'd35:
+	cityname=Lexington[10'd29-DrawY][10'd449-DrawX];
+32'd36:
+	cityname=Chenoa[10'd29-DrawY][10'd449-DrawX];
+32'd37:
+	cityname=Macon[10'd29-DrawY][10'd449-DrawX];
+32'd38:
+	cityname=BlueMound[10'd29-DrawY][10'd449-DrawX];
+32'd39:
+	cityname=Boody[10'd29-DrawY][10'd449-DrawX];
+32'd40:
+	cityname=HerveyCity[10'd29-DrawY][10'd449-DrawX];
+32'd41:
+	cityname=LongCreek[10'd29-DrawY][10'd449-DrawX];
+32'd42:
+	cityname=Atwood[10'd29-DrawY][10'd449-DrawX];
+32'd43:
+	cityname=Arthur[10'd29-DrawY][10'd449-DrawX];
+32'd44:
+	cityname=Tuscola[10'd29-DrawY][10'd449-DrawX];
+32'd45:
+	cityname=Arcola[10'd29-DrawY][10'd449-DrawX];
+32'd46:
+	cityname=Murdock[10'd29-DrawY][10'd449-DrawX];
+32'd47:
+	cityname=Newman[10'd29-DrawY][10'd449-DrawX];
+32'd48:
+	cityname=Metcalf[10'd29-DrawY][10'd449-DrawX];
+32'd49:
+	cityname=Chrisman[10'd29-DrawY][10'd449-DrawX];
+32'd50:
+	cityname=WestDana[10'd29-DrawY][10'd449-DrawX];
+32'd51:
+	cityname=RidgeFarm[10'd29-DrawY][10'd449-DrawX];
+32'd52:
+	cityname=Westville[10'd29-DrawY][10'd449-DrawX];
+32'd53:
+	cityname=Tilton[10'd29-DrawY][10'd449-DrawX];
+32'd54:
+	cityname=Danville[10'd29-DrawY][10'd449-DrawX];
+32'd55:
+	cityname=Collison[10'd29-DrawY][10'd449-DrawX];
+32'd56:
+	cityname=Henning[10'd29-DrawY][10'd449-DrawX];
+32'd57:
+	cityname=Rossville[10'd29-DrawY][10'd449-DrawX];
+32'd58:
+	cityname=Hoopston[10'd29-DrawY][10'd449-DrawX];
+32'd59:
+	cityname=Milford[10'd29-DrawY][10'd449-DrawX];
+32'd60:
+	cityname=WoodlandJct[10'd29-DrawY][10'd449-DrawX];
+32'd61:
+	cityname=Watseka[10'd29-DrawY][10'd449-DrawX];
+32'd62:
+	cityname=Webster[10'd29-DrawY][10'd449-DrawX];
+32'd63:
+	cityname=Gilman[10'd29-DrawY][10'd449-DrawX];
+32'd64:
+	cityname=Onarga[10'd29-DrawY][10'd449-DrawX];
+32'd65:
+	cityname=Paxton[10'd29-DrawY][10'd449-DrawX];
+32'd66:
+	cityname=Rantoul[10'd29-DrawY][10'd449-DrawX];
+32'd67:
+	cityname=Dillsburg[10'd29-DrawY][10'd449-DrawX];
+32'd68:
+	cityname=Fisher[10'd29-DrawY][10'd449-DrawX];
+32'd69:
+	cityname=Thomasboro[10'd29-DrawY][10'd449-DrawX];
+32'd70:
+	cityname=Urbana[10'd29-DrawY][10'd449-DrawX];
+32'd71:
+	cityname=Champaign[10'd29-DrawY][10'd449-DrawX];
+32'd72:
+	cityname=Savoy[10'd29-DrawY][10'd449-DrawX];
+32'd73:
+	cityname=Tolono[10'd29-DrawY][10'd449-DrawX];
+32'd74:
+	cityname=Sidney[10'd29-DrawY][10'd449-DrawX];
+32'd75:
+	cityname=Homer[10'd29-DrawY][10'd449-DrawX];
+32'd76:
+	cityname=Glover[10'd29-DrawY][10'd449-DrawX];
+32'd77:
+	cityname=Goodwine[10'd29-DrawY][10'd449-DrawX];
+32'd78:
+	cityname=CissnaPark[10'd29-DrawY][10'd449-DrawX];
+32'd79:
+	cityname=VillaGrove[10'd29-DrawY][10'd449-DrawX];
+32'd80:
+	cityname=Boradland[10'd29-DrawY][10'd449-DrawX];
+32'd81:
+	cityname=Bement[10'd29-DrawY][10'd449-DrawX];
+32'd82:
+	cityname=CerroGordo[10'd29-DrawY][10'd449-DrawX];
+32'd83:
+	cityname=Cisco[10'd29-DrawY][10'd449-DrawX];
+32'd84:
+	cityname=Monticello[10'd29-DrawY][10'd449-DrawX];
+32'd85:
+	cityname=Lodge[10'd29-DrawY][10'd449-DrawX];
+32'd86:
+	cityname=Mansfield[10'd29-DrawY][10'd449-DrawX];
+32'd87:
+	cityname=Lotus[10'd29-DrawY][10'd449-DrawX];
+32'd88:
+	cityname=GibsonCity[10'd29-DrawY][10'd449-DrawX];
+32'd89:
+	cityname=Melvin[10'd29-DrawY][10'd449-DrawX];
+32'd90:
+	cityname=LeRoy[10'd29-DrawY][10'd449-DrawX];
+32'd91:
+	cityname=Arrowsmith[10'd29-DrawY][10'd449-DrawX];
+32'd92:
+	cityname=Risk[10'd29-DrawY][10'd449-DrawX];
+32'd93:
+	cityname=Colfax[10'd29-DrawY][10'd449-DrawX];
+32'd94:
+	cityname=Chatsworth[10'd29-DrawY][10'd449-DrawX];
+32'd95:
+	cityname=Forrest[10'd29-DrawY][10'd449-DrawX];
+32'd96:
+	cityname=Fairbury[10'd29-DrawY][10'd449-DrawX];
+32'd97:
+	cityname=FarmerCity[10'd29-DrawY][10'd449-DrawX];
+default:
+	cityname=1'd0;32'd1:
+	cityname=Elm[10'd29-DrawY][10'd449-DrawX];
+32'd2:
+	cityname=Glasford[10'd29-DrawY][10'd449-DrawX];
+32'd3:
+	cityname=Manito[10'd29-DrawY][10'd449-DrawX];
+32'd4:
+	cityname=Jct[10'd29-DrawY][10'd449-DrawX];
+32'd5:
+	cityname=lles[10'd29-DrawY][10'd449-DrawX];
+32'd6:
+	cityname=Starnes[10'd29-DrawY][10'd449-DrawX];
+32'd7:
+	cityname=Riverton[10'd29-DrawY][10'd449-DrawX];
+32'd8:
+	cityname=Sherman[10'd29-DrawY][10'd449-DrawX];
+32'd9:
+	cityname=BarrStation[10'd29-DrawY][10'd449-DrawX];
+32'd10:
+	cityname=Luther[10'd29-DrawY][10'd449-DrawX];
+32'd11:
+	cityname=GreenValley[10'd29-DrawY][10'd449-DrawX];
+32'd12:
+	cityname=SouthPekin[10'd29-DrawY][10'd449-DrawX];
+32'd13:
+	cityname=Powerton[10'd29-DrawY][10'd449-DrawX];
+32'd14:
+	cityname=HannaCity[10'd29-DrawY][10'd449-DrawX];
+32'd15:
+	cityname=Mossville[10'd29-DrawY][10'd449-DrawX];
+32'd16:
+	cityname=EastPeoria[10'd29-DrawY][10'd449-DrawX];
+32'd17:
+	cityname=Delavan[10'd29-DrawY][10'd449-DrawX];
+32'd18:
+	cityname=Farmdale[10'd29-DrawY][10'd449-DrawX];
+32'd19:
+	cityname=Washington[10'd29-DrawY][10'd449-DrawX];
+32'd20:
+	cityname=Eureka[10'd29-DrawY][10'd449-DrawX];
+32'd21:
+	cityname=ElPaso[10'd29-DrawY][10'd449-DrawX];
+32'd22:
+	cityname=Lincoin[10'd29-DrawY][10'd449-DrawX];
+32'd23:
+	cityname=MtPulaski[10'd29-DrawY][10'd449-DrawX];
+32'd24:
+	cityname=Illiopoils[10'd29-DrawY][10'd449-DrawX];
+32'd25:
+	cityname=Harristown[10'd29-DrawY][10'd449-DrawX];
+32'd26:
+	cityname=Decatur[10'd29-DrawY][10'd449-DrawX];
+32'd27:
+	cityname=Warrensburg[10'd29-DrawY][10'd449-DrawX];
+32'd28:
+	cityname=Kenney[10'd29-DrawY][10'd449-DrawX];
+32'd29:
+	cityname=Clinton[10'd29-DrawY][10'd449-DrawX];
+32'd30:
+	cityname=Heyworth[10'd29-DrawY][10'd449-DrawX];
+32'd31:
+	cityname=Atlanta[10'd29-DrawY][10'd449-DrawX];
+32'd32:
+	cityname=Bloomington[10'd29-DrawY][10'd449-DrawX];
+32'd33:
+	cityname=Carlock[10'd29-DrawY][10'd449-DrawX];
+32'd34:
+	cityname=Crandall[10'd29-DrawY][10'd449-DrawX];
+32'd35:
+	cityname=Lexington[10'd29-DrawY][10'd449-DrawX];
+32'd36:
+	cityname=Chenoa[10'd29-DrawY][10'd449-DrawX];
+32'd37:
+	cityname=Macon[10'd29-DrawY][10'd449-DrawX];
+32'd38:
+	cityname=BlueMound[10'd29-DrawY][10'd449-DrawX];
+32'd39:
+	cityname=Boody[10'd29-DrawY][10'd449-DrawX];
+32'd40:
+	cityname=HerveyCity[10'd29-DrawY][10'd449-DrawX];
+32'd41:
+	cityname=LongCreek[10'd29-DrawY][10'd449-DrawX];
+32'd42:
+	cityname=Atwood[10'd29-DrawY][10'd449-DrawX];
+32'd43:
+	cityname=Arthur[10'd29-DrawY][10'd449-DrawX];
+32'd44:
+	cityname=Tuscola[10'd29-DrawY][10'd449-DrawX];
+32'd45:
+	cityname=Arcola[10'd29-DrawY][10'd449-DrawX];
+32'd46:
+	cityname=Murdock[10'd29-DrawY][10'd449-DrawX];
+32'd47:
+	cityname=Newman[10'd29-DrawY][10'd449-DrawX];
+32'd48:
+	cityname=Metcalf[10'd29-DrawY][10'd449-DrawX];
+32'd49:
+	cityname=Chrisman[10'd29-DrawY][10'd449-DrawX];
+32'd50:
+	cityname=WestDana[10'd29-DrawY][10'd449-DrawX];
+32'd51:
+	cityname=RidgeFarm[10'd29-DrawY][10'd449-DrawX];
+32'd52:
+	cityname=Westville[10'd29-DrawY][10'd449-DrawX];
+32'd53:
+	cityname=Tilton[10'd29-DrawY][10'd449-DrawX];
+32'd54:
+	cityname=Danville[10'd29-DrawY][10'd449-DrawX];
+32'd55:
+	cityname=Collison[10'd29-DrawY][10'd449-DrawX];
+32'd56:
+	cityname=Henning[10'd29-DrawY][10'd449-DrawX];
+32'd57:
+	cityname=Rossville[10'd29-DrawY][10'd449-DrawX];
+32'd58:
+	cityname=Hoopston[10'd29-DrawY][10'd449-DrawX];
+32'd59:
+	cityname=Milford[10'd29-DrawY][10'd449-DrawX];
+32'd60:
+	cityname=WoodlandJct[10'd29-DrawY][10'd449-DrawX];
+32'd61:
+	cityname=Watseka[10'd29-DrawY][10'd449-DrawX];
+32'd62:
+	cityname=Webster[10'd29-DrawY][10'd449-DrawX];
+32'd63:
+	cityname=Gilman[10'd29-DrawY][10'd449-DrawX];
+32'd64:
+	cityname=Onarga[10'd29-DrawY][10'd449-DrawX];
+32'd65:
+	cityname=Paxton[10'd29-DrawY][10'd449-DrawX];
+32'd66:
+	cityname=Rantoul[10'd29-DrawY][10'd449-DrawX];
+32'd67:
+	cityname=Dillsburg[10'd29-DrawY][10'd449-DrawX];
+32'd68:
+	cityname=Fisher[10'd29-DrawY][10'd449-DrawX];
+32'd69:
+	cityname=Thomasboro[10'd29-DrawY][10'd449-DrawX];
+32'd70:
+	cityname=Urbana[10'd29-DrawY][10'd449-DrawX];
+32'd71:
+	cityname=Champaign[10'd29-DrawY][10'd449-DrawX];
+32'd72:
+	cityname=Savoy[10'd29-DrawY][10'd449-DrawX];
+32'd73:
+	cityname=Tolono[10'd29-DrawY][10'd449-DrawX];
+32'd74:
+	cityname=Sidney[10'd29-DrawY][10'd449-DrawX];
+32'd75:
+	cityname=Homer[10'd29-DrawY][10'd449-DrawX];
+32'd76:
+	cityname=Glover[10'd29-DrawY][10'd449-DrawX];
+32'd77:
+	cityname=Goodwine[10'd29-DrawY][10'd449-DrawX];
+32'd78:
+	cityname=CissnaPark[10'd29-DrawY][10'd449-DrawX];
+32'd79:
+	cityname=VillaGrove[10'd29-DrawY][10'd449-DrawX];
+32'd80:
+	cityname=Boradland[10'd29-DrawY][10'd449-DrawX];
+32'd81:
+	cityname=Bement[10'd29-DrawY][10'd449-DrawX];
+32'd82:
+	cityname=CerroGordo[10'd29-DrawY][10'd449-DrawX];
+32'd83:
+	cityname=Cisco[10'd29-DrawY][10'd449-DrawX];
+32'd84:
+	cityname=Monticello[10'd29-DrawY][10'd449-DrawX];
+32'd85:
+	cityname=Lodge[10'd29-DrawY][10'd449-DrawX];
+32'd86:
+	cityname=Mansfield[10'd29-DrawY][10'd449-DrawX];
+32'd87:
+	cityname=Lotus[10'd29-DrawY][10'd449-DrawX];
+32'd88:
+	cityname=GibsonCity[10'd29-DrawY][10'd449-DrawX];
+32'd89:
+	cityname=Melvin[10'd29-DrawY][10'd449-DrawX];
+32'd90:
+	cityname=LeRoy[10'd29-DrawY][10'd449-DrawX];
+32'd91:
+	cityname=Arrowsmith[10'd29-DrawY][10'd449-DrawX];
+32'd92:
+	cityname=Risk[10'd29-DrawY][10'd449-DrawX];
+32'd93:
+	cityname=Colfax[10'd29-DrawY][10'd449-DrawX];
+32'd94:
+	cityname=Chatsworth[10'd29-DrawY][10'd449-DrawX];
+32'd95:
+	cityname=Forrest[10'd29-DrawY][10'd449-DrawX];
+32'd96:
+	cityname=Fairbury[10'd29-DrawY][10'd449-DrawX];
+32'd97:
+	cityname=FarmerCity[10'd29-DrawY][10'd449-DrawX];
+default:
+	cityname=1'd0;32'd1:
+	cityname=Elm[10'd29-DrawY][10'd449-DrawX];
+32'd2:
+	cityname=Glasford[10'd29-DrawY][10'd449-DrawX];
+32'd3:
+	cityname=Manito[10'd29-DrawY][10'd449-DrawX];
+32'd4:
+	cityname=Jct[10'd29-DrawY][10'd449-DrawX];
+32'd5:
+	cityname=lles[10'd29-DrawY][10'd449-DrawX];
+32'd6:
+	cityname=Starnes[10'd29-DrawY][10'd449-DrawX];
+32'd7:
+	cityname=Riverton[10'd29-DrawY][10'd449-DrawX];
+32'd8:
+	cityname=Sherman[10'd29-DrawY][10'd449-DrawX];
+32'd9:
+	cityname=BarrStation[10'd29-DrawY][10'd449-DrawX];
+32'd10:
+	cityname=Luther[10'd29-DrawY][10'd449-DrawX];
+32'd11:
+	cityname=GreenValley[10'd29-DrawY][10'd449-DrawX];
+32'd12:
+	cityname=SouthPekin[10'd29-DrawY][10'd449-DrawX];
+32'd13:
+	cityname=Powerton[10'd29-DrawY][10'd449-DrawX];
+32'd14:
+	cityname=HannaCity[10'd29-DrawY][10'd449-DrawX];
+32'd15:
+	cityname=Mossville[10'd29-DrawY][10'd449-DrawX];
+32'd16:
+	cityname=EastPeoria[10'd29-DrawY][10'd449-DrawX];
+32'd17:
+	cityname=Delavan[10'd29-DrawY][10'd449-DrawX];
+32'd18:
+	cityname=Farmdale[10'd29-DrawY][10'd449-DrawX];
+32'd19:
+	cityname=Washington[10'd29-DrawY][10'd449-DrawX];
+32'd20:
+	cityname=Eureka[10'd29-DrawY][10'd449-DrawX];
+32'd21:
+	cityname=ElPaso[10'd29-DrawY][10'd449-DrawX];
+32'd22:
+	cityname=Lincoin[10'd29-DrawY][10'd449-DrawX];
+32'd23:
+	cityname=MtPulaski[10'd29-DrawY][10'd449-DrawX];
+32'd24:
+	cityname=Illiopoils[10'd29-DrawY][10'd449-DrawX];
+32'd25:
+	cityname=Harristown[10'd29-DrawY][10'd449-DrawX];
+32'd26:
+	cityname=Decatur[10'd29-DrawY][10'd449-DrawX];
+32'd27:
+	cityname=Warrensburg[10'd29-DrawY][10'd449-DrawX];
+32'd28:
+	cityname=Kenney[10'd29-DrawY][10'd449-DrawX];
+32'd29:
+	cityname=Clinton[10'd29-DrawY][10'd449-DrawX];
+32'd30:
+	cityname=Heyworth[10'd29-DrawY][10'd449-DrawX];
+32'd31:
+	cityname=Atlanta[10'd29-DrawY][10'd449-DrawX];
+32'd32:
+	cityname=Bloomington[10'd29-DrawY][10'd449-DrawX];
+32'd33:
+	cityname=Carlock[10'd29-DrawY][10'd449-DrawX];
+32'd34:
+	cityname=Crandall[10'd29-DrawY][10'd449-DrawX];
+32'd35:
+	cityname=Lexington[10'd29-DrawY][10'd449-DrawX];
+32'd36:
+	cityname=Chenoa[10'd29-DrawY][10'd449-DrawX];
+32'd37:
+	cityname=Macon[10'd29-DrawY][10'd449-DrawX];
+32'd38:
+	cityname=BlueMound[10'd29-DrawY][10'd449-DrawX];
+32'd39:
+	cityname=Boody[10'd29-DrawY][10'd449-DrawX];
+32'd40:
+	cityname=HerveyCity[10'd29-DrawY][10'd449-DrawX];
+32'd41:
+	cityname=LongCreek[10'd29-DrawY][10'd449-DrawX];
+32'd42:
+	cityname=Atwood[10'd29-DrawY][10'd449-DrawX];
+32'd43:
+	cityname=Arthur[10'd29-DrawY][10'd449-DrawX];
+32'd44:
+	cityname=Tuscola[10'd29-DrawY][10'd449-DrawX];
+32'd45:
+	cityname=Arcola[10'd29-DrawY][10'd449-DrawX];
+32'd46:
+	cityname=Murdock[10'd29-DrawY][10'd449-DrawX];
+32'd47:
+	cityname=Newman[10'd29-DrawY][10'd449-DrawX];
+32'd48:
+	cityname=Metcalf[10'd29-DrawY][10'd449-DrawX];
+32'd49:
+	cityname=Chrisman[10'd29-DrawY][10'd449-DrawX];
+32'd50:
+	cityname=WestDana[10'd29-DrawY][10'd449-DrawX];
+32'd51:
+	cityname=RidgeFarm[10'd29-DrawY][10'd449-DrawX];
+32'd52:
+	cityname=Westville[10'd29-DrawY][10'd449-DrawX];
+32'd53:
+	cityname=Tilton[10'd29-DrawY][10'd449-DrawX];
+32'd54:
+	cityname=Danville[10'd29-DrawY][10'd449-DrawX];
+32'd55:
+	cityname=Collison[10'd29-DrawY][10'd449-DrawX];
+32'd56:
+	cityname=Henning[10'd29-DrawY][10'd449-DrawX];
+32'd57:
+	cityname=Rossville[10'd29-DrawY][10'd449-DrawX];
+32'd58:
+	cityname=Hoopston[10'd29-DrawY][10'd449-DrawX];
+32'd59:
+	cityname=Milford[10'd29-DrawY][10'd449-DrawX];
+32'd60:
+	cityname=WoodlandJct[10'd29-DrawY][10'd449-DrawX];
+32'd61:
+	cityname=Watseka[10'd29-DrawY][10'd449-DrawX];
+32'd62:
+	cityname=Webster[10'd29-DrawY][10'd449-DrawX];
+32'd63:
+	cityname=Gilman[10'd29-DrawY][10'd449-DrawX];
+32'd64:
+	cityname=Onarga[10'd29-DrawY][10'd449-DrawX];
+32'd65:
+	cityname=Paxton[10'd29-DrawY][10'd449-DrawX];
+32'd66:
+	cityname=Rantoul[10'd29-DrawY][10'd449-DrawX];
+32'd67:
+	cityname=Dillsburg[10'd29-DrawY][10'd449-DrawX];
+32'd68:
+	cityname=Fisher[10'd29-DrawY][10'd449-DrawX];
+32'd69:
+	cityname=Thomasboro[10'd29-DrawY][10'd449-DrawX];
+32'd70:
+	cityname=Urbana[10'd29-DrawY][10'd449-DrawX];
+32'd71:
+	cityname=Champaign[10'd29-DrawY][10'd449-DrawX];
+32'd72:
+	cityname=Savoy[10'd29-DrawY][10'd449-DrawX];
+32'd73:
+	cityname=Tolono[10'd29-DrawY][10'd449-DrawX];
+32'd74:
+	cityname=Sidney[10'd29-DrawY][10'd449-DrawX];
+32'd75:
+	cityname=Homer[10'd29-DrawY][10'd449-DrawX];
+32'd76:
+	cityname=Glover[10'd29-DrawY][10'd449-DrawX];
+32'd77:
+	cityname=Goodwine[10'd29-DrawY][10'd449-DrawX];
+32'd78:
+	cityname=CissnaPark[10'd29-DrawY][10'd449-DrawX];
+32'd79:
+	cityname=VillaGrove[10'd29-DrawY][10'd449-DrawX];
+32'd80:
+	cityname=Boradland[10'd29-DrawY][10'd449-DrawX];
+32'd81:
+	cityname=Bement[10'd29-DrawY][10'd449-DrawX];
+32'd82:
+	cityname=CerroGordo[10'd29-DrawY][10'd449-DrawX];
+32'd83:
+	cityname=Cisco[10'd29-DrawY][10'd449-DrawX];
+32'd84:
+	cityname=Monticello[10'd29-DrawY][10'd449-DrawX];
+32'd85:
+	cityname=Lodge[10'd29-DrawY][10'd449-DrawX];
+32'd86:
+	cityname=Mansfield[10'd29-DrawY][10'd449-DrawX];
+32'd87:
+	cityname=Lotus[10'd29-DrawY][10'd449-DrawX];
+32'd88:
+	cityname=GibsonCity[10'd29-DrawY][10'd449-DrawX];
+32'd89:
+	cityname=Melvin[10'd29-DrawY][10'd449-DrawX];
+32'd90:
+	cityname=LeRoy[10'd29-DrawY][10'd449-DrawX];
+32'd91:
+	cityname=Arrowsmith[10'd29-DrawY][10'd449-DrawX];
+32'd92:
+	cityname=Risk[10'd29-DrawY][10'd449-DrawX];
+32'd93:
+	cityname=Colfax[10'd29-DrawY][10'd449-DrawX];
+32'd94:
+	cityname=Chatsworth[10'd29-DrawY][10'd449-DrawX];
+32'd95:
+	cityname=Forrest[10'd29-DrawY][10'd449-DrawX];
+32'd96:
+	cityname=Fairbury[10'd29-DrawY][10'd449-DrawX];
+32'd97:
+	cityname=FarmerCity[10'd29-DrawY][10'd449-DrawX];
+default:
+	cityname=1'd0;32'd1:
+	cityname=Elm[10'd29-DrawY][10'd449-DrawX];
+32'd2:
+	cityname=Glasford[10'd29-DrawY][10'd449-DrawX];
+32'd3:
+	cityname=Manito[10'd29-DrawY][10'd449-DrawX];
+32'd4:
+	cityname=Jct[10'd29-DrawY][10'd449-DrawX];
+32'd5:
+	cityname=lles[10'd29-DrawY][10'd449-DrawX];
+32'd6:
+	cityname=Starnes[10'd29-DrawY][10'd449-DrawX];
+32'd7:
+	cityname=Riverton[10'd29-DrawY][10'd449-DrawX];
+32'd8:
+	cityname=Sherman[10'd29-DrawY][10'd449-DrawX];
+32'd9:
+	cityname=BarrStation[10'd29-DrawY][10'd449-DrawX];
+32'd10:
+	cityname=Luther[10'd29-DrawY][10'd449-DrawX];
+32'd11:
+	cityname=GreenValley[10'd29-DrawY][10'd449-DrawX];
+32'd12:
+	cityname=SouthPekin[10'd29-DrawY][10'd449-DrawX];
+32'd13:
+	cityname=Powerton[10'd29-DrawY][10'd449-DrawX];
+32'd14:
+	cityname=HannaCity[10'd29-DrawY][10'd449-DrawX];
+32'd15:
+	cityname=Mossville[10'd29-DrawY][10'd449-DrawX];
+32'd16:
+	cityname=EastPeoria[10'd29-DrawY][10'd449-DrawX];
+32'd17:
+	cityname=Delavan[10'd29-DrawY][10'd449-DrawX];
+32'd18:
+	cityname=Farmdale[10'd29-DrawY][10'd449-DrawX];
+32'd19:
+	cityname=Washington[10'd29-DrawY][10'd449-DrawX];
+32'd20:
+	cityname=Eureka[10'd29-DrawY][10'd449-DrawX];
+32'd21:
+	cityname=ElPaso[10'd29-DrawY][10'd449-DrawX];
+32'd22:
+	cityname=Lincoin[10'd29-DrawY][10'd449-DrawX];
+32'd23:
+	cityname=MtPulaski[10'd29-DrawY][10'd449-DrawX];
+32'd24:
+	cityname=Illiopoils[10'd29-DrawY][10'd449-DrawX];
+32'd25:
+	cityname=Harristown[10'd29-DrawY][10'd449-DrawX];
+32'd26:
+	cityname=Decatur[10'd29-DrawY][10'd449-DrawX];
+32'd27:
+	cityname=Warrensburg[10'd29-DrawY][10'd449-DrawX];
+32'd28:
+	cityname=Kenney[10'd29-DrawY][10'd449-DrawX];
+32'd29:
+	cityname=Clinton[10'd29-DrawY][10'd449-DrawX];
+32'd30:
+	cityname=Heyworth[10'd29-DrawY][10'd449-DrawX];
+32'd31:
+	cityname=Atlanta[10'd29-DrawY][10'd449-DrawX];
+32'd32:
+	cityname=Bloomington[10'd29-DrawY][10'd449-DrawX];
+32'd33:
+	cityname=Carlock[10'd29-DrawY][10'd449-DrawX];
+32'd34:
+	cityname=Crandall[10'd29-DrawY][10'd449-DrawX];
+32'd35:
+	cityname=Lexington[10'd29-DrawY][10'd449-DrawX];
+32'd36:
+	cityname=Chenoa[10'd29-DrawY][10'd449-DrawX];
+32'd37:
+	cityname=Macon[10'd29-DrawY][10'd449-DrawX];
+32'd38:
+	cityname=BlueMound[10'd29-DrawY][10'd449-DrawX];
+32'd39:
+	cityname=Boody[10'd29-DrawY][10'd449-DrawX];
+32'd40:
+	cityname=HerveyCity[10'd29-DrawY][10'd449-DrawX];
+32'd41:
+	cityname=LongCreek[10'd29-DrawY][10'd449-DrawX];
+32'd42:
+	cityname=Atwood[10'd29-DrawY][10'd449-DrawX];
+32'd43:
+	cityname=Arthur[10'd29-DrawY][10'd449-DrawX];
+32'd44:
+	cityname=Tuscola[10'd29-DrawY][10'd449-DrawX];
+32'd45:
+	cityname=Arcola[10'd29-DrawY][10'd449-DrawX];
+32'd46:
+	cityname=Murdock[10'd29-DrawY][10'd449-DrawX];
+32'd47:
+	cityname=Newman[10'd29-DrawY][10'd449-DrawX];
+32'd48:
+	cityname=Metcalf[10'd29-DrawY][10'd449-DrawX];
+32'd49:
+	cityname=Chrisman[10'd29-DrawY][10'd449-DrawX];
+32'd50:
+	cityname=WestDana[10'd29-DrawY][10'd449-DrawX];
+32'd51:
+	cityname=RidgeFarm[10'd29-DrawY][10'd449-DrawX];
+32'd52:
+	cityname=Westville[10'd29-DrawY][10'd449-DrawX];
+32'd53:
+	cityname=Tilton[10'd29-DrawY][10'd449-DrawX];
+32'd54:
+	cityname=Danville[10'd29-DrawY][10'd449-DrawX];
+32'd55:
+	cityname=Collison[10'd29-DrawY][10'd449-DrawX];
+32'd56:
+	cityname=Henning[10'd29-DrawY][10'd449-DrawX];
+32'd57:
+	cityname=Rossville[10'd29-DrawY][10'd449-DrawX];
+32'd58:
+	cityname=Hoopston[10'd29-DrawY][10'd449-DrawX];
+32'd59:
+	cityname=Milford[10'd29-DrawY][10'd449-DrawX];
+32'd60:
+	cityname=WoodlandJct[10'd29-DrawY][10'd449-DrawX];
+32'd61:
+	cityname=Watseka[10'd29-DrawY][10'd449-DrawX];
+32'd62:
+	cityname=Webster[10'd29-DrawY][10'd449-DrawX];
+32'd63:
+	cityname=Gilman[10'd29-DrawY][10'd449-DrawX];
+32'd64:
+	cityname=Onarga[10'd29-DrawY][10'd449-DrawX];
+32'd65:
+	cityname=Paxton[10'd29-DrawY][10'd449-DrawX];
+32'd66:
+	cityname=Rantoul[10'd29-DrawY][10'd449-DrawX];
+32'd67:
+	cityname=Dillsburg[10'd29-DrawY][10'd449-DrawX];
+32'd68:
+	cityname=Fisher[10'd29-DrawY][10'd449-DrawX];
+32'd69:
+	cityname=Thomasboro[10'd29-DrawY][10'd449-DrawX];
+32'd70:
+	cityname=Urbana[10'd29-DrawY][10'd449-DrawX];
+32'd71:
+	cityname=Champaign[10'd29-DrawY][10'd449-DrawX];
+32'd72:
+	cityname=Savoy[10'd29-DrawY][10'd449-DrawX];
+32'd73:
+	cityname=Tolono[10'd29-DrawY][10'd449-DrawX];
+32'd74:
+	cityname=Sidney[10'd29-DrawY][10'd449-DrawX];
+32'd75:
+	cityname=Homer[10'd29-DrawY][10'd449-DrawX];
+32'd76:
+	cityname=Glover[10'd29-DrawY][10'd449-DrawX];
+32'd77:
+	cityname=Goodwine[10'd29-DrawY][10'd449-DrawX];
+32'd78:
+	cityname=CissnaPark[10'd29-DrawY][10'd449-DrawX];
+32'd79:
+	cityname=VillaGrove[10'd29-DrawY][10'd449-DrawX];
+32'd80:
+	cityname=Boradland[10'd29-DrawY][10'd449-DrawX];
+32'd81:
+	cityname=Bement[10'd29-DrawY][10'd449-DrawX];
+32'd82:
+	cityname=CerroGordo[10'd29-DrawY][10'd449-DrawX];
+32'd83:
+	cityname=Cisco[10'd29-DrawY][10'd449-DrawX];
+32'd84:
+	cityname=Monticello[10'd29-DrawY][10'd449-DrawX];
+32'd85:
+	cityname=Lodge[10'd29-DrawY][10'd449-DrawX];
+32'd86:
+	cityname=Mansfield[10'd29-DrawY][10'd449-DrawX];
+32'd87:
+	cityname=Lotus[10'd29-DrawY][10'd449-DrawX];
+32'd88:
+	cityname=GibsonCity[10'd29-DrawY][10'd449-DrawX];
+32'd89:
+	cityname=Melvin[10'd29-DrawY][10'd449-DrawX];
+32'd90:
+	cityname=LeRoy[10'd29-DrawY][10'd449-DrawX];
+32'd91:
+	cityname=Arrowsmith[10'd29-DrawY][10'd449-DrawX];
+32'd92:
+	cityname=Risk[10'd29-DrawY][10'd449-DrawX];
+32'd93:
+	cityname=Colfax[10'd29-DrawY][10'd449-DrawX];
+32'd94:
+	cityname=Chatsworth[10'd29-DrawY][10'd449-DrawX];
+32'd95:
+	cityname=Forrest[10'd29-DrawY][10'd449-DrawX];
+32'd96:
+	cityname=Fairbury[10'd29-DrawY][10'd449-DrawX];
+32'd97:
+	cityname=FarmerCity[10'd29-DrawY][10'd449-DrawX];
+default:
+	cityname=1'd0;32'd1:
+	cityname=Elm[10'd29-DrawY][10'd449-DrawX];
+32'd2:
+	cityname=Glasford[10'd29-DrawY][10'd449-DrawX];
+32'd3:
+	cityname=Manito[10'd29-DrawY][10'd449-DrawX];
+32'd4:
+	cityname=Jct[10'd29-DrawY][10'd449-DrawX];
+32'd5:
+	cityname=lles[10'd29-DrawY][10'd449-DrawX];
+32'd6:
+	cityname=Starnes[10'd29-DrawY][10'd449-DrawX];
+32'd7:
+	cityname=Riverton[10'd29-DrawY][10'd449-DrawX];
+32'd8:
+	cityname=Sherman[10'd29-DrawY][10'd449-DrawX];
+32'd9:
+	cityname=BarrStation[10'd29-DrawY][10'd449-DrawX];
+32'd10:
+	cityname=Luther[10'd29-DrawY][10'd449-DrawX];
+32'd11:
+	cityname=GreenValley[10'd29-DrawY][10'd449-DrawX];
+32'd12:
+	cityname=SouthPekin[10'd29-DrawY][10'd449-DrawX];
+32'd13:
+	cityname=Powerton[10'd29-DrawY][10'd449-DrawX];
+32'd14:
+	cityname=HannaCity[10'd29-DrawY][10'd449-DrawX];
+32'd15:
+	cityname=Mossville[10'd29-DrawY][10'd449-DrawX];
+32'd16:
+	cityname=EastPeoria[10'd29-DrawY][10'd449-DrawX];
+32'd17:
+	cityname=Delavan[10'd29-DrawY][10'd449-DrawX];
+32'd18:
+	cityname=Farmdale[10'd29-DrawY][10'd449-DrawX];
+32'd19:
+	cityname=Washington[10'd29-DrawY][10'd449-DrawX];
+32'd20:
+	cityname=Eureka[10'd29-DrawY][10'd449-DrawX];
+32'd21:
+	cityname=ElPaso[10'd29-DrawY][10'd449-DrawX];
+32'd22:
+	cityname=Lincoin[10'd29-DrawY][10'd449-DrawX];
+32'd23:
+	cityname=MtPulaski[10'd29-DrawY][10'd449-DrawX];
+32'd24:
+	cityname=Illiopoils[10'd29-DrawY][10'd449-DrawX];
+32'd25:
+	cityname=Harristown[10'd29-DrawY][10'd449-DrawX];
+32'd26:
+	cityname=Decatur[10'd29-DrawY][10'd449-DrawX];
+32'd27:
+	cityname=Warrensburg[10'd29-DrawY][10'd449-DrawX];
+32'd28:
+	cityname=Kenney[10'd29-DrawY][10'd449-DrawX];
+32'd29:
+	cityname=Clinton[10'd29-DrawY][10'd449-DrawX];
+32'd30:
+	cityname=Heyworth[10'd29-DrawY][10'd449-DrawX];
+32'd31:
+	cityname=Atlanta[10'd29-DrawY][10'd449-DrawX];
+32'd32:
+	cityname=Bloomington[10'd29-DrawY][10'd449-DrawX];
+32'd33:
+	cityname=Carlock[10'd29-DrawY][10'd449-DrawX];
+32'd34:
+	cityname=Crandall[10'd29-DrawY][10'd449-DrawX];
+32'd35:
+	cityname=Lexington[10'd29-DrawY][10'd449-DrawX];
+32'd36:
+	cityname=Chenoa[10'd29-DrawY][10'd449-DrawX];
+32'd37:
+	cityname=Macon[10'd29-DrawY][10'd449-DrawX];
+32'd38:
+	cityname=BlueMound[10'd29-DrawY][10'd449-DrawX];
+32'd39:
+	cityname=Boody[10'd29-DrawY][10'd449-DrawX];
+32'd40:
+	cityname=HerveyCity[10'd29-DrawY][10'd449-DrawX];
+32'd41:
+	cityname=LongCreek[10'd29-DrawY][10'd449-DrawX];
+32'd42:
+	cityname=Atwood[10'd29-DrawY][10'd449-DrawX];
+32'd43:
+	cityname=Arthur[10'd29-DrawY][10'd449-DrawX];
+32'd44:
+	cityname=Tuscola[10'd29-DrawY][10'd449-DrawX];
+32'd45:
+	cityname=Arcola[10'd29-DrawY][10'd449-DrawX];
+32'd46:
+	cityname=Murdock[10'd29-DrawY][10'd449-DrawX];
+32'd47:
+	cityname=Newman[10'd29-DrawY][10'd449-DrawX];
+32'd48:
+	cityname=Metcalf[10'd29-DrawY][10'd449-DrawX];
+32'd49:
+	cityname=Chrisman[10'd29-DrawY][10'd449-DrawX];
+32'd50:
+	cityname=WestDana[10'd29-DrawY][10'd449-DrawX];
+32'd51:
+	cityname=RidgeFarm[10'd29-DrawY][10'd449-DrawX];
+32'd52:
+	cityname=Westville[10'd29-DrawY][10'd449-DrawX];
+32'd53:
+	cityname=Tilton[10'd29-DrawY][10'd449-DrawX];
+32'd54:
+	cityname=Danville[10'd29-DrawY][10'd449-DrawX];
+32'd55:
+	cityname=Collison[10'd29-DrawY][10'd449-DrawX];
+32'd56:
+	cityname=Henning[10'd29-DrawY][10'd449-DrawX];
+32'd57:
+	cityname=Rossville[10'd29-DrawY][10'd449-DrawX];
+32'd58:
+	cityname=Hoopston[10'd29-DrawY][10'd449-DrawX];
+32'd59:
+	cityname=Milford[10'd29-DrawY][10'd449-DrawX];
+32'd60:
+	cityname=WoodlandJct[10'd29-DrawY][10'd449-DrawX];
+32'd61:
+	cityname=Watseka[10'd29-DrawY][10'd449-DrawX];
+32'd62:
+	cityname=Webster[10'd29-DrawY][10'd449-DrawX];
+32'd63:
+	cityname=Gilman[10'd29-DrawY][10'd449-DrawX];
+32'd64:
+	cityname=Onarga[10'd29-DrawY][10'd449-DrawX];
+32'd65:
+	cityname=Paxton[10'd29-DrawY][10'd449-DrawX];
+32'd66:
+	cityname=Rantoul[10'd29-DrawY][10'd449-DrawX];
+32'd67:
+	cityname=Dillsburg[10'd29-DrawY][10'd449-DrawX];
+32'd68:
+	cityname=Fisher[10'd29-DrawY][10'd449-DrawX];
+32'd69:
+	cityname=Thomasboro[10'd29-DrawY][10'd449-DrawX];
+32'd70:
+	cityname=Urbana[10'd29-DrawY][10'd449-DrawX];
+32'd71:
+	cityname=Champaign[10'd29-DrawY][10'd449-DrawX];
+32'd72:
+	cityname=Savoy[10'd29-DrawY][10'd449-DrawX];
+32'd73:
+	cityname=Tolono[10'd29-DrawY][10'd449-DrawX];
+32'd74:
+	cityname=Sidney[10'd29-DrawY][10'd449-DrawX];
+32'd75:
+	cityname=Homer[10'd29-DrawY][10'd449-DrawX];
+32'd76:
+	cityname=Glover[10'd29-DrawY][10'd449-DrawX];
+32'd77:
+	cityname=Goodwine[10'd29-DrawY][10'd449-DrawX];
+32'd78:
+	cityname=CissnaPark[10'd29-DrawY][10'd449-DrawX];
+32'd79:
+	cityname=VillaGrove[10'd29-DrawY][10'd449-DrawX];
+32'd80:
+	cityname=Boradland[10'd29-DrawY][10'd449-DrawX];
+32'd81:
+	cityname=Bement[10'd29-DrawY][10'd449-DrawX];
+32'd82:
+	cityname=CerroGordo[10'd29-DrawY][10'd449-DrawX];
+32'd83:
+	cityname=Cisco[10'd29-DrawY][10'd449-DrawX];
+32'd84:
+	cityname=Monticello[10'd29-DrawY][10'd449-DrawX];
+32'd85:
+	cityname=Lodge[10'd29-DrawY][10'd449-DrawX];
+32'd86:
+	cityname=Mansfield[10'd29-DrawY][10'd449-DrawX];
+32'd87:
+	cityname=Lotus[10'd29-DrawY][10'd449-DrawX];
+32'd88:
+	cityname=GibsonCity[10'd29-DrawY][10'd449-DrawX];
+32'd89:
+	cityname=Melvin[10'd29-DrawY][10'd449-DrawX];
+32'd90:
+	cityname=LeRoy[10'd29-DrawY][10'd449-DrawX];
+32'd91:
+	cityname=Arrowsmith[10'd29-DrawY][10'd449-DrawX];
+32'd92:
+	cityname=Risk[10'd29-DrawY][10'd449-DrawX];
+32'd93:
+	cityname=Colfax[10'd29-DrawY][10'd449-DrawX];
+32'd94:
+	cityname=Chatsworth[10'd29-DrawY][10'd449-DrawX];
+32'd95:
+	cityname=Forrest[10'd29-DrawY][10'd449-DrawX];
+32'd96:
+	cityname=Fairbury[10'd29-DrawY][10'd449-DrawX];
+32'd97:
+	cityname=FarmerCity[10'd29-DrawY][10'd449-DrawX];
+default:
+	cityname=1'd0;32'd1:
+	cityname=Elm[10'd29-DrawY][10'd449-DrawX];
+32'd2:
+	cityname=Glasford[10'd29-DrawY][10'd449-DrawX];
+32'd3:
+	cityname=Manito[10'd29-DrawY][10'd449-DrawX];
+32'd4:
+	cityname=Jct[10'd29-DrawY][10'd449-DrawX];
+32'd5:
+	cityname=lles[10'd29-DrawY][10'd449-DrawX];
+32'd6:
+	cityname=Starnes[10'd29-DrawY][10'd449-DrawX];
+32'd7:
+	cityname=Riverton[10'd29-DrawY][10'd449-DrawX];
+32'd8:
+	cityname=Sherman[10'd29-DrawY][10'd449-DrawX];
+32'd9:
+	cityname=BarrStation[10'd29-DrawY][10'd449-DrawX];
+32'd10:
+	cityname=Luther[10'd29-DrawY][10'd449-DrawX];
+32'd11:
+	cityname=GreenValley[10'd29-DrawY][10'd449-DrawX];
+32'd12:
+	cityname=SouthPekin[10'd29-DrawY][10'd449-DrawX];
+32'd13:
+	cityname=Powerton[10'd29-DrawY][10'd449-DrawX];
+32'd14:
+	cityname=HannaCity[10'd29-DrawY][10'd449-DrawX];
+32'd15:
+	cityname=Mossville[10'd29-DrawY][10'd449-DrawX];
+32'd16:
+	cityname=EastPeoria[10'd29-DrawY][10'd449-DrawX];
+32'd17:
+	cityname=Delavan[10'd29-DrawY][10'd449-DrawX];
+32'd18:
+	cityname=Farmdale[10'd29-DrawY][10'd449-DrawX];
+32'd19:
+	cityname=Washington[10'd29-DrawY][10'd449-DrawX];
+32'd20:
+	cityname=Eureka[10'd29-DrawY][10'd449-DrawX];
+32'd21:
+	cityname=ElPaso[10'd29-DrawY][10'd449-DrawX];
+32'd22:
+	cityname=Lincoin[10'd29-DrawY][10'd449-DrawX];
+32'd23:
+	cityname=MtPulaski[10'd29-DrawY][10'd449-DrawX];
+32'd24:
+	cityname=Illiopoils[10'd29-DrawY][10'd449-DrawX];
+32'd25:
+	cityname=Harristown[10'd29-DrawY][10'd449-DrawX];
+32'd26:
+	cityname=Decatur[10'd29-DrawY][10'd449-DrawX];
+32'd27:
+	cityname=Warrensburg[10'd29-DrawY][10'd449-DrawX];
+32'd28:
+	cityname=Kenney[10'd29-DrawY][10'd449-DrawX];
+32'd29:
+	cityname=Clinton[10'd29-DrawY][10'd449-DrawX];
+32'd30:
+	cityname=Heyworth[10'd29-DrawY][10'd449-DrawX];
+32'd31:
+	cityname=Atlanta[10'd29-DrawY][10'd449-DrawX];
+32'd32:
+	cityname=Bloomington[10'd29-DrawY][10'd449-DrawX];
+32'd33:
+	cityname=Carlock[10'd29-DrawY][10'd449-DrawX];
+32'd34:
+	cityname=Crandall[10'd29-DrawY][10'd449-DrawX];
+32'd35:
+	cityname=Lexington[10'd29-DrawY][10'd449-DrawX];
+32'd36:
+	cityname=Chenoa[10'd29-DrawY][10'd449-DrawX];
+32'd37:
+	cityname=Macon[10'd29-DrawY][10'd449-DrawX];
+32'd38:
+	cityname=BlueMound[10'd29-DrawY][10'd449-DrawX];
+32'd39:
+	cityname=Boody[10'd29-DrawY][10'd449-DrawX];
+32'd40:
+	cityname=HerveyCity[10'd29-DrawY][10'd449-DrawX];
+32'd41:
+	cityname=LongCreek[10'd29-DrawY][10'd449-DrawX];
+32'd42:
+	cityname=Atwood[10'd29-DrawY][10'd449-DrawX];
+32'd43:
+	cityname=Arthur[10'd29-DrawY][10'd449-DrawX];
+32'd44:
+	cityname=Tuscola[10'd29-DrawY][10'd449-DrawX];
+32'd45:
+	cityname=Arcola[10'd29-DrawY][10'd449-DrawX];
+32'd46:
+	cityname=Murdock[10'd29-DrawY][10'd449-DrawX];
+32'd47:
+	cityname=Newman[10'd29-DrawY][10'd449-DrawX];
+32'd48:
+	cityname=Metcalf[10'd29-DrawY][10'd449-DrawX];
+32'd49:
+	cityname=Chrisman[10'd29-DrawY][10'd449-DrawX];
+32'd50:
+	cityname=WestDana[10'd29-DrawY][10'd449-DrawX];
+32'd51:
+	cityname=RidgeFarm[10'd29-DrawY][10'd449-DrawX];
+32'd52:
+	cityname=Westville[10'd29-DrawY][10'd449-DrawX];
+32'd53:
+	cityname=Tilton[10'd29-DrawY][10'd449-DrawX];
+32'd54:
+	cityname=Danville[10'd29-DrawY][10'd449-DrawX];
+32'd55:
+	cityname=Collison[10'd29-DrawY][10'd449-DrawX];
+32'd56:
+	cityname=Henning[10'd29-DrawY][10'd449-DrawX];
+32'd57:
+	cityname=Rossville[10'd29-DrawY][10'd449-DrawX];
+32'd58:
+	cityname=Hoopston[10'd29-DrawY][10'd449-DrawX];
+32'd59:
+	cityname=Milford[10'd29-DrawY][10'd449-DrawX];
+32'd60:
+	cityname=WoodlandJct[10'd29-DrawY][10'd449-DrawX];
+32'd61:
+	cityname=Watseka[10'd29-DrawY][10'd449-DrawX];
+32'd62:
+	cityname=Webster[10'd29-DrawY][10'd449-DrawX];
+32'd63:
+	cityname=Gilman[10'd29-DrawY][10'd449-DrawX];
+32'd64:
+	cityname=Onarga[10'd29-DrawY][10'd449-DrawX];
+32'd65:
+	cityname=Paxton[10'd29-DrawY][10'd449-DrawX];
+32'd66:
+	cityname=Rantoul[10'd29-DrawY][10'd449-DrawX];
+32'd67:
+	cityname=Dillsburg[10'd29-DrawY][10'd449-DrawX];
+32'd68:
+	cityname=Fisher[10'd29-DrawY][10'd449-DrawX];
+32'd69:
+	cityname=Thomasboro[10'd29-DrawY][10'd449-DrawX];
+32'd70:
+	cityname=Urbana[10'd29-DrawY][10'd449-DrawX];
+32'd71:
+	cityname=Champaign[10'd29-DrawY][10'd449-DrawX];
+32'd72:
+	cityname=Savoy[10'd29-DrawY][10'd449-DrawX];
+32'd73:
+	cityname=Tolono[10'd29-DrawY][10'd449-DrawX];
+32'd74:
+	cityname=Sidney[10'd29-DrawY][10'd449-DrawX];
+32'd75:
+	cityname=Homer[10'd29-DrawY][10'd449-DrawX];
+32'd76:
+	cityname=Glover[10'd29-DrawY][10'd449-DrawX];
+32'd77:
+	cityname=Goodwine[10'd29-DrawY][10'd449-DrawX];
+32'd78:
+	cityname=CissnaPark[10'd29-DrawY][10'd449-DrawX];
+32'd79:
+	cityname=VillaGrove[10'd29-DrawY][10'd449-DrawX];
+32'd80:
+	cityname=Boradland[10'd29-DrawY][10'd449-DrawX];
+32'd81:
+	cityname=Bement[10'd29-DrawY][10'd449-DrawX];
+32'd82:
+	cityname=CerroGordo[10'd29-DrawY][10'd449-DrawX];
+32'd83:
+	cityname=Cisco[10'd29-DrawY][10'd449-DrawX];
+32'd84:
+	cityname=Monticello[10'd29-DrawY][10'd449-DrawX];
+32'd85:
+	cityname=Lodge[10'd29-DrawY][10'd449-DrawX];
+32'd86:
+	cityname=Mansfield[10'd29-DrawY][10'd449-DrawX];
+32'd87:
+	cityname=Lotus[10'd29-DrawY][10'd449-DrawX];
+32'd88:
+	cityname=GibsonCity[10'd29-DrawY][10'd449-DrawX];
+32'd89:
+	cityname=Melvin[10'd29-DrawY][10'd449-DrawX];
+32'd90:
+	cityname=LeRoy[10'd29-DrawY][10'd449-DrawX];
+32'd91:
+	cityname=Arrowsmith[10'd29-DrawY][10'd449-DrawX];
+32'd92:
+	cityname=Risk[10'd29-DrawY][10'd449-DrawX];
+32'd93:
+	cityname=Colfax[10'd29-DrawY][10'd449-DrawX];
+32'd94:
+	cityname=Chatsworth[10'd29-DrawY][10'd449-DrawX];
+32'd95:
+	cityname=Forrest[10'd29-DrawY][10'd449-DrawX];
+32'd96:
+	cityname=Fairbury[10'd29-DrawY][10'd449-DrawX];
+32'd97:
+	cityname=FarmerCity[10'd29-DrawY][10'd449-DrawX];
+default:
+	cityname=1'd0;32'd1:
+	cityname=Elm[10'd29-DrawY][10'd449-DrawX];
+32'd2:
+	cityname=Glasford[10'd29-DrawY][10'd449-DrawX];
+32'd3:
+	cityname=Manito[10'd29-DrawY][10'd449-DrawX];
+32'd4:
+	cityname=Jct[10'd29-DrawY][10'd449-DrawX];
+32'd5:
+	cityname=lles[10'd29-DrawY][10'd449-DrawX];
+32'd6:
+	cityname=Starnes[10'd29-DrawY][10'd449-DrawX];
+32'd7:
+	cityname=Riverton[10'd29-DrawY][10'd449-DrawX];
+32'd8:
+	cityname=Sherman[10'd29-DrawY][10'd449-DrawX];
+32'd9:
+	cityname=Barr Station[10'd29-DrawY][10'd449-DrawX];
+32'd10:
+	cityname=Luther[10'd29-DrawY][10'd449-DrawX];
+32'd11:
+	cityname=Green Valley[10'd29-DrawY][10'd449-DrawX];
+32'd12:
+	cityname=South Pekin[10'd29-DrawY][10'd449-DrawX];
+32'd13:
+	cityname=Powerton[10'd29-DrawY][10'd449-DrawX];
+32'd14:
+	cityname=Hanna City[10'd29-DrawY][10'd449-DrawX];
+32'd15:
+	cityname=Mossville[10'd29-DrawY][10'd449-DrawX];
+32'd16:
+	cityname=East Peoria[10'd29-DrawY][10'd449-DrawX];
+32'd17:
+	cityname=Delavan[10'd29-DrawY][10'd449-DrawX];
+32'd18:
+	cityname=Farmdale[10'd29-DrawY][10'd449-DrawX];
+32'd19:
+	cityname=Washington[10'd29-DrawY][10'd449-DrawX];
+32'd20:
+	cityname=Eureka[10'd29-DrawY][10'd449-DrawX];
+32'd21:
+	cityname=El Paso[10'd29-DrawY][10'd449-DrawX];
+32'd22:
+	cityname=Lincoin[10'd29-DrawY][10'd449-DrawX];
+32'd23:
+	cityname=Mt. Pulaski[10'd29-DrawY][10'd449-DrawX];
+32'd24:
+	cityname=Illiopoils[10'd29-DrawY][10'd449-DrawX];
+32'd25:
+	cityname=Harristown[10'd29-DrawY][10'd449-DrawX];
+32'd26:
+	cityname=Decatur[10'd29-DrawY][10'd449-DrawX];
+32'd27:
+	cityname=Warrensburg[10'd29-DrawY][10'd449-DrawX];
+32'd28:
+	cityname=Kenney[10'd29-DrawY][10'd449-DrawX];
+32'd29:
+	cityname=Clinton[10'd29-DrawY][10'd449-DrawX];
+32'd30:
+	cityname=Heyworth[10'd29-DrawY][10'd449-DrawX];
+32'd31:
+	cityname=Atlanta[10'd29-DrawY][10'd449-DrawX];
+32'd32:
+	cityname=Bloomington[10'd29-DrawY][10'd449-DrawX];
+32'd33:
+	cityname=Carlock[10'd29-DrawY][10'd449-DrawX];
+32'd34:
+	cityname=Crandall[10'd29-DrawY][10'd449-DrawX];
+32'd35:
+	cityname=Lexington[10'd29-DrawY][10'd449-DrawX];
+32'd36:
+	cityname=Chenoa[10'd29-DrawY][10'd449-DrawX];
+32'd37:
+	cityname=Macon[10'd29-DrawY][10'd449-DrawX];
+32'd38:
+	cityname=Blue Mound[10'd29-DrawY][10'd449-DrawX];
+32'd39:
+	cityname=Boody[10'd29-DrawY][10'd449-DrawX];
+32'd40:
+	cityname=Hervey City[10'd29-DrawY][10'd449-DrawX];
+32'd41:
+	cityname=Long Creek[10'd29-DrawY][10'd449-DrawX];
+32'd42:
+	cityname=Atwood[10'd29-DrawY][10'd449-DrawX];
+32'd43:
+	cityname=Arthur[10'd29-DrawY][10'd449-DrawX];
+32'd44:
+	cityname=Tuscola[10'd29-DrawY][10'd449-DrawX];
+32'd45:
+	cityname=Arcola[10'd29-DrawY][10'd449-DrawX];
+32'd46:
+	cityname=Murdock[10'd29-DrawY][10'd449-DrawX];
+32'd47:
+	cityname=Newman[10'd29-DrawY][10'd449-DrawX];
+32'd48:
+	cityname=Metcalf[10'd29-DrawY][10'd449-DrawX];
+32'd49:
+	cityname=Chrisman[10'd29-DrawY][10'd449-DrawX];
+32'd50:
+	cityname=West Dana[10'd29-DrawY][10'd449-DrawX];
+32'd51:
+	cityname=Ridge Farm[10'd29-DrawY][10'd449-DrawX];
+32'd52:
+	cityname=Westville[10'd29-DrawY][10'd449-DrawX];
+32'd53:
+	cityname=Tilton[10'd29-DrawY][10'd449-DrawX];
+32'd54:
+	cityname=Danville[10'd29-DrawY][10'd449-DrawX];
+32'd55:
+	cityname=Collison[10'd29-DrawY][10'd449-DrawX];
+32'd56:
+	cityname=Henning[10'd29-DrawY][10'd449-DrawX];
+32'd57:
+	cityname=Rossville[10'd29-DrawY][10'd449-DrawX];
+32'd58:
+	cityname=Hoopston[10'd29-DrawY][10'd449-DrawX];
+32'd59:
+	cityname=Milford[10'd29-DrawY][10'd449-DrawX];
+32'd60:
+	cityname=Woodland Jct.[10'd29-DrawY][10'd449-DrawX];
+32'd61:
+	cityname=Watseka[10'd29-DrawY][10'd449-DrawX];
+32'd62:
+	cityname=Webster[10'd29-DrawY][10'd449-DrawX];
+32'd63:
+	cityname=Gilman[10'd29-DrawY][10'd449-DrawX];
+32'd64:
+	cityname=Onarga[10'd29-DrawY][10'd449-DrawX];
+32'd65:
+	cityname=Paxton[10'd29-DrawY][10'd449-DrawX];
+32'd66:
+	cityname=Rantoul[10'd29-DrawY][10'd449-DrawX];
+32'd67:
+	cityname=Dillsburg[10'd29-DrawY][10'd449-DrawX];
+32'd68:
+	cityname=Fisher[10'd29-DrawY][10'd449-DrawX];
+32'd69:
+	cityname=Thomasboro[10'd29-DrawY][10'd449-DrawX];
+32'd70:
+	cityname=Urbana[10'd29-DrawY][10'd449-DrawX];
+32'd71:
+	cityname=Champaign[10'd29-DrawY][10'd449-DrawX];
+32'd72:
+	cityname=Savoy[10'd29-DrawY][10'd449-DrawX];
+32'd73:
+	cityname=Tolono[10'd29-DrawY][10'd449-DrawX];
+32'd74:
+	cityname=Sidney[10'd29-DrawY][10'd449-DrawX];
+32'd75:
+	cityname=Homer[10'd29-DrawY][10'd449-DrawX];
+32'd76:
+	cityname=Glover[10'd29-DrawY][10'd449-DrawX];
+32'd77:
+	cityname=Goodwine[10'd29-DrawY][10'd449-DrawX];
+32'd78:
+	cityname=Cissna Park[10'd29-DrawY][10'd449-DrawX];
+32'd79:
+	cityname=Villa Grove[10'd29-DrawY][10'd449-DrawX];
+32'd80:
+	cityname=Boradland[10'd29-DrawY][10'd449-DrawX];
+32'd81:
+	cityname=Bement[10'd29-DrawY][10'd449-DrawX];
+32'd82:
+	cityname=Cerro Gordo[10'd29-DrawY][10'd449-DrawX];
+32'd83:
+	cityname=Cisco[10'd29-DrawY][10'd449-DrawX];
+32'd84:
+	cityname=Monticello[10'd29-DrawY][10'd449-DrawX];
+32'd85:
+	cityname=Lodge[10'd29-DrawY][10'd449-DrawX];
+32'd86:
+	cityname=Mansfield[10'd29-DrawY][10'd449-DrawX];
+32'd87:
+	cityname=Lotus[10'd29-DrawY][10'd449-DrawX];
+32'd88:
+	cityname=Gibson City[10'd29-DrawY][10'd449-DrawX];
+32'd89:
+	cityname=Melvin[10'd29-DrawY][10'd449-DrawX];
+32'd90:
+	cityname=Le Roy[10'd29-DrawY][10'd449-DrawX];
+32'd91:
+	cityname=Arrowsmith[10'd29-DrawY][10'd449-DrawX];
+32'd92:
+	cityname=Risk[10'd29-DrawY][10'd449-DrawX];
+32'd93:
+	cityname=Colfax[10'd29-DrawY][10'd449-DrawX];
+32'd94:
+	cityname=Chatsworth[10'd29-DrawY][10'd449-DrawX];
+32'd95:
+	cityname=Forrest[10'd29-DrawY][10'd449-DrawX];
+32'd96:
+	cityname=Fairbury[10'd29-DrawY][10'd449-DrawX];
+32'd97:
+	cityname=Farmer City[10'd29-DrawY][10'd449-DrawX];
+default:
+	cityname=1'd0;32'd1:
+	cityname=Elm[10'd29-DrawY][10'd449-DrawX];
+32'd2:
+	cityname=Glasford[10'd29-DrawY][10'd449-DrawX];
+32'd3:
+	cityname=Manito[10'd29-DrawY][10'd449-DrawX];
+32'd4:
+	cityname=Jct[10'd29-DrawY][10'd449-DrawX];
+32'd5:
+	cityname=lles[10'd29-DrawY][10'd449-DrawX];
+32'd6:
+	cityname=Starnes[10'd29-DrawY][10'd449-DrawX];
+32'd7:
+	cityname=Riverton[10'd29-DrawY][10'd449-DrawX];
+32'd8:
+	cityname=Sherman[10'd29-DrawY][10'd449-DrawX];
+32'd9:
+	cityname=BarrStation[10'd29-DrawY][10'd449-DrawX];
+32'd10:
+	cityname=Luther[10'd29-DrawY][10'd449-DrawX];
+32'd11:
+	cityname=GreenValley[10'd29-DrawY][10'd449-DrawX];
+32'd12:
+	cityname=SouthPekin[10'd29-DrawY][10'd449-DrawX];
+32'd13:
+	cityname=Powerton[10'd29-DrawY][10'd449-DrawX];
+32'd14:
+	cityname=HannaCity[10'd29-DrawY][10'd449-DrawX];
+32'd15:
+	cityname=Mossville[10'd29-DrawY][10'd449-DrawX];
+32'd16:
+	cityname=EastPeoria[10'd29-DrawY][10'd449-DrawX];
+32'd17:
+	cityname=Delavan[10'd29-DrawY][10'd449-DrawX];
+32'd18:
+	cityname=Farmdale[10'd29-DrawY][10'd449-DrawX];
+32'd19:
+	cityname=Washington[10'd29-DrawY][10'd449-DrawX];
+32'd20:
+	cityname=Eureka[10'd29-DrawY][10'd449-DrawX];
+32'd21:
+	cityname=ElPaso[10'd29-DrawY][10'd449-DrawX];
+32'd22:
+	cityname=Lincoin[10'd29-DrawY][10'd449-DrawX];
+32'd23:
+	cityname=Mt.Pulaski[10'd29-DrawY][10'd449-DrawX];
+32'd24:
+	cityname=Illiopoils[10'd29-DrawY][10'd449-DrawX];
+32'd25:
+	cityname=Harristown[10'd29-DrawY][10'd449-DrawX];
+32'd26:
+	cityname=Decatur[10'd29-DrawY][10'd449-DrawX];
+32'd27:
+	cityname=Warrensburg[10'd29-DrawY][10'd449-DrawX];
+32'd28:
+	cityname=Kenney[10'd29-DrawY][10'd449-DrawX];
+32'd29:
+	cityname=Clinton[10'd29-DrawY][10'd449-DrawX];
+32'd30:
+	cityname=Heyworth[10'd29-DrawY][10'd449-DrawX];
+32'd31:
+	cityname=Atlanta[10'd29-DrawY][10'd449-DrawX];
+32'd32:
+	cityname=Bloomington[10'd29-DrawY][10'd449-DrawX];
+32'd33:
+	cityname=Carlock[10'd29-DrawY][10'd449-DrawX];
+32'd34:
+	cityname=Crandall[10'd29-DrawY][10'd449-DrawX];
+32'd35:
+	cityname=Lexington[10'd29-DrawY][10'd449-DrawX];
+32'd36:
+	cityname=Chenoa[10'd29-DrawY][10'd449-DrawX];
+32'd37:
+	cityname=Macon[10'd29-DrawY][10'd449-DrawX];
+32'd38:
+	cityname=BlueMound[10'd29-DrawY][10'd449-DrawX];
+32'd39:
+	cityname=Boody[10'd29-DrawY][10'd449-DrawX];
+32'd40:
+	cityname=HerveyCity[10'd29-DrawY][10'd449-DrawX];
+32'd41:
+	cityname=LongCreek[10'd29-DrawY][10'd449-DrawX];
+32'd42:
+	cityname=Atwood[10'd29-DrawY][10'd449-DrawX];
+32'd43:
+	cityname=Arthur[10'd29-DrawY][10'd449-DrawX];
+32'd44:
+	cityname=Tuscola[10'd29-DrawY][10'd449-DrawX];
+32'd45:
+	cityname=Arcola[10'd29-DrawY][10'd449-DrawX];
+32'd46:
+	cityname=Murdock[10'd29-DrawY][10'd449-DrawX];
+32'd47:
+	cityname=Newman[10'd29-DrawY][10'd449-DrawX];
+32'd48:
+	cityname=Metcalf[10'd29-DrawY][10'd449-DrawX];
+32'd49:
+	cityname=Chrisman[10'd29-DrawY][10'd449-DrawX];
+32'd50:
+	cityname=WestDana[10'd29-DrawY][10'd449-DrawX];
+32'd51:
+	cityname=RidgeFarm[10'd29-DrawY][10'd449-DrawX];
+32'd52:
+	cityname=Westville[10'd29-DrawY][10'd449-DrawX];
+32'd53:
+	cityname=Tilton[10'd29-DrawY][10'd449-DrawX];
+32'd54:
+	cityname=Danville[10'd29-DrawY][10'd449-DrawX];
+32'd55:
+	cityname=Collison[10'd29-DrawY][10'd449-DrawX];
+32'd56:
+	cityname=Henning[10'd29-DrawY][10'd449-DrawX];
+32'd57:
+	cityname=Rossville[10'd29-DrawY][10'd449-DrawX];
+32'd58:
+	cityname=Hoopston[10'd29-DrawY][10'd449-DrawX];
+32'd59:
+	cityname=Milford[10'd29-DrawY][10'd449-DrawX];
+32'd60:
+	cityname=WoodlandJct.[10'd29-DrawY][10'd449-DrawX];
+32'd61:
+	cityname=Watseka[10'd29-DrawY][10'd449-DrawX];
+32'd62:
+	cityname=Webster[10'd29-DrawY][10'd449-DrawX];
+32'd63:
+	cityname=Gilman[10'd29-DrawY][10'd449-DrawX];
+32'd64:
+	cityname=Onarga[10'd29-DrawY][10'd449-DrawX];
+32'd65:
+	cityname=Paxton[10'd29-DrawY][10'd449-DrawX];
+32'd66:
+	cityname=Rantoul[10'd29-DrawY][10'd449-DrawX];
+32'd67:
+	cityname=Dillsburg[10'd29-DrawY][10'd449-DrawX];
+32'd68:
+	cityname=Fisher[10'd29-DrawY][10'd449-DrawX];
+32'd69:
+	cityname=Thomasboro[10'd29-DrawY][10'd449-DrawX];
+32'd70:
+	cityname=Urbana[10'd29-DrawY][10'd449-DrawX];
+32'd71:
+	cityname=Champaign[10'd29-DrawY][10'd449-DrawX];
+32'd72:
+	cityname=Savoy[10'd29-DrawY][10'd449-DrawX];
+32'd73:
+	cityname=Tolono[10'd29-DrawY][10'd449-DrawX];
+32'd74:
+	cityname=Sidney[10'd29-DrawY][10'd449-DrawX];
+32'd75:
+	cityname=Homer[10'd29-DrawY][10'd449-DrawX];
+32'd76:
+	cityname=Glover[10'd29-DrawY][10'd449-DrawX];
+32'd77:
+	cityname=Goodwine[10'd29-DrawY][10'd449-DrawX];
+32'd78:
+	cityname=CissnaPark[10'd29-DrawY][10'd449-DrawX];
+32'd79:
+	cityname=VillaGrove[10'd29-DrawY][10'd449-DrawX];
+32'd80:
+	cityname=Boradland[10'd29-DrawY][10'd449-DrawX];
+32'd81:
+	cityname=Bement[10'd29-DrawY][10'd449-DrawX];
+32'd82:
+	cityname=CerroGordo[10'd29-DrawY][10'd449-DrawX];
+32'd83:
+	cityname=Cisco[10'd29-DrawY][10'd449-DrawX];
+32'd84:
+	cityname=Monticello[10'd29-DrawY][10'd449-DrawX];
+32'd85:
+	cityname=Lodge[10'd29-DrawY][10'd449-DrawX];
+32'd86:
+	cityname=Mansfield[10'd29-DrawY][10'd449-DrawX];
+32'd87:
+	cityname=Lotus[10'd29-DrawY][10'd449-DrawX];
+32'd88:
+	cityname=GibsonCity[10'd29-DrawY][10'd449-DrawX];
+32'd89:
+	cityname=Melvin[10'd29-DrawY][10'd449-DrawX];
+32'd90:
+	cityname=LeRoy[10'd29-DrawY][10'd449-DrawX];
+32'd91:
+	cityname=Arrowsmith[10'd29-DrawY][10'd449-DrawX];
+32'd92:
+	cityname=Risk[10'd29-DrawY][10'd449-DrawX];
+32'd93:
+	cityname=Colfax[10'd29-DrawY][10'd449-DrawX];
+32'd94:
+	cityname=Chatsworth[10'd29-DrawY][10'd449-DrawX];
+32'd95:
+	cityname=Forrest[10'd29-DrawY][10'd449-DrawX];
+32'd96:
+	cityname=Fairbury[10'd29-DrawY][10'd449-DrawX];
+32'd97:
+	cityname=FarmerCity[10'd29-DrawY][10'd449-DrawX];
+default:
+	cityname=1'd0;32'd1:
+	cityname=Elm[10'd29-DrawY][10'd449-DrawX];
+32'd2:
+	cityname=Glasford[10'd29-DrawY][10'd449-DrawX];
+32'd3:
+	cityname=Manito[10'd29-DrawY][10'd449-DrawX];
+32'd4:
+	cityname=Jct[10'd29-DrawY][10'd449-DrawX];
+32'd5:
+	cityname=lles[10'd29-DrawY][10'd449-DrawX];
+32'd6:
+	cityname=Starnes[10'd29-DrawY][10'd449-DrawX];
+32'd7:
+	cityname=Riverton[10'd29-DrawY][10'd449-DrawX];
+32'd8:
+	cityname=Sherman[10'd29-DrawY][10'd449-DrawX];
+32'd9:
+	cityname=BarrStation[10'd29-DrawY][10'd449-DrawX];
+32'd10:
+	cityname=Luther[10'd29-DrawY][10'd449-DrawX];
+32'd11:
+	cityname=GreenValley[10'd29-DrawY][10'd449-DrawX];
+32'd12:
+	cityname=SouthPekin[10'd29-DrawY][10'd449-DrawX];
+32'd13:
+	cityname=Powerton[10'd29-DrawY][10'd449-DrawX];
+32'd14:
+	cityname=HannaCity[10'd29-DrawY][10'd449-DrawX];
+32'd15:
+	cityname=Mossville[10'd29-DrawY][10'd449-DrawX];
+32'd16:
+	cityname=EastPeoria[10'd29-DrawY][10'd449-DrawX];
+32'd17:
+	cityname=Delavan[10'd29-DrawY][10'd449-DrawX];
+32'd18:
+	cityname=Farmdale[10'd29-DrawY][10'd449-DrawX];
+32'd19:
+	cityname=Washington[10'd29-DrawY][10'd449-DrawX];
+32'd20:
+	cityname=Eureka[10'd29-DrawY][10'd449-DrawX];
+32'd21:
+	cityname=ElPaso[10'd29-DrawY][10'd449-DrawX];
+32'd22:
+	cityname=Lincoin[10'd29-DrawY][10'd449-DrawX];
+32'd23:
+	cityname=Mt.Pulaski[10'd29-DrawY][10'd449-DrawX];
+32'd24:
+	cityname=Illiopoils[10'd29-DrawY][10'd449-DrawX];
+32'd25:
+	cityname=Harristown[10'd29-DrawY][10'd449-DrawX];
+32'd26:
+	cityname=Decatur[10'd29-DrawY][10'd449-DrawX];
+32'd27:
+	cityname=Warrensburg[10'd29-DrawY][10'd449-DrawX];
+32'd28:
+	cityname=Kenney[10'd29-DrawY][10'd449-DrawX];
+32'd29:
+	cityname=Clinton[10'd29-DrawY][10'd449-DrawX];
+32'd30:
+	cityname=Heyworth[10'd29-DrawY][10'd449-DrawX];
+32'd31:
+	cityname=Atlanta[10'd29-DrawY][10'd449-DrawX];
+32'd32:
+	cityname=Bloomington[10'd29-DrawY][10'd449-DrawX];
+32'd33:
+	cityname=Carlock[10'd29-DrawY][10'd449-DrawX];
+32'd34:
+	cityname=Crandall[10'd29-DrawY][10'd449-DrawX];
+32'd35:
+	cityname=Lexington[10'd29-DrawY][10'd449-DrawX];
+32'd36:
+	cityname=Chenoa[10'd29-DrawY][10'd449-DrawX];
+32'd37:
+	cityname=Macon[10'd29-DrawY][10'd449-DrawX];
+32'd38:
+	cityname=BlueMound[10'd29-DrawY][10'd449-DrawX];
+32'd39:
+	cityname=Boody[10'd29-DrawY][10'd449-DrawX];
+32'd40:
+	cityname=HerveyCity[10'd29-DrawY][10'd449-DrawX];
+32'd41:
+	cityname=LongCreek[10'd29-DrawY][10'd449-DrawX];
+32'd42:
+	cityname=Atwood[10'd29-DrawY][10'd449-DrawX];
+32'd43:
+	cityname=Arthur[10'd29-DrawY][10'd449-DrawX];
+32'd44:
+	cityname=Tuscola[10'd29-DrawY][10'd449-DrawX];
+32'd45:
+	cityname=Arcola[10'd29-DrawY][10'd449-DrawX];
+32'd46:
+	cityname=Murdock[10'd29-DrawY][10'd449-DrawX];
+32'd47:
+	cityname=Newman[10'd29-DrawY][10'd449-DrawX];
+32'd48:
+	cityname=Metcalf[10'd29-DrawY][10'd449-DrawX];
+32'd49:
+	cityname=Chrisman[10'd29-DrawY][10'd449-DrawX];
+32'd50:
+	cityname=WestDana[10'd29-DrawY][10'd449-DrawX];
+32'd51:
+	cityname=RidgeFarm[10'd29-DrawY][10'd449-DrawX];
+32'd52:
+	cityname=Westville[10'd29-DrawY][10'd449-DrawX];
+32'd53:
+	cityname=Tilton[10'd29-DrawY][10'd449-DrawX];
+32'd54:
+	cityname=Danville[10'd29-DrawY][10'd449-DrawX];
+32'd55:
+	cityname=Collison[10'd29-DrawY][10'd449-DrawX];
+32'd56:
+	cityname=Henning[10'd29-DrawY][10'd449-DrawX];
+32'd57:
+	cityname=Rossville[10'd29-DrawY][10'd449-DrawX];
+32'd58:
+	cityname=Hoopston[10'd29-DrawY][10'd449-DrawX];
+32'd59:
+	cityname=Milford[10'd29-DrawY][10'd449-DrawX];
+32'd60:
+	cityname=WoodlandJct.[10'd29-DrawY][10'd449-DrawX];
+32'd61:
+	cityname=Watseka[10'd29-DrawY][10'd449-DrawX];
+32'd62:
+	cityname=Webster[10'd29-DrawY][10'd449-DrawX];
+32'd63:
+	cityname=Gilman[10'd29-DrawY][10'd449-DrawX];
+32'd64:
+	cityname=Onarga[10'd29-DrawY][10'd449-DrawX];
+32'd65:
+	cityname=Paxton[10'd29-DrawY][10'd449-DrawX];
+32'd66:
+	cityname=Rantoul[10'd29-DrawY][10'd449-DrawX];
+32'd67:
+	cityname=Dillsburg[10'd29-DrawY][10'd449-DrawX];
+32'd68:
+	cityname=Fisher[10'd29-DrawY][10'd449-DrawX];
+32'd69:
+	cityname=Thomasboro[10'd29-DrawY][10'd449-DrawX];
+32'd70:
+	cityname=Urbana[10'd29-DrawY][10'd449-DrawX];
+32'd71:
+	cityname=Champaign[10'd29-DrawY][10'd449-DrawX];
+32'd72:
+	cityname=Savoy[10'd29-DrawY][10'd449-DrawX];
+32'd73:
+	cityname=Tolono[10'd29-DrawY][10'd449-DrawX];
+32'd74:
+	cityname=Sidney[10'd29-DrawY][10'd449-DrawX];
+32'd75:
+	cityname=Homer[10'd29-DrawY][10'd449-DrawX];
+32'd76:
+	cityname=Glover[10'd29-DrawY][10'd449-DrawX];
+32'd77:
+	cityname=Goodwine[10'd29-DrawY][10'd449-DrawX];
+32'd78:
+	cityname=CissnaPark[10'd29-DrawY][10'd449-DrawX];
+32'd79:
+	cityname=VillaGrove[10'd29-DrawY][10'd449-DrawX];
+32'd80:
+	cityname=Boradland[10'd29-DrawY][10'd449-DrawX];
+32'd81:
+	cityname=Bement[10'd29-DrawY][10'd449-DrawX];
+32'd82:
+	cityname=CerroGordo[10'd29-DrawY][10'd449-DrawX];
+32'd83:
+	cityname=Cisco[10'd29-DrawY][10'd449-DrawX];
+32'd84:
+	cityname=Monticello[10'd29-DrawY][10'd449-DrawX];
+32'd85:
+	cityname=Lodge[10'd29-DrawY][10'd449-DrawX];
+32'd86:
+	cityname=Mansfield[10'd29-DrawY][10'd449-DrawX];
+32'd87:
+	cityname=Lotus[10'd29-DrawY][10'd449-DrawX];
+32'd88:
+	cityname=GibsonCity[10'd29-DrawY][10'd449-DrawX];
+32'd89:
+	cityname=Melvin[10'd29-DrawY][10'd449-DrawX];
+32'd90:
+	cityname=LeRoy[10'd29-DrawY][10'd449-DrawX];
+32'd91:
+	cityname=Arrowsmith[10'd29-DrawY][10'd449-DrawX];
+32'd92:
+	cityname=Risk[10'd29-DrawY][10'd449-DrawX];
+32'd93:
+	cityname=Colfax[10'd29-DrawY][10'd449-DrawX];
+32'd94:
+	cityname=Chatsworth[10'd29-DrawY][10'd449-DrawX];
+32'd95:
+	cityname=Forrest[10'd29-DrawY][10'd449-DrawX];
+32'd96:
+	cityname=Fairbury[10'd29-DrawY][10'd449-DrawX];
+32'd97:
+	cityname=FarmerCity[10'd29-DrawY][10'd449-DrawX];
+default:
+	cityname=1'd0;32'd1:
+	cityname=Elm[10'd29-DrawY][10'd449-DrawX];
+32'd2:
+	cityname=Glasford[10'd29-DrawY][10'd449-DrawX];
+32'd3:
+	cityname=Manito[10'd29-DrawY][10'd449-DrawX];
+32'd4:
+	cityname=Jct[10'd29-DrawY][10'd449-DrawX];
+32'd5:
+	cityname=lles[10'd29-DrawY][10'd449-DrawX];
+32'd6:
+	cityname=Starnes[10'd29-DrawY][10'd449-DrawX];
+32'd7:
+	cityname=Riverton[10'd29-DrawY][10'd449-DrawX];
+32'd8:
+	cityname=Sherman[10'd29-DrawY][10'd449-DrawX];
+32'd9:
+	cityname=BarrStation[10'd29-DrawY][10'd449-DrawX];
+32'd10:
+	cityname=Luther[10'd29-DrawY][10'd449-DrawX];
+32'd11:
+	cityname=GreenValley[10'd29-DrawY][10'd449-DrawX];
+32'd12:
+	cityname=SouthPekin[10'd29-DrawY][10'd449-DrawX];
+32'd13:
+	cityname=Powerton[10'd29-DrawY][10'd449-DrawX];
+32'd14:
+	cityname=HannaCity[10'd29-DrawY][10'd449-DrawX];
+32'd15:
+	cityname=Mossville[10'd29-DrawY][10'd449-DrawX];
+32'd16:
+	cityname=EastPeoria[10'd29-DrawY][10'd449-DrawX];
+32'd17:
+	cityname=Delavan[10'd29-DrawY][10'd449-DrawX];
+32'd18:
+	cityname=Farmdale[10'd29-DrawY][10'd449-DrawX];
+32'd19:
+	cityname=Washington[10'd29-DrawY][10'd449-DrawX];
+32'd20:
+	cityname=Eureka[10'd29-DrawY][10'd449-DrawX];
+32'd21:
+	cityname=ElPaso[10'd29-DrawY][10'd449-DrawX];
+32'd22:
+	cityname=Lincoin[10'd29-DrawY][10'd449-DrawX];
+32'd23:
+	cityname=Mt.Pulaski[10'd29-DrawY][10'd449-DrawX];
+32'd24:
+	cityname=Illiopoils[10'd29-DrawY][10'd449-DrawX];
+32'd25:
+	cityname=Harristown[10'd29-DrawY][10'd449-DrawX];
+32'd26:
+	cityname=Decatur[10'd29-DrawY][10'd449-DrawX];
+32'd27:
+	cityname=Warrensburg[10'd29-DrawY][10'd449-DrawX];
+32'd28:
+	cityname=Kenney[10'd29-DrawY][10'd449-DrawX];
+32'd29:
+	cityname=Clinton[10'd29-DrawY][10'd449-DrawX];
+32'd30:
+	cityname=Heyworth[10'd29-DrawY][10'd449-DrawX];
+32'd31:
+	cityname=Atlanta[10'd29-DrawY][10'd449-DrawX];
+32'd32:
+	cityname=Bloomington[10'd29-DrawY][10'd449-DrawX];
+32'd33:
+	cityname=Carlock[10'd29-DrawY][10'd449-DrawX];
+32'd34:
+	cityname=Crandall[10'd29-DrawY][10'd449-DrawX];
+32'd35:
+	cityname=Lexington[10'd29-DrawY][10'd449-DrawX];
+32'd36:
+	cityname=Chenoa[10'd29-DrawY][10'd449-DrawX];
+32'd37:
+	cityname=Macon[10'd29-DrawY][10'd449-DrawX];
+32'd38:
+	cityname=BlueMound[10'd29-DrawY][10'd449-DrawX];
+32'd39:
+	cityname=Boody[10'd29-DrawY][10'd449-DrawX];
+32'd40:
+	cityname=HerveyCity[10'd29-DrawY][10'd449-DrawX];
+32'd41:
+	cityname=LongCreek[10'd29-DrawY][10'd449-DrawX];
+32'd42:
+	cityname=Atwood[10'd29-DrawY][10'd449-DrawX];
+32'd43:
+	cityname=Arthur[10'd29-DrawY][10'd449-DrawX];
+32'd44:
+	cityname=Tuscola[10'd29-DrawY][10'd449-DrawX];
+32'd45:
+	cityname=Arcola[10'd29-DrawY][10'd449-DrawX];
+32'd46:
+	cityname=Murdock[10'd29-DrawY][10'd449-DrawX];
+32'd47:
+	cityname=Newman[10'd29-DrawY][10'd449-DrawX];
+32'd48:
+	cityname=Metcalf[10'd29-DrawY][10'd449-DrawX];
+32'd49:
+	cityname=Chrisman[10'd29-DrawY][10'd449-DrawX];
+32'd50:
+	cityname=WestDana[10'd29-DrawY][10'd449-DrawX];
+32'd51:
+	cityname=RidgeFarm[10'd29-DrawY][10'd449-DrawX];
+32'd52:
+	cityname=Westville[10'd29-DrawY][10'd449-DrawX];
+32'd53:
+	cityname=Tilton[10'd29-DrawY][10'd449-DrawX];
+32'd54:
+	cityname=Danville[10'd29-DrawY][10'd449-DrawX];
+32'd55:
+	cityname=Collison[10'd29-DrawY][10'd449-DrawX];
+32'd56:
+	cityname=Henning[10'd29-DrawY][10'd449-DrawX];
+32'd57:
+	cityname=Rossville[10'd29-DrawY][10'd449-DrawX];
+32'd58:
+	cityname=Hoopston[10'd29-DrawY][10'd449-DrawX];
+32'd59:
+	cityname=Milford[10'd29-DrawY][10'd449-DrawX];
+32'd60:
+	cityname=WoodlandJct.[10'd29-DrawY][10'd449-DrawX];
+32'd61:
+	cityname=Watseka[10'd29-DrawY][10'd449-DrawX];
+32'd62:
+	cityname=Webster[10'd29-DrawY][10'd449-DrawX];
+32'd63:
+	cityname=Gilman[10'd29-DrawY][10'd449-DrawX];
+32'd64:
+	cityname=Onarga[10'd29-DrawY][10'd449-DrawX];
+32'd65:
+	cityname=Paxton[10'd29-DrawY][10'd449-DrawX];
+32'd66:
+	cityname=Rantoul[10'd29-DrawY][10'd449-DrawX];
+32'd67:
+	cityname=Dillsburg[10'd29-DrawY][10'd449-DrawX];
+32'd68:
+	cityname=Fisher[10'd29-DrawY][10'd449-DrawX];
+32'd69:
+	cityname=Thomasboro[10'd29-DrawY][10'd449-DrawX];
+32'd70:
+	cityname=Urbana[10'd29-DrawY][10'd449-DrawX];
+32'd71:
+	cityname=Champaign[10'd29-DrawY][10'd449-DrawX];
+32'd72:
+	cityname=Savoy[10'd29-DrawY][10'd449-DrawX];
+32'd73:
+	cityname=Tolono[10'd29-DrawY][10'd449-DrawX];
+32'd74:
+	cityname=Sidney[10'd29-DrawY][10'd449-DrawX];
+32'd75:
+	cityname=Homer[10'd29-DrawY][10'd449-DrawX];
+32'd76:
+	cityname=Glover[10'd29-DrawY][10'd449-DrawX];
+32'd77:
+	cityname=Goodwine[10'd29-DrawY][10'd449-DrawX];
+32'd78:
+	cityname=CissnaPark[10'd29-DrawY][10'd449-DrawX];
+32'd79:
+	cityname=VillaGrove[10'd29-DrawY][10'd449-DrawX];
+32'd80:
+	cityname=Boradland[10'd29-DrawY][10'd449-DrawX];
+32'd81:
+	cityname=Bement[10'd29-DrawY][10'd449-DrawX];
+32'd82:
+	cityname=CerroGordo[10'd29-DrawY][10'd449-DrawX];
+32'd83:
+	cityname=Cisco[10'd29-DrawY][10'd449-DrawX];
+32'd84:
+	cityname=Monticello[10'd29-DrawY][10'd449-DrawX];
+32'd85:
+	cityname=Lodge[10'd29-DrawY][10'd449-DrawX];
+32'd86:
+	cityname=Mansfield[10'd29-DrawY][10'd449-DrawX];
+32'd87:
+	cityname=Lotus[10'd29-DrawY][10'd449-DrawX];
+32'd88:
+	cityname=GibsonCity[10'd29-DrawY][10'd449-DrawX];
+32'd89:
+	cityname=Melvin[10'd29-DrawY][10'd449-DrawX];
+32'd90:
+	cityname=LeRoy[10'd29-DrawY][10'd449-DrawX];
+32'd91:
+	cityname=Arrowsmith[10'd29-DrawY][10'd449-DrawX];
+32'd92:
+	cityname=Risk[10'd29-DrawY][10'd449-DrawX];
+32'd93:
+	cityname=Colfax[10'd29-DrawY][10'd449-DrawX];
+32'd94:
+	cityname=Chatsworth[10'd29-DrawY][10'd449-DrawX];
+32'd95:
+	cityname=Forrest[10'd29-DrawY][10'd449-DrawX];
+32'd96:
+	cityname=Fairbury[10'd29-DrawY][10'd449-DrawX];
+32'd97:
+	cityname=FarmerCity[10'd29-DrawY][10'd449-DrawX];
+default:
+	cityname=1'd0;32'd1:
+	cityname=Elm[10'd29-DrawY][10'd449-DrawX];
+32'd2:
+	cityname=Glasford[10'd29-DrawY][10'd449-DrawX];
+32'd3:
+	cityname=Manito[10'd29-DrawY][10'd449-DrawX];
+32'd4:
+	cityname=Jct[10'd29-DrawY][10'd449-DrawX];
+32'd5:
+	cityname=lles[10'd29-DrawY][10'd449-DrawX];
+32'd6:
+	cityname=Starnes[10'd29-DrawY][10'd449-DrawX];
+32'd7:
+	cityname=Riverton[10'd29-DrawY][10'd449-DrawX];
+32'd8:
+	cityname=Sherman[10'd29-DrawY][10'd449-DrawX];
+32'd9:
+	cityname=BarrStation[10'd29-DrawY][10'd449-DrawX];
+32'd10:
+	cityname=Luther[10'd29-DrawY][10'd449-DrawX];
+32'd11:
+	cityname=GreenValley[10'd29-DrawY][10'd449-DrawX];
+32'd12:
+	cityname=SouthPekin[10'd29-DrawY][10'd449-DrawX];
+32'd13:
+	cityname=Powerton[10'd29-DrawY][10'd449-DrawX];
+32'd14:
+	cityname=HannaCity[10'd29-DrawY][10'd449-DrawX];
+32'd15:
+	cityname=Mossville[10'd29-DrawY][10'd449-DrawX];
+32'd16:
+	cityname=EastPeoria[10'd29-DrawY][10'd449-DrawX];
+32'd17:
+	cityname=Delavan[10'd29-DrawY][10'd449-DrawX];
+32'd18:
+	cityname=Farmdale[10'd29-DrawY][10'd449-DrawX];
+32'd19:
+	cityname=Washington[10'd29-DrawY][10'd449-DrawX];
+32'd20:
+	cityname=Eureka[10'd29-DrawY][10'd449-DrawX];
+32'd21:
+	cityname=ElPaso[10'd29-DrawY][10'd449-DrawX];
+32'd22:
+	cityname=Lincoin[10'd29-DrawY][10'd449-DrawX];
+32'd23:
+	cityname=Mt.Pulaski[10'd29-DrawY][10'd449-DrawX];
+32'd24:
+	cityname=Illiopoils[10'd29-DrawY][10'd449-DrawX];
+32'd25:
+	cityname=Harristown[10'd29-DrawY][10'd449-DrawX];
+32'd26:
+	cityname=Decatur[10'd29-DrawY][10'd449-DrawX];
+32'd27:
+	cityname=Warrensburg[10'd29-DrawY][10'd449-DrawX];
+32'd28:
+	cityname=Kenney[10'd29-DrawY][10'd449-DrawX];
+32'd29:
+	cityname=Clinton[10'd29-DrawY][10'd449-DrawX];
+32'd30:
+	cityname=Heyworth[10'd29-DrawY][10'd449-DrawX];
+32'd31:
+	cityname=Atlanta[10'd29-DrawY][10'd449-DrawX];
+32'd32:
+	cityname=Bloomington[10'd29-DrawY][10'd449-DrawX];
+32'd33:
+	cityname=Carlock[10'd29-DrawY][10'd449-DrawX];
+32'd34:
+	cityname=Crandall[10'd29-DrawY][10'd449-DrawX];
+32'd35:
+	cityname=Lexington[10'd29-DrawY][10'd449-DrawX];
+32'd36:
+	cityname=Chenoa[10'd29-DrawY][10'd449-DrawX];
+32'd37:
+	cityname=Macon[10'd29-DrawY][10'd449-DrawX];
+32'd38:
+	cityname=BlueMound[10'd29-DrawY][10'd449-DrawX];
+32'd39:
+	cityname=Boody[10'd29-DrawY][10'd449-DrawX];
+32'd40:
+	cityname=HerveyCity[10'd29-DrawY][10'd449-DrawX];
+32'd41:
+	cityname=LongCreek[10'd29-DrawY][10'd449-DrawX];
+32'd42:
+	cityname=Atwood[10'd29-DrawY][10'd449-DrawX];
+32'd43:
+	cityname=Arthur[10'd29-DrawY][10'd449-DrawX];
+32'd44:
+	cityname=Tuscola[10'd29-DrawY][10'd449-DrawX];
+32'd45:
+	cityname=Arcola[10'd29-DrawY][10'd449-DrawX];
+32'd46:
+	cityname=Murdock[10'd29-DrawY][10'd449-DrawX];
+32'd47:
+	cityname=Newman[10'd29-DrawY][10'd449-DrawX];
+32'd48:
+	cityname=Metcalf[10'd29-DrawY][10'd449-DrawX];
+32'd49:
+	cityname=Chrisman[10'd29-DrawY][10'd449-DrawX];
+32'd50:
+	cityname=WestDana[10'd29-DrawY][10'd449-DrawX];
+32'd51:
+	cityname=RidgeFarm[10'd29-DrawY][10'd449-DrawX];
+32'd52:
+	cityname=Westville[10'd29-DrawY][10'd449-DrawX];
+32'd53:
+	cityname=Tilton[10'd29-DrawY][10'd449-DrawX];
+32'd54:
+	cityname=Danville[10'd29-DrawY][10'd449-DrawX];
+32'd55:
+	cityname=Collison[10'd29-DrawY][10'd449-DrawX];
+32'd56:
+	cityname=Henning[10'd29-DrawY][10'd449-DrawX];
+32'd57:
+	cityname=Rossville[10'd29-DrawY][10'd449-DrawX];
+32'd58:
+	cityname=Hoopston[10'd29-DrawY][10'd449-DrawX];
+32'd59:
+	cityname=Milford[10'd29-DrawY][10'd449-DrawX];
+32'd60:
+	cityname=WoodlandJct.[10'd29-DrawY][10'd449-DrawX];
+32'd61:
+	cityname=Watseka[10'd29-DrawY][10'd449-DrawX];
+32'd62:
+	cityname=Webster[10'd29-DrawY][10'd449-DrawX];
+32'd63:
+	cityname=Gilman[10'd29-DrawY][10'd449-DrawX];
+32'd64:
+	cityname=Onarga[10'd29-DrawY][10'd449-DrawX];
+32'd65:
+	cityname=Paxton[10'd29-DrawY][10'd449-DrawX];
+32'd66:
+	cityname=Rantoul[10'd29-DrawY][10'd449-DrawX];
+32'd67:
+	cityname=Dillsburg[10'd29-DrawY][10'd449-DrawX];
+32'd68:
+	cityname=Fisher[10'd29-DrawY][10'd449-DrawX];
+32'd69:
+	cityname=Thomasboro[10'd29-DrawY][10'd449-DrawX];
+32'd70:
+	cityname=Urbana[10'd29-DrawY][10'd449-DrawX];
+32'd71:
+	cityname=Champaign[10'd29-DrawY][10'd449-DrawX];
+32'd72:
+	cityname=Savoy[10'd29-DrawY][10'd449-DrawX];
+32'd73:
+	cityname=Tolono[10'd29-DrawY][10'd449-DrawX];
+32'd74:
+	cityname=Sidney[10'd29-DrawY][10'd449-DrawX];
+32'd75:
+	cityname=Homer[10'd29-DrawY][10'd449-DrawX];
+32'd76:
+	cityname=Glover[10'd29-DrawY][10'd449-DrawX];
+32'd77:
+	cityname=Goodwine[10'd29-DrawY][10'd449-DrawX];
+32'd78:
+	cityname=CissnaPark[10'd29-DrawY][10'd449-DrawX];
+32'd79:
+	cityname=VillaGrove[10'd29-DrawY][10'd449-DrawX];
+32'd80:
+	cityname=Boradland[10'd29-DrawY][10'd449-DrawX];
+32'd81:
+	cityname=Bement[10'd29-DrawY][10'd449-DrawX];
+32'd82:
+	cityname=CerroGordo[10'd29-DrawY][10'd449-DrawX];
+32'd83:
+	cityname=Cisco[10'd29-DrawY][10'd449-DrawX];
+32'd84:
+	cityname=Monticello[10'd29-DrawY][10'd449-DrawX];
+32'd85:
+	cityname=Lodge[10'd29-DrawY][10'd449-DrawX];
+32'd86:
+	cityname=Mansfield[10'd29-DrawY][10'd449-DrawX];
+32'd87:
+	cityname=Lotus[10'd29-DrawY][10'd449-DrawX];
+32'd88:
+	cityname=GibsonCity[10'd29-DrawY][10'd449-DrawX];
+32'd89:
+	cityname=Melvin[10'd29-DrawY][10'd449-DrawX];
+32'd90:
+	cityname=LeRoy[10'd29-DrawY][10'd449-DrawX];
+32'd91:
+	cityname=Arrowsmith[10'd29-DrawY][10'd449-DrawX];
+32'd92:
+	cityname=Risk[10'd29-DrawY][10'd449-DrawX];
+32'd93:
+	cityname=Colfax[10'd29-DrawY][10'd449-DrawX];
+32'd94:
+	cityname=Chatsworth[10'd29-DrawY][10'd449-DrawX];
+32'd95:
+	cityname=Forrest[10'd29-DrawY][10'd449-DrawX];
+32'd96:
+	cityname=Fairbury[10'd29-DrawY][10'd449-DrawX];
+32'd97:
+	cityname=FarmerCity[10'd29-DrawY][10'd449-DrawX];
+default:
+	cityname=1'd0;32'd1:
+	cityname=Elm[10'd29-DrawY][10'd449-DrawX];
+32'd2:
+	cityname=Glasford[10'd29-DrawY][10'd449-DrawX];
+32'd3:
+	cityname=Manito[10'd29-DrawY][10'd449-DrawX];
+32'd4:
+	cityname=Jct[10'd29-DrawY][10'd449-DrawX];
+32'd5:
+	cityname=lles[10'd29-DrawY][10'd449-DrawX];
+32'd6:
+	cityname=Starnes[10'd29-DrawY][10'd449-DrawX];
+32'd7:
+	cityname=Riverton[10'd29-DrawY][10'd449-DrawX];
+32'd8:
+	cityname=Sherman[10'd29-DrawY][10'd449-DrawX];
+32'd9:
+	cityname=BarrStation[10'd29-DrawY][10'd449-DrawX];
+32'd10:
+	cityname=Luther[10'd29-DrawY][10'd449-DrawX];
+32'd11:
+	cityname=GreenValley[10'd29-DrawY][10'd449-DrawX];
+32'd12:
+	cityname=SouthPekin[10'd29-DrawY][10'd449-DrawX];
+32'd13:
+	cityname=Powerton[10'd29-DrawY][10'd449-DrawX];
+32'd14:
+	cityname=HannaCity[10'd29-DrawY][10'd449-DrawX];
+32'd15:
+	cityname=Mossville[10'd29-DrawY][10'd449-DrawX];
+32'd16:
+	cityname=EastPeoria[10'd29-DrawY][10'd449-DrawX];
+32'd17:
+	cityname=Delavan[10'd29-DrawY][10'd449-DrawX];
+32'd18:
+	cityname=Farmdale[10'd29-DrawY][10'd449-DrawX];
+32'd19:
+	cityname=Washington[10'd29-DrawY][10'd449-DrawX];
+32'd20:
+	cityname=Eureka[10'd29-DrawY][10'd449-DrawX];
+32'd21:
+	cityname=ElPaso[10'd29-DrawY][10'd449-DrawX];
+32'd22:
+	cityname=Lincoin[10'd29-DrawY][10'd449-DrawX];
+32'd23:
+	cityname=Mt.Pulaski[10'd29-DrawY][10'd449-DrawX];
+32'd24:
+	cityname=Illiopoils[10'd29-DrawY][10'd449-DrawX];
+32'd25:
+	cityname=Harristown[10'd29-DrawY][10'd449-DrawX];
+32'd26:
+	cityname=Decatur[10'd29-DrawY][10'd449-DrawX];
+32'd27:
+	cityname=Warrensburg[10'd29-DrawY][10'd449-DrawX];
+32'd28:
+	cityname=Kenney[10'd29-DrawY][10'd449-DrawX];
+32'd29:
+	cityname=Clinton[10'd29-DrawY][10'd449-DrawX];
+32'd30:
+	cityname=Heyworth[10'd29-DrawY][10'd449-DrawX];
+32'd31:
+	cityname=Atlanta[10'd29-DrawY][10'd449-DrawX];
+32'd32:
+	cityname=Bloomington[10'd29-DrawY][10'd449-DrawX];
+32'd33:
+	cityname=Carlock[10'd29-DrawY][10'd449-DrawX];
+32'd34:
+	cityname=Crandall[10'd29-DrawY][10'd449-DrawX];
+32'd35:
+	cityname=Lexington[10'd29-DrawY][10'd449-DrawX];
+32'd36:
+	cityname=Chenoa[10'd29-DrawY][10'd449-DrawX];
+32'd37:
+	cityname=Macon[10'd29-DrawY][10'd449-DrawX];
+32'd38:
+	cityname=BlueMound[10'd29-DrawY][10'd449-DrawX];
+32'd39:
+	cityname=Boody[10'd29-DrawY][10'd449-DrawX];
+32'd40:
+	cityname=HerveyCity[10'd29-DrawY][10'd449-DrawX];
+32'd41:
+	cityname=LongCreek[10'd29-DrawY][10'd449-DrawX];
+32'd42:
+	cityname=Atwood[10'd29-DrawY][10'd449-DrawX];
+32'd43:
+	cityname=Arthur[10'd29-DrawY][10'd449-DrawX];
+32'd44:
+	cityname=Tuscola[10'd29-DrawY][10'd449-DrawX];
+32'd45:
+	cityname=Arcola[10'd29-DrawY][10'd449-DrawX];
+32'd46:
+	cityname=Murdock[10'd29-DrawY][10'd449-DrawX];
+32'd47:
+	cityname=Newman[10'd29-DrawY][10'd449-DrawX];
+32'd48:
+	cityname=Metcalf[10'd29-DrawY][10'd449-DrawX];
+32'd49:
+	cityname=Chrisman[10'd29-DrawY][10'd449-DrawX];
+32'd50:
+	cityname=WestDana[10'd29-DrawY][10'd449-DrawX];
+32'd51:
+	cityname=RidgeFarm[10'd29-DrawY][10'd449-DrawX];
+32'd52:
+	cityname=Westville[10'd29-DrawY][10'd449-DrawX];
+32'd53:
+	cityname=Tilton[10'd29-DrawY][10'd449-DrawX];
+32'd54:
+	cityname=Danville[10'd29-DrawY][10'd449-DrawX];
+32'd55:
+	cityname=Collison[10'd29-DrawY][10'd449-DrawX];
+32'd56:
+	cityname=Henning[10'd29-DrawY][10'd449-DrawX];
+32'd57:
+	cityname=Rossville[10'd29-DrawY][10'd449-DrawX];
+32'd58:
+	cityname=Hoopston[10'd29-DrawY][10'd449-DrawX];
+32'd59:
+	cityname=Milford[10'd29-DrawY][10'd449-DrawX];
+32'd60:
+	cityname=WoodlandJct.[10'd29-DrawY][10'd449-DrawX];
+32'd61:
+	cityname=Watseka[10'd29-DrawY][10'd449-DrawX];
+32'd62:
+	cityname=Webster[10'd29-DrawY][10'd449-DrawX];
+32'd63:
+	cityname=Gilman[10'd29-DrawY][10'd449-DrawX];
+32'd64:
+	cityname=Onarga[10'd29-DrawY][10'd449-DrawX];
+32'd65:
+	cityname=Paxton[10'd29-DrawY][10'd449-DrawX];
+32'd66:
+	cityname=Rantoul[10'd29-DrawY][10'd449-DrawX];
+32'd67:
+	cityname=Dillsburg[10'd29-DrawY][10'd449-DrawX];
+32'd68:
+	cityname=Fisher[10'd29-DrawY][10'd449-DrawX];
+32'd69:
+	cityname=Thomasboro[10'd29-DrawY][10'd449-DrawX];
+32'd70:
+	cityname=Urbana[10'd29-DrawY][10'd449-DrawX];
+32'd71:
+	cityname=Champaign[10'd29-DrawY][10'd449-DrawX];
+32'd72:
+	cityname=Savoy[10'd29-DrawY][10'd449-DrawX];
+32'd73:
+	cityname=Tolono[10'd29-DrawY][10'd449-DrawX];
+32'd74:
+	cityname=Sidney[10'd29-DrawY][10'd449-DrawX];
+32'd75:
+	cityname=Homer[10'd29-DrawY][10'd449-DrawX];
+32'd76:
+	cityname=Glover[10'd29-DrawY][10'd449-DrawX];
+32'd77:
+	cityname=Goodwine[10'd29-DrawY][10'd449-DrawX];
+32'd78:
+	cityname=CissnaPark[10'd29-DrawY][10'd449-DrawX];
+32'd79:
+	cityname=VillaGrove[10'd29-DrawY][10'd449-DrawX];
+32'd80:
+	cityname=Boradland[10'd29-DrawY][10'd449-DrawX];
+32'd81:
+	cityname=Bement[10'd29-DrawY][10'd449-DrawX];
+32'd82:
+	cityname=CerroGordo[10'd29-DrawY][10'd449-DrawX];
+32'd83:
+	cityname=Cisco[10'd29-DrawY][10'd449-DrawX];
+32'd84:
+	cityname=Monticello[10'd29-DrawY][10'd449-DrawX];
+32'd85:
+	cityname=Lodge[10'd29-DrawY][10'd449-DrawX];
+32'd86:
+	cityname=Mansfield[10'd29-DrawY][10'd449-DrawX];
+32'd87:
+	cityname=Lotus[10'd29-DrawY][10'd449-DrawX];
+32'd88:
+	cityname=GibsonCity[10'd29-DrawY][10'd449-DrawX];
+32'd89:
+	cityname=Melvin[10'd29-DrawY][10'd449-DrawX];
+32'd90:
+	cityname=LeRoy[10'd29-DrawY][10'd449-DrawX];
+32'd91:
+	cityname=Arrowsmith[10'd29-DrawY][10'd449-DrawX];
+32'd92:
+	cityname=Risk[10'd29-DrawY][10'd449-DrawX];
+32'd93:
+	cityname=Colfax[10'd29-DrawY][10'd449-DrawX];
+32'd94:
+	cityname=Chatsworth[10'd29-DrawY][10'd449-DrawX];
+32'd95:
+	cityname=Forrest[10'd29-DrawY][10'd449-DrawX];
+32'd96:
+	cityname=Fairbury[10'd29-DrawY][10'd449-DrawX];
+32'd97:
+	cityname=FarmerCity[10'd29-DrawY][10'd449-DrawX];
+default:
+	cityname=1'd0;32'd1:
+	cityname=Elm[10'd29-DrawY][10'd449-DrawX];
+32'd2:
+	cityname=Glasford[10'd29-DrawY][10'd449-DrawX];
+32'd3:
+	cityname=Manito[10'd29-DrawY][10'd449-DrawX];
+32'd4:
+	cityname=Jct[10'd29-DrawY][10'd449-DrawX];
+32'd5:
+	cityname=lles[10'd29-DrawY][10'd449-DrawX];
+32'd6:
+	cityname=Starnes[10'd29-DrawY][10'd449-DrawX];
+32'd7:
+	cityname=Riverton[10'd29-DrawY][10'd449-DrawX];
+32'd8:
+	cityname=Sherman[10'd29-DrawY][10'd449-DrawX];
+32'd9:
+	cityname=BarrStation[10'd29-DrawY][10'd449-DrawX];
+32'd10:
+	cityname=Luther[10'd29-DrawY][10'd449-DrawX];
+32'd11:
+	cityname=GreenValley[10'd29-DrawY][10'd449-DrawX];
+32'd12:
+	cityname=SouthPekin[10'd29-DrawY][10'd449-DrawX];
+32'd13:
+	cityname=Powerton[10'd29-DrawY][10'd449-DrawX];
+32'd14:
+	cityname=HannaCity[10'd29-DrawY][10'd449-DrawX];
+32'd15:
+	cityname=Mossville[10'd29-DrawY][10'd449-DrawX];
+32'd16:
+	cityname=EastPeoria[10'd29-DrawY][10'd449-DrawX];
+32'd17:
+	cityname=Delavan[10'd29-DrawY][10'd449-DrawX];
+32'd18:
+	cityname=Farmdale[10'd29-DrawY][10'd449-DrawX];
+32'd19:
+	cityname=Washington[10'd29-DrawY][10'd449-DrawX];
+32'd20:
+	cityname=Eureka[10'd29-DrawY][10'd449-DrawX];
+32'd21:
+	cityname=ElPaso[10'd29-DrawY][10'd449-DrawX];
+32'd22:
+	cityname=Lincoin[10'd29-DrawY][10'd449-DrawX];
+32'd23:
+	cityname=Mt.Pulaski[10'd29-DrawY][10'd449-DrawX];
+32'd24:
+	cityname=Illiopoils[10'd29-DrawY][10'd449-DrawX];
+32'd25:
+	cityname=Harristown[10'd29-DrawY][10'd449-DrawX];
+32'd26:
+	cityname=Decatur[10'd29-DrawY][10'd449-DrawX];
+32'd27:
+	cityname=Warrensburg[10'd29-DrawY][10'd449-DrawX];
+32'd28:
+	cityname=Kenney[10'd29-DrawY][10'd449-DrawX];
+32'd29:
+	cityname=Clinton[10'd29-DrawY][10'd449-DrawX];
+32'd30:
+	cityname=Heyworth[10'd29-DrawY][10'd449-DrawX];
+32'd31:
+	cityname=Atlanta[10'd29-DrawY][10'd449-DrawX];
+32'd32:
+	cityname=Bloomington[10'd29-DrawY][10'd449-DrawX];
+32'd33:
+	cityname=Carlock[10'd29-DrawY][10'd449-DrawX];
+32'd34:
+	cityname=Crandall[10'd29-DrawY][10'd449-DrawX];
+32'd35:
+	cityname=Lexington[10'd29-DrawY][10'd449-DrawX];
+32'd36:
+	cityname=Chenoa[10'd29-DrawY][10'd449-DrawX];
+32'd37:
+	cityname=Macon[10'd29-DrawY][10'd449-DrawX];
+32'd38:
+	cityname=BlueMound[10'd29-DrawY][10'd449-DrawX];
+32'd39:
+	cityname=Boody[10'd29-DrawY][10'd449-DrawX];
+32'd40:
+	cityname=HerveyCity[10'd29-DrawY][10'd449-DrawX];
+32'd41:
+	cityname=LongCreek[10'd29-DrawY][10'd449-DrawX];
+32'd42:
+	cityname=Atwood[10'd29-DrawY][10'd449-DrawX];
+32'd43:
+	cityname=Arthur[10'd29-DrawY][10'd449-DrawX];
+32'd44:
+	cityname=Tuscola[10'd29-DrawY][10'd449-DrawX];
+32'd45:
+	cityname=Arcola[10'd29-DrawY][10'd449-DrawX];
+32'd46:
+	cityname=Murdock[10'd29-DrawY][10'd449-DrawX];
+32'd47:
+	cityname=Newman[10'd29-DrawY][10'd449-DrawX];
+32'd48:
+	cityname=Metcalf[10'd29-DrawY][10'd449-DrawX];
+32'd49:
+	cityname=Chrisman[10'd29-DrawY][10'd449-DrawX];
+32'd50:
+	cityname=WestDana[10'd29-DrawY][10'd449-DrawX];
+32'd51:
+	cityname=RidgeFarm[10'd29-DrawY][10'd449-DrawX];
+32'd52:
+	cityname=Westville[10'd29-DrawY][10'd449-DrawX];
+32'd53:
+	cityname=Tilton[10'd29-DrawY][10'd449-DrawX];
+32'd54:
+	cityname=Danville[10'd29-DrawY][10'd449-DrawX];
+32'd55:
+	cityname=Collison[10'd29-DrawY][10'd449-DrawX];
+32'd56:
+	cityname=Henning[10'd29-DrawY][10'd449-DrawX];
+32'd57:
+	cityname=Rossville[10'd29-DrawY][10'd449-DrawX];
+32'd58:
+	cityname=Hoopston[10'd29-DrawY][10'd449-DrawX];
+32'd59:
+	cityname=Milford[10'd29-DrawY][10'd449-DrawX];
+32'd60:
+	cityname=WoodlandJct.[10'd29-DrawY][10'd449-DrawX];
+32'd61:
+	cityname=Watseka[10'd29-DrawY][10'd449-DrawX];
+32'd62:
+	cityname=Webster[10'd29-DrawY][10'd449-DrawX];
+32'd63:
+	cityname=Gilman[10'd29-DrawY][10'd449-DrawX];
+32'd64:
+	cityname=Onarga[10'd29-DrawY][10'd449-DrawX];
+32'd65:
+	cityname=Paxton[10'd29-DrawY][10'd449-DrawX];
+32'd66:
+	cityname=Rantoul[10'd29-DrawY][10'd449-DrawX];
+32'd67:
+	cityname=Dillsburg[10'd29-DrawY][10'd449-DrawX];
+32'd68:
+	cityname=Fisher[10'd29-DrawY][10'd449-DrawX];
+32'd69:
+	cityname=Thomasboro[10'd29-DrawY][10'd449-DrawX];
+32'd70:
+	cityname=Urbana[10'd29-DrawY][10'd449-DrawX];
+32'd71:
+	cityname=Champaign[10'd29-DrawY][10'd449-DrawX];
+32'd72:
+	cityname=Savoy[10'd29-DrawY][10'd449-DrawX];
+32'd73:
+	cityname=Tolono[10'd29-DrawY][10'd449-DrawX];
+32'd74:
+	cityname=Sidney[10'd29-DrawY][10'd449-DrawX];
+32'd75:
+	cityname=Homer[10'd29-DrawY][10'd449-DrawX];
+32'd76:
+	cityname=Glover[10'd29-DrawY][10'd449-DrawX];
+32'd77:
+	cityname=Goodwine[10'd29-DrawY][10'd449-DrawX];
+32'd78:
+	cityname=CissnaPark[10'd29-DrawY][10'd449-DrawX];
+32'd79:
+	cityname=VillaGrove[10'd29-DrawY][10'd449-DrawX];
+32'd80:
+	cityname=Boradland[10'd29-DrawY][10'd449-DrawX];
+32'd81:
+	cityname=Bement[10'd29-DrawY][10'd449-DrawX];
+32'd82:
+	cityname=CerroGordo[10'd29-DrawY][10'd449-DrawX];
+32'd83:
+	cityname=Cisco[10'd29-DrawY][10'd449-DrawX];
+32'd84:
+	cityname=Monticello[10'd29-DrawY][10'd449-DrawX];
+32'd85:
+	cityname=Lodge[10'd29-DrawY][10'd449-DrawX];
+32'd86:
+	cityname=Mansfield[10'd29-DrawY][10'd449-DrawX];
+32'd87:
+	cityname=Lotus[10'd29-DrawY][10'd449-DrawX];
+32'd88:
+	cityname=GibsonCity[10'd29-DrawY][10'd449-DrawX];
+32'd89:
+	cityname=Melvin[10'd29-DrawY][10'd449-DrawX];
+32'd90:
+	cityname=LeRoy[10'd29-DrawY][10'd449-DrawX];
+32'd91:
+	cityname=Arrowsmith[10'd29-DrawY][10'd449-DrawX];
+32'd92:
+	cityname=Risk[10'd29-DrawY][10'd449-DrawX];
+32'd93:
+	cityname=Colfax[10'd29-DrawY][10'd449-DrawX];
+32'd94:
+	cityname=Chatsworth[10'd29-DrawY][10'd449-DrawX];
+32'd95:
+	cityname=Forrest[10'd29-DrawY][10'd449-DrawX];
+32'd96:
+	cityname=Fairbury[10'd29-DrawY][10'd449-DrawX];
+32'd97:
+	cityname=FarmerCity[10'd29-DrawY][10'd449-DrawX];
+default:
+	cityname=1'd0;32'd1:
+	cityname=Elm[10'd29-DrawY][10'd449-DrawX];
+32'd2:
+	cityname=Glasford[10'd29-DrawY][10'd449-DrawX];
+32'd3:
+	cityname=Manito[10'd29-DrawY][10'd449-DrawX];
+32'd4:
+	cityname=Jct[10'd29-DrawY][10'd449-DrawX];
+32'd5:
+	cityname=lles[10'd29-DrawY][10'd449-DrawX];
+32'd6:
+	cityname=Starnes[10'd29-DrawY][10'd449-DrawX];
+32'd7:
+	cityname=Riverton[10'd29-DrawY][10'd449-DrawX];
+32'd8:
+	cityname=Sherman[10'd29-DrawY][10'd449-DrawX];
+32'd9:
+	cityname=BarrStation[10'd29-DrawY][10'd449-DrawX];
+32'd10:
+	cityname=Luther[10'd29-DrawY][10'd449-DrawX];
+32'd11:
+	cityname=GreenValley[10'd29-DrawY][10'd449-DrawX];
+32'd12:
+	cityname=SouthPekin[10'd29-DrawY][10'd449-DrawX];
+32'd13:
+	cityname=Powerton[10'd29-DrawY][10'd449-DrawX];
+32'd14:
+	cityname=HannaCity[10'd29-DrawY][10'd449-DrawX];
+32'd15:
+	cityname=Mossville[10'd29-DrawY][10'd449-DrawX];
+32'd16:
+	cityname=EastPeoria[10'd29-DrawY][10'd449-DrawX];
+32'd17:
+	cityname=Delavan[10'd29-DrawY][10'd449-DrawX];
+32'd18:
+	cityname=Farmdale[10'd29-DrawY][10'd449-DrawX];
+32'd19:
+	cityname=Washington[10'd29-DrawY][10'd449-DrawX];
+32'd20:
+	cityname=Eureka[10'd29-DrawY][10'd449-DrawX];
+32'd21:
+	cityname=ElPaso[10'd29-DrawY][10'd449-DrawX];
+32'd22:
+	cityname=Lincoin[10'd29-DrawY][10'd449-DrawX];
+32'd23:
+	cityname=Mt.Pulaski[10'd29-DrawY][10'd449-DrawX];
+32'd24:
+	cityname=Illiopoils[10'd29-DrawY][10'd449-DrawX];
+32'd25:
+	cityname=Harristown[10'd29-DrawY][10'd449-DrawX];
+32'd26:
+	cityname=Decatur[10'd29-DrawY][10'd449-DrawX];
+32'd27:
+	cityname=Warrensburg[10'd29-DrawY][10'd449-DrawX];
+32'd28:
+	cityname=Kenney[10'd29-DrawY][10'd449-DrawX];
+32'd29:
+	cityname=Clinton[10'd29-DrawY][10'd449-DrawX];
+32'd30:
+	cityname=Heyworth[10'd29-DrawY][10'd449-DrawX];
+32'd31:
+	cityname=Atlanta[10'd29-DrawY][10'd449-DrawX];
+32'd32:
+	cityname=Bloomington[10'd29-DrawY][10'd449-DrawX];
+32'd33:
+	cityname=Carlock[10'd29-DrawY][10'd449-DrawX];
+32'd34:
+	cityname=Crandall[10'd29-DrawY][10'd449-DrawX];
+32'd35:
+	cityname=Lexington[10'd29-DrawY][10'd449-DrawX];
+32'd36:
+	cityname=Chenoa[10'd29-DrawY][10'd449-DrawX];
+32'd37:
+	cityname=Macon[10'd29-DrawY][10'd449-DrawX];
+32'd38:
+	cityname=BlueMound[10'd29-DrawY][10'd449-DrawX];
+32'd39:
+	cityname=Boody[10'd29-DrawY][10'd449-DrawX];
+32'd40:
+	cityname=HerveyCity[10'd29-DrawY][10'd449-DrawX];
+32'd41:
+	cityname=LongCreek[10'd29-DrawY][10'd449-DrawX];
+32'd42:
+	cityname=Atwood[10'd29-DrawY][10'd449-DrawX];
+32'd43:
+	cityname=Arthur[10'd29-DrawY][10'd449-DrawX];
+32'd44:
+	cityname=Tuscola[10'd29-DrawY][10'd449-DrawX];
+32'd45:
+	cityname=Arcola[10'd29-DrawY][10'd449-DrawX];
+32'd46:
+	cityname=Murdock[10'd29-DrawY][10'd449-DrawX];
+32'd47:
+	cityname=Newman[10'd29-DrawY][10'd449-DrawX];
+32'd48:
+	cityname=Metcalf[10'd29-DrawY][10'd449-DrawX];
+32'd49:
+	cityname=Chrisman[10'd29-DrawY][10'd449-DrawX];
+32'd50:
+	cityname=WestDana[10'd29-DrawY][10'd449-DrawX];
+32'd51:
+	cityname=RidgeFarm[10'd29-DrawY][10'd449-DrawX];
+32'd52:
+	cityname=Westville[10'd29-DrawY][10'd449-DrawX];
+32'd53:
+	cityname=Tilton[10'd29-DrawY][10'd449-DrawX];
+32'd54:
+	cityname=Danville[10'd29-DrawY][10'd449-DrawX];
+32'd55:
+	cityname=Collison[10'd29-DrawY][10'd449-DrawX];
+32'd56:
+	cityname=Henning[10'd29-DrawY][10'd449-DrawX];
+32'd57:
+	cityname=Rossville[10'd29-DrawY][10'd449-DrawX];
+32'd58:
+	cityname=Hoopston[10'd29-DrawY][10'd449-DrawX];
+32'd59:
+	cityname=Milford[10'd29-DrawY][10'd449-DrawX];
+32'd60:
+	cityname=WoodlandJct.[10'd29-DrawY][10'd449-DrawX];
+32'd61:
+	cityname=Watseka[10'd29-DrawY][10'd449-DrawX];
+32'd62:
+	cityname=Webster[10'd29-DrawY][10'd449-DrawX];
+32'd63:
+	cityname=Gilman[10'd29-DrawY][10'd449-DrawX];
+32'd64:
+	cityname=Onarga[10'd29-DrawY][10'd449-DrawX];
+32'd65:
+	cityname=Paxton[10'd29-DrawY][10'd449-DrawX];
+32'd66:
+	cityname=Rantoul[10'd29-DrawY][10'd449-DrawX];
+32'd67:
+	cityname=Dillsburg[10'd29-DrawY][10'd449-DrawX];
+32'd68:
+	cityname=Fisher[10'd29-DrawY][10'd449-DrawX];
+32'd69:
+	cityname=Thomasboro[10'd29-DrawY][10'd449-DrawX];
+32'd70:
+	cityname=Urbana[10'd29-DrawY][10'd449-DrawX];
+32'd71:
+	cityname=Champaign[10'd29-DrawY][10'd449-DrawX];
+32'd72:
+	cityname=Savoy[10'd29-DrawY][10'd449-DrawX];
+32'd73:
+	cityname=Tolono[10'd29-DrawY][10'd449-DrawX];
+32'd74:
+	cityname=Sidney[10'd29-DrawY][10'd449-DrawX];
+32'd75:
+	cityname=Homer[10'd29-DrawY][10'd449-DrawX];
+32'd76:
+	cityname=Glover[10'd29-DrawY][10'd449-DrawX];
+32'd77:
+	cityname=Goodwine[10'd29-DrawY][10'd449-DrawX];
+32'd78:
+	cityname=CissnaPark[10'd29-DrawY][10'd449-DrawX];
+32'd79:
+	cityname=VillaGrove[10'd29-DrawY][10'd449-DrawX];
+32'd80:
+	cityname=Boradland[10'd29-DrawY][10'd449-DrawX];
+32'd81:
+	cityname=Bement[10'd29-DrawY][10'd449-DrawX];
+32'd82:
+	cityname=CerroGordo[10'd29-DrawY][10'd449-DrawX];
+32'd83:
+	cityname=Cisco[10'd29-DrawY][10'd449-DrawX];
+32'd84:
+	cityname=Monticello[10'd29-DrawY][10'd449-DrawX];
+32'd85:
+	cityname=Lodge[10'd29-DrawY][10'd449-DrawX];
+32'd86:
+	cityname=Mansfield[10'd29-DrawY][10'd449-DrawX];
+32'd87:
+	cityname=Lotus[10'd29-DrawY][10'd449-DrawX];
+32'd88:
+	cityname=GibsonCity[10'd29-DrawY][10'd449-DrawX];
+32'd89:
+	cityname=Melvin[10'd29-DrawY][10'd449-DrawX];
+32'd90:
+	cityname=LeRoy[10'd29-DrawY][10'd449-DrawX];
+32'd91:
+	cityname=Arrowsmith[10'd29-DrawY][10'd449-DrawX];
+32'd92:
+	cityname=Risk[10'd29-DrawY][10'd449-DrawX];
+32'd93:
+	cityname=Colfax[10'd29-DrawY][10'd449-DrawX];
+32'd94:
+	cityname=Chatsworth[10'd29-DrawY][10'd449-DrawX];
+32'd95:
+	cityname=Forrest[10'd29-DrawY][10'd449-DrawX];
+32'd96:
+	cityname=Fairbury[10'd29-DrawY][10'd449-DrawX];
+32'd97:
+	cityname=FarmerCity[10'd29-DrawY][10'd449-DrawX];
+default:
+	cityname=1'd0;32'd1:
+	cityname=Elm[10'd29-DrawY][10'd449-DrawX];
+32'd2:
+	cityname=Glasford[10'd29-DrawY][10'd449-DrawX];
+32'd3:
+	cityname=Manito[10'd29-DrawY][10'd449-DrawX];
+32'd4:
+	cityname=Jct[10'd29-DrawY][10'd449-DrawX];
+32'd5:
+	cityname=lles[10'd29-DrawY][10'd449-DrawX];
+32'd6:
+	cityname=Starnes[10'd29-DrawY][10'd449-DrawX];
+32'd7:
+	cityname=Riverton[10'd29-DrawY][10'd449-DrawX];
+32'd8:
+	cityname=Sherman[10'd29-DrawY][10'd449-DrawX];
+32'd9:
+	cityname=BarrStation[10'd29-DrawY][10'd449-DrawX];
+32'd10:
+	cityname=Luther[10'd29-DrawY][10'd449-DrawX];
+32'd11:
+	cityname=GreenValley[10'd29-DrawY][10'd449-DrawX];
+32'd12:
+	cityname=SouthPekin[10'd29-DrawY][10'd449-DrawX];
+32'd13:
+	cityname=Powerton[10'd29-DrawY][10'd449-DrawX];
+32'd14:
+	cityname=HannaCity[10'd29-DrawY][10'd449-DrawX];
+32'd15:
+	cityname=Mossville[10'd29-DrawY][10'd449-DrawX];
+32'd16:
+	cityname=EastPeoria[10'd29-DrawY][10'd449-DrawX];
+32'd17:
+	cityname=Delavan[10'd29-DrawY][10'd449-DrawX];
+32'd18:
+	cityname=Farmdale[10'd29-DrawY][10'd449-DrawX];
+32'd19:
+	cityname=Washington[10'd29-DrawY][10'd449-DrawX];
+32'd20:
+	cityname=Eureka[10'd29-DrawY][10'd449-DrawX];
+32'd21:
+	cityname=ElPaso[10'd29-DrawY][10'd449-DrawX];
+32'd22:
+	cityname=Lincoin[10'd29-DrawY][10'd449-DrawX];
+32'd23:
+	cityname=Mt.Pulaski[10'd29-DrawY][10'd449-DrawX];
+32'd24:
+	cityname=Illiopoils[10'd29-DrawY][10'd449-DrawX];
+32'd25:
+	cityname=Harristown[10'd29-DrawY][10'd449-DrawX];
+32'd26:
+	cityname=Decatur[10'd29-DrawY][10'd449-DrawX];
+32'd27:
+	cityname=Warrensburg[10'd29-DrawY][10'd449-DrawX];
+32'd28:
+	cityname=Kenney[10'd29-DrawY][10'd449-DrawX];
+32'd29:
+	cityname=Clinton[10'd29-DrawY][10'd449-DrawX];
+32'd30:
+	cityname=Heyworth[10'd29-DrawY][10'd449-DrawX];
+32'd31:
+	cityname=Atlanta[10'd29-DrawY][10'd449-DrawX];
+32'd32:
+	cityname=Bloomington[10'd29-DrawY][10'd449-DrawX];
+32'd33:
+	cityname=Carlock[10'd29-DrawY][10'd449-DrawX];
+32'd34:
+	cityname=Crandall[10'd29-DrawY][10'd449-DrawX];
+32'd35:
+	cityname=Lexington[10'd29-DrawY][10'd449-DrawX];
+32'd36:
+	cityname=Chenoa[10'd29-DrawY][10'd449-DrawX];
+32'd37:
+	cityname=Macon[10'd29-DrawY][10'd449-DrawX];
+32'd38:
+	cityname=BlueMound[10'd29-DrawY][10'd449-DrawX];
+32'd39:
+	cityname=Boody[10'd29-DrawY][10'd449-DrawX];
+32'd40:
+	cityname=HerveyCity[10'd29-DrawY][10'd449-DrawX];
+32'd41:
+	cityname=LongCreek[10'd29-DrawY][10'd449-DrawX];
+32'd42:
+	cityname=Atwood[10'd29-DrawY][10'd449-DrawX];
+32'd43:
+	cityname=Arthur[10'd29-DrawY][10'd449-DrawX];
+32'd44:
+	cityname=Tuscola[10'd29-DrawY][10'd449-DrawX];
+32'd45:
+	cityname=Arcola[10'd29-DrawY][10'd449-DrawX];
+32'd46:
+	cityname=Murdock[10'd29-DrawY][10'd449-DrawX];
+32'd47:
+	cityname=Newman[10'd29-DrawY][10'd449-DrawX];
+32'd48:
+	cityname=Metcalf[10'd29-DrawY][10'd449-DrawX];
+32'd49:
+	cityname=Chrisman[10'd29-DrawY][10'd449-DrawX];
+32'd50:
+	cityname=WestDana[10'd29-DrawY][10'd449-DrawX];
+32'd51:
+	cityname=RidgeFarm[10'd29-DrawY][10'd449-DrawX];
+32'd52:
+	cityname=Westville[10'd29-DrawY][10'd449-DrawX];
+32'd53:
+	cityname=Tilton[10'd29-DrawY][10'd449-DrawX];
+32'd54:
+	cityname=Danville[10'd29-DrawY][10'd449-DrawX];
+32'd55:
+	cityname=Collison[10'd29-DrawY][10'd449-DrawX];
+32'd56:
+	cityname=Henning[10'd29-DrawY][10'd449-DrawX];
+32'd57:
+	cityname=Rossville[10'd29-DrawY][10'd449-DrawX];
+32'd58:
+	cityname=Hoopston[10'd29-DrawY][10'd449-DrawX];
+32'd59:
+	cityname=Milford[10'd29-DrawY][10'd449-DrawX];
+32'd60:
+	cityname=WoodlandJct.[10'd29-DrawY][10'd449-DrawX];
+32'd61:
+	cityname=Watseka[10'd29-DrawY][10'd449-DrawX];
+32'd62:
+	cityname=Webster[10'd29-DrawY][10'd449-DrawX];
+32'd63:
+	cityname=Gilman[10'd29-DrawY][10'd449-DrawX];
+32'd64:
+	cityname=Onarga[10'd29-DrawY][10'd449-DrawX];
+32'd65:
+	cityname=Paxton[10'd29-DrawY][10'd449-DrawX];
+32'd66:
+	cityname=Rantoul[10'd29-DrawY][10'd449-DrawX];
+32'd67:
+	cityname=Dillsburg[10'd29-DrawY][10'd449-DrawX];
+32'd68:
+	cityname=Fisher[10'd29-DrawY][10'd449-DrawX];
+32'd69:
+	cityname=Thomasboro[10'd29-DrawY][10'd449-DrawX];
+32'd70:
+	cityname=Urbana[10'd29-DrawY][10'd449-DrawX];
+32'd71:
+	cityname=Champaign[10'd29-DrawY][10'd449-DrawX];
+32'd72:
+	cityname=Savoy[10'd29-DrawY][10'd449-DrawX];
+32'd73:
+	cityname=Tolono[10'd29-DrawY][10'd449-DrawX];
+32'd74:
+	cityname=Sidney[10'd29-DrawY][10'd449-DrawX];
+32'd75:
+	cityname=Homer[10'd29-DrawY][10'd449-DrawX];
+32'd76:
+	cityname=Glover[10'd29-DrawY][10'd449-DrawX];
+32'd77:
+	cityname=Goodwine[10'd29-DrawY][10'd449-DrawX];
+32'd78:
+	cityname=CissnaPark[10'd29-DrawY][10'd449-DrawX];
+32'd79:
+	cityname=VillaGrove[10'd29-DrawY][10'd449-DrawX];
+32'd80:
+	cityname=Boradland[10'd29-DrawY][10'd449-DrawX];
+32'd81:
+	cityname=Bement[10'd29-DrawY][10'd449-DrawX];
+32'd82:
+	cityname=CerroGordo[10'd29-DrawY][10'd449-DrawX];
+32'd83:
+	cityname=Cisco[10'd29-DrawY][10'd449-DrawX];
+32'd84:
+	cityname=Monticello[10'd29-DrawY][10'd449-DrawX];
+32'd85:
+	cityname=Lodge[10'd29-DrawY][10'd449-DrawX];
+32'd86:
+	cityname=Mansfield[10'd29-DrawY][10'd449-DrawX];
+32'd87:
+	cityname=Lotus[10'd29-DrawY][10'd449-DrawX];
+32'd88:
+	cityname=GibsonCity[10'd29-DrawY][10'd449-DrawX];
+32'd89:
+	cityname=Melvin[10'd29-DrawY][10'd449-DrawX];
+32'd90:
+	cityname=LeRoy[10'd29-DrawY][10'd449-DrawX];
+32'd91:
+	cityname=Arrowsmith[10'd29-DrawY][10'd449-DrawX];
+32'd92:
+	cityname=Risk[10'd29-DrawY][10'd449-DrawX];
+32'd93:
+	cityname=Colfax[10'd29-DrawY][10'd449-DrawX];
+32'd94:
+	cityname=Chatsworth[10'd29-DrawY][10'd449-DrawX];
+32'd95:
+	cityname=Forrest[10'd29-DrawY][10'd449-DrawX];
+32'd96:
+	cityname=Fairbury[10'd29-DrawY][10'd449-DrawX];
+32'd97:
+	cityname=FarmerCity[10'd29-DrawY][10'd449-DrawX];
+default:
+	cityname=1'd0;32'd1:
+	cityname=Elm[10'd29-DrawY][10'd449-DrawX];
+32'd2:
+	cityname=Glasford[10'd29-DrawY][10'd449-DrawX];
+32'd3:
+	cityname=Manito[10'd29-DrawY][10'd449-DrawX];
+32'd4:
+	cityname=Jct[10'd29-DrawY][10'd449-DrawX];
+32'd5:
+	cityname=lles[10'd29-DrawY][10'd449-DrawX];
+32'd6:
+	cityname=Starnes[10'd29-DrawY][10'd449-DrawX];
+32'd7:
+	cityname=Riverton[10'd29-DrawY][10'd449-DrawX];
+32'd8:
+	cityname=Sherman[10'd29-DrawY][10'd449-DrawX];
+32'd9:
+	cityname=BarrStation[10'd29-DrawY][10'd449-DrawX];
+32'd10:
+	cityname=Luther[10'd29-DrawY][10'd449-DrawX];
+32'd11:
+	cityname=GreenValley[10'd29-DrawY][10'd449-DrawX];
+32'd12:
+	cityname=SouthPekin[10'd29-DrawY][10'd449-DrawX];
+32'd13:
+	cityname=Powerton[10'd29-DrawY][10'd449-DrawX];
+32'd14:
+	cityname=HannaCity[10'd29-DrawY][10'd449-DrawX];
+32'd15:
+	cityname=Mossville[10'd29-DrawY][10'd449-DrawX];
+32'd16:
+	cityname=EastPeoria[10'd29-DrawY][10'd449-DrawX];
+32'd17:
+	cityname=Delavan[10'd29-DrawY][10'd449-DrawX];
+32'd18:
+	cityname=Farmdale[10'd29-DrawY][10'd449-DrawX];
+32'd19:
+	cityname=Washington[10'd29-DrawY][10'd449-DrawX];
+32'd20:
+	cityname=Eureka[10'd29-DrawY][10'd449-DrawX];
+32'd21:
+	cityname=ElPaso[10'd29-DrawY][10'd449-DrawX];
+32'd22:
+	cityname=Lincoin[10'd29-DrawY][10'd449-DrawX];
+32'd23:
+	cityname=Mt.Pulaski[10'd29-DrawY][10'd449-DrawX];
+32'd24:
+	cityname=Illiopoils[10'd29-DrawY][10'd449-DrawX];
+32'd25:
+	cityname=Harristown[10'd29-DrawY][10'd449-DrawX];
+32'd26:
+	cityname=Decatur[10'd29-DrawY][10'd449-DrawX];
+32'd27:
+	cityname=Warrensburg[10'd29-DrawY][10'd449-DrawX];
+32'd28:
+	cityname=Kenney[10'd29-DrawY][10'd449-DrawX];
+32'd29:
+	cityname=Clinton[10'd29-DrawY][10'd449-DrawX];
+32'd30:
+	cityname=Heyworth[10'd29-DrawY][10'd449-DrawX];
+32'd31:
+	cityname=Atlanta[10'd29-DrawY][10'd449-DrawX];
+32'd32:
+	cityname=Bloomington[10'd29-DrawY][10'd449-DrawX];
+32'd33:
+	cityname=Carlock[10'd29-DrawY][10'd449-DrawX];
+32'd34:
+	cityname=Crandall[10'd29-DrawY][10'd449-DrawX];
+32'd35:
+	cityname=Lexington[10'd29-DrawY][10'd449-DrawX];
+32'd36:
+	cityname=Chenoa[10'd29-DrawY][10'd449-DrawX];
+32'd37:
+	cityname=Macon[10'd29-DrawY][10'd449-DrawX];
+32'd38:
+	cityname=BlueMound[10'd29-DrawY][10'd449-DrawX];
+32'd39:
+	cityname=Boody[10'd29-DrawY][10'd449-DrawX];
+32'd40:
+	cityname=HerveyCity[10'd29-DrawY][10'd449-DrawX];
+32'd41:
+	cityname=LongCreek[10'd29-DrawY][10'd449-DrawX];
+32'd42:
+	cityname=Atwood[10'd29-DrawY][10'd449-DrawX];
+32'd43:
+	cityname=Arthur[10'd29-DrawY][10'd449-DrawX];
+32'd44:
+	cityname=Tuscola[10'd29-DrawY][10'd449-DrawX];
+32'd45:
+	cityname=Arcola[10'd29-DrawY][10'd449-DrawX];
+32'd46:
+	cityname=Murdock[10'd29-DrawY][10'd449-DrawX];
+32'd47:
+	cityname=Newman[10'd29-DrawY][10'd449-DrawX];
+32'd48:
+	cityname=Metcalf[10'd29-DrawY][10'd449-DrawX];
+32'd49:
+	cityname=Chrisman[10'd29-DrawY][10'd449-DrawX];
+32'd50:
+	cityname=WestDana[10'd29-DrawY][10'd449-DrawX];
+32'd51:
+	cityname=RidgeFarm[10'd29-DrawY][10'd449-DrawX];
+32'd52:
+	cityname=Westville[10'd29-DrawY][10'd449-DrawX];
+32'd53:
+	cityname=Tilton[10'd29-DrawY][10'd449-DrawX];
+32'd54:
+	cityname=Danville[10'd29-DrawY][10'd449-DrawX];
+32'd55:
+	cityname=Collison[10'd29-DrawY][10'd449-DrawX];
+32'd56:
+	cityname=Henning[10'd29-DrawY][10'd449-DrawX];
+32'd57:
+	cityname=Rossville[10'd29-DrawY][10'd449-DrawX];
+32'd58:
+	cityname=Hoopston[10'd29-DrawY][10'd449-DrawX];
+32'd59:
+	cityname=Milford[10'd29-DrawY][10'd449-DrawX];
+32'd60:
+	cityname=WoodlandJct.[10'd29-DrawY][10'd449-DrawX];
+32'd61:
+	cityname=Watseka[10'd29-DrawY][10'd449-DrawX];
+32'd62:
+	cityname=Webster[10'd29-DrawY][10'd449-DrawX];
+32'd63:
+	cityname=Gilman[10'd29-DrawY][10'd449-DrawX];
+32'd64:
+	cityname=Onarga[10'd29-DrawY][10'd449-DrawX];
+32'd65:
+	cityname=Paxton[10'd29-DrawY][10'd449-DrawX];
+32'd66:
+	cityname=Rantoul[10'd29-DrawY][10'd449-DrawX];
+32'd67:
+	cityname=Dillsburg[10'd29-DrawY][10'd449-DrawX];
+32'd68:
+	cityname=Fisher[10'd29-DrawY][10'd449-DrawX];
+32'd69:
+	cityname=Thomasboro[10'd29-DrawY][10'd449-DrawX];
+32'd70:
+	cityname=Urbana[10'd29-DrawY][10'd449-DrawX];
+32'd71:
+	cityname=Champaign[10'd29-DrawY][10'd449-DrawX];
+32'd72:
+	cityname=Savoy[10'd29-DrawY][10'd449-DrawX];
+32'd73:
+	cityname=Tolono[10'd29-DrawY][10'd449-DrawX];
+32'd74:
+	cityname=Sidney[10'd29-DrawY][10'd449-DrawX];
+32'd75:
+	cityname=Homer[10'd29-DrawY][10'd449-DrawX];
+32'd76:
+	cityname=Glover[10'd29-DrawY][10'd449-DrawX];
+32'd77:
+	cityname=Goodwine[10'd29-DrawY][10'd449-DrawX];
+32'd78:
+	cityname=CissnaPark[10'd29-DrawY][10'd449-DrawX];
+32'd79:
+	cityname=VillaGrove[10'd29-DrawY][10'd449-DrawX];
+32'd80:
+	cityname=Boradland[10'd29-DrawY][10'd449-DrawX];
+32'd81:
+	cityname=Bement[10'd29-DrawY][10'd449-DrawX];
+32'd82:
+	cityname=CerroGordo[10'd29-DrawY][10'd449-DrawX];
+32'd83:
+	cityname=Cisco[10'd29-DrawY][10'd449-DrawX];
+32'd84:
+	cityname=Monticello[10'd29-DrawY][10'd449-DrawX];
+32'd85:
+	cityname=Lodge[10'd29-DrawY][10'd449-DrawX];
+32'd86:
+	cityname=Mansfield[10'd29-DrawY][10'd449-DrawX];
+32'd87:
+	cityname=Lotus[10'd29-DrawY][10'd449-DrawX];
+32'd88:
+	cityname=GibsonCity[10'd29-DrawY][10'd449-DrawX];
+32'd89:
+	cityname=Melvin[10'd29-DrawY][10'd449-DrawX];
+32'd90:
+	cityname=LeRoy[10'd29-DrawY][10'd449-DrawX];
+32'd91:
+	cityname=Arrowsmith[10'd29-DrawY][10'd449-DrawX];
+32'd92:
+	cityname=Risk[10'd29-DrawY][10'd449-DrawX];
+32'd93:
+	cityname=Colfax[10'd29-DrawY][10'd449-DrawX];
+32'd94:
+	cityname=Chatsworth[10'd29-DrawY][10'd449-DrawX];
+32'd95:
+	cityname=Forrest[10'd29-DrawY][10'd449-DrawX];
+32'd96:
+	cityname=Fairbury[10'd29-DrawY][10'd449-DrawX];
+32'd97:
+	cityname=FarmerCity[10'd29-DrawY][10'd449-DrawX];
+default:
+	cityname=1'd0;

@@ -1,0 +1,194 @@
+if (Ball_X_OUT1 <= 10'd28 && Ball_X_OUT1 >= 10'd20 && Ball_Y_OUT1 <= 10'd132 && Ball_Y_OUT1 >= 10'd124)
+	storedata = 32'd1;  // Elm
+if (Ball_X_OUT1 <= 10'd49 && Ball_X_OUT1 >= 10'd41 && Ball_Y_OUT1 <= 10'd172 && Ball_Y_OUT1 >= 10'd164)
+	storedata = 32'd2;  // Glasford
+if (Ball_X_OUT1 <= 10'd55 && Ball_X_OUT1 >= 10'd47 && Ball_Y_OUT1 <= 10'd220 && Ball_Y_OUT1 >= 10'd212)
+	storedata = 32'd3;  // Manito
+if (Ball_X_OUT1 <= 10'd76 && Ball_X_OUT1 >= 10'd68 && Ball_Y_OUT1 <= 10'd444 && Ball_Y_OUT1 >= 10'd436)
+	storedata = 32'd4;  // Jct
+if (Ball_X_OUT1 <= 10'd87 && Ball_X_OUT1 >= 10'd79 && Ball_Y_OUT1 <= 10'd434 && Ball_Y_OUT1 >= 10'd426)
+	storedata = 32'd5;  // lles
+if (Ball_X_OUT1 <= 10'd99 && Ball_X_OUT1 >= 10'd91 && Ball_Y_OUT1 <= 10'd418 && Ball_Y_OUT1 >= 10'd410)
+	storedata = 32'd6;  // Starnes
+if (Ball_X_OUT1 <= 10'd116 && Ball_X_OUT1 >= 10'd108 && Ball_Y_OUT1 <= 10'd410 && Ball_Y_OUT1 >= 10'd402)
+	storedata = 32'd7;  // Riverton
+if (Ball_X_OUT1 <= 10'd100 && Ball_X_OUT1 >= 10'd92 && Ball_Y_OUT1 <= 10'd396 && Ball_Y_OUT1 >= 10'd388)
+	storedata = 32'd8;  // Sherman
+if (Ball_X_OUT1 <= 10'd76 && Ball_X_OUT1 >= 10'd68 && Ball_Y_OUT1 <= 10'd377 && Ball_Y_OUT1 >= 10'd369)
+	storedata = 32'd9;  // BarrStation
+if (Ball_X_OUT1 <= 10'd89 && Ball_X_OUT1 >= 10'd81 && Ball_Y_OUT1 <= 10'd290 && Ball_Y_OUT1 >= 10'd282)
+	storedata = 32'd10;  // Luther
+if (Ball_X_OUT1 <= 10'd90 && Ball_X_OUT1 >= 10'd82 && Ball_Y_OUT1 <= 10'd226 && Ball_Y_OUT1 >= 10'd218)
+	storedata = 32'd11;  // GreenValley
+if (Ball_X_OUT1 <= 10'd89 && Ball_X_OUT1 >= 10'd81 && Ball_Y_OUT1 <= 10'd198 && Ball_Y_OUT1 >= 10'd190)
+	storedata = 32'd12;  // SouthPekin
+if (Ball_X_OUT1 <= 10'd83 && Ball_X_OUT1 >= 10'd75 && Ball_Y_OUT1 <= 10'd180 && Ball_Y_OUT1 >= 10'd172)
+	storedata = 32'd13;  // Powerton
+if (Ball_X_OUT1 <= 10'd54 && Ball_X_OUT1 >= 10'd46 && Ball_Y_OUT1 <= 10'd131 && Ball_Y_OUT1 >= 10'd123)
+	storedata = 32'd14;  // HannaCity
+if (Ball_X_OUT1 <= 10'd109 && Ball_X_OUT1 >= 10'd101 && Ball_Y_OUT1 <= 10'd91 && Ball_Y_OUT1 >= 10'd83)
+	storedata = 32'd15;  // Mossville
+if (Ball_X_OUT1 <= 10'd106 && Ball_X_OUT1 >= 10'd98 && Ball_Y_OUT1 <= 10'd139 && Ball_Y_OUT1 >= 10'd131)
+	storedata = 32'd16;  // EastPeoria
+if (Ball_X_OUT1 <= 10'd115 && Ball_X_OUT1 >= 10'd107 && Ball_Y_OUT1 <= 10'd236 && Ball_Y_OUT1 >= 10'd228)
+	storedata = 32'd17;  // Delavan
+if (Ball_X_OUT1 <= 10'd125 && Ball_X_OUT1 >= 10'd117 && Ball_Y_OUT1 <= 10'd143 && Ball_Y_OUT1 >= 10'd135)
+	storedata = 32'd18;  // Farmdale
+if (Ball_X_OUT1 <= 10'd146 && Ball_X_OUT1 >= 10'd138 && Ball_Y_OUT1 <= 10'd128 && Ball_Y_OUT1 >= 10'd120)
+	storedata = 32'd19;  // Washington
+if (Ball_X_OUT1 <= 10'd184 && Ball_X_OUT1 >= 10'd176 && Ball_Y_OUT1 <= 10'd121 && Ball_Y_OUT1 >= 10'd113)
+	storedata = 32'd20;  // Eureka
+if (Ball_X_OUT1 <= 10'd244 && Ball_X_OUT1 >= 10'd236 && Ball_Y_OUT1 <= 10'd116 && Ball_Y_OUT1 >= 10'd108)
+	storedata = 32'd21;  // ElPaso
+if (Ball_X_OUT1 <= 10'd163 && Ball_X_OUT1 >= 10'd155 && Ball_Y_OUT1 <= 10'd309 && Ball_Y_OUT1 >= 10'd301)
+	storedata = 32'd22;  // Lincoin
+if (Ball_X_OUT1 <= 10'd177 && Ball_X_OUT1 >= 10'd169 && Ball_Y_OUT1 <= 10'd358 && Ball_Y_OUT1 >= 10'd350)
+	storedata = 32'd23;  // Mt.Pulaski
+if (Ball_X_OUT1 <= 10'd188 && Ball_X_OUT1 >= 10'd180 && Ball_Y_OUT1 <= 10'd409 && Ball_Y_OUT1 >= 10'd401)
+	storedata = 32'd24;  // Illiopoils
+if (Ball_X_OUT1 <= 10'd226 && Ball_X_OUT1 >= 10'd218 && Ball_Y_OUT1 <= 10'd409 && Ball_Y_OUT1 >= 10'd401)
+	storedata = 32'd25;  // Harristown
+if (Ball_X_OUT1 <= 10'd263 && Ball_X_OUT1 >= 10'd255 && Ball_Y_OUT1 <= 10'd410 && Ball_Y_OUT1 >= 10'd402)
+	storedata = 32'd26;  // Decatur
+if (Ball_X_OUT1 <= 10'd234 && Ball_X_OUT1 >= 10'd226 && Ball_Y_OUT1 <= 10'd382 && Ball_Y_OUT1 >= 10'd374)
+	storedata = 32'd27;  // Warrensburg
+if (Ball_X_OUT1 <= 10'd229 && Ball_X_OUT1 >= 10'd221 && Ball_Y_OUT1 <= 10'd329 && Ball_Y_OUT1 >= 10'd321)
+	storedata = 32'd28;  // Kenney
+if (Ball_X_OUT1 <= 10'd256 && Ball_X_OUT1 >= 10'd248 && Ball_Y_OUT1 <= 10'd310 && Ball_Y_OUT1 >= 10'd302)
+	storedata = 32'd29;  // Clinton
+if (Ball_X_OUT1 <= 10'd257 && Ball_X_OUT1 >= 10'd249 && Ball_Y_OUT1 <= 10'd258 && Ball_Y_OUT1 >= 10'd250)
+	storedata = 32'd30;  // Heyworth
+if (Ball_X_OUT1 <= 10'd192 && Ball_X_OUT1 >= 10'd184 && Ball_Y_OUT1 <= 10'd274 && Ball_Y_OUT1 >= 10'd266)
+	storedata = 32'd31;  // Atlanta
+if (Ball_X_OUT1 <= 10'd249 && Ball_X_OUT1 >= 10'd241 && Ball_Y_OUT1 <= 10'd202 && Ball_Y_OUT1 >= 10'd194)
+	storedata = 32'd32;  // Bloomington
+if (Ball_X_OUT1 <= 10'd213 && Ball_X_OUT1 >= 10'd205 && Ball_Y_OUT1 <= 10'd167 && Ball_Y_OUT1 >= 10'd159)
+	storedata = 32'd33;  // Carlock
+if (Ball_X_OUT1 <= 10'd142 && Ball_X_OUT1 >= 10'd134 && Ball_Y_OUT1 <= 10'd151 && Ball_Y_OUT1 >= 10'd143)
+	storedata = 32'd34;  // Crandall
+if (Ball_X_OUT1 <= 10'd303 && Ball_X_OUT1 >= 10'd295 && Ball_Y_OUT1 <= 10'd148 && Ball_Y_OUT1 >= 10'd140)
+	storedata = 32'd35;  // Lexington
+if (Ball_X_OUT1 <= 10'd318 && Ball_X_OUT1 >= 10'd310 && Ball_Y_OUT1 <= 10'd114 && Ball_Y_OUT1 >= 10'd106)
+	storedata = 32'd36;  // Chenoa
+if (Ball_X_OUT1 <= 10'd252 && Ball_X_OUT1 >= 10'd244 && Ball_Y_OUT1 <= 10'd451 && Ball_Y_OUT1 >= 10'd443)
+	storedata = 32'd37;  // Macon
+if (Ball_X_OUT1 <= 10'd218 && Ball_X_OUT1 >= 10'd210 && Ball_Y_OUT1 <= 10'd462 && Ball_Y_OUT1 >= 10'd454)
+	storedata = 32'd38;  // BlueMound
+if (Ball_X_OUT1 <= 10'd243 && Ball_X_OUT1 >= 10'd235 && Ball_Y_OUT1 <= 10'd432 && Ball_Y_OUT1 >= 10'd424)
+	storedata = 32'd39;  // Boody
+if (Ball_X_OUT1 <= 10'd286 && Ball_X_OUT1 >= 10'd278 && Ball_Y_OUT1 <= 10'd438 && Ball_Y_OUT1 >= 10'd430)
+	storedata = 32'd40;  // HerveyCity
+if (Ball_X_OUT1 <= 10'd288 && Ball_X_OUT1 >= 10'd280 && Ball_Y_OUT1 <= 10'd420 && Ball_Y_OUT1 >= 10'd412)
+	storedata = 32'd41;  // LongCreek
+if (Ball_X_OUT1 <= 10'd384 && Ball_X_OUT1 >= 10'd376 && Ball_Y_OUT1 <= 10'd425 && Ball_Y_OUT1 >= 10'd417)
+	storedata = 32'd42;  // Atwood
+if (Ball_X_OUT1 <= 10'd381 && Ball_X_OUT1 >= 10'd373 && Ball_Y_OUT1 <= 10'd453 && Ball_Y_OUT1 >= 10'd445)
+	storedata = 32'd43;  // Arthur
+if (Ball_X_OUT1 <= 10'd430 && Ball_X_OUT1 >= 10'd422 && Ball_Y_OUT1 <= 10'd423 && Ball_Y_OUT1 >= 10'd415)
+	storedata = 32'd44;  // Tuscola
+if (Ball_X_OUT1 <= 10'd426 && Ball_X_OUT1 >= 10'd418 && Ball_Y_OUT1 <= 10'd457 && Ball_Y_OUT1 >= 10'd449)
+	storedata = 32'd45;  // Arcola
+if (Ball_X_OUT1 <= 10'd480 && Ball_X_OUT1 >= 10'd472 && Ball_Y_OUT1 <= 10'd423 && Ball_Y_OUT1 >= 10'd415)
+	storedata = 32'd46;  // Murdock
+if (Ball_X_OUT1 <= 10'd504 && Ball_X_OUT1 >= 10'd496 && Ball_Y_OUT1 <= 10'd422 && Ball_Y_OUT1 >= 10'd414)
+	storedata = 32'd47;  // Newman
+if (Ball_X_OUT1 <= 10'd552 && Ball_X_OUT1 >= 10'd544 && Ball_Y_OUT1 <= 10'd420 && Ball_Y_OUT1 >= 10'd412)
+	storedata = 32'd48;  // Metcalf
+if (Ball_X_OUT1 <= 10'd581 && Ball_X_OUT1 >= 10'd573 && Ball_Y_OUT1 <= 10'd420 && Ball_Y_OUT1 >= 10'd412)
+	storedata = 32'd49;  // Chrisman
+if (Ball_X_OUT1 <= 10'd624 && Ball_X_OUT1 >= 10'd616 && Ball_Y_OUT1 <= 10'd418 && Ball_Y_OUT1 >= 10'd410)
+	storedata = 32'd50;  // WestDana
+if (Ball_X_OUT1 <= 10'd586 && Ball_X_OUT1 >= 10'd578 && Ball_Y_OUT1 <= 10'd388 && Ball_Y_OUT1 >= 10'd380)
+	storedata = 32'd51;  // RidgeFarm
+if (Ball_X_OUT1 <= 10'd592 && Ball_X_OUT1 >= 10'd584 && Ball_Y_OUT1 <= 10'd347 && Ball_Y_OUT1 >= 10'd339)
+	storedata = 32'd52;  // Westville
+if (Ball_X_OUT1 <= 10'd590 && Ball_X_OUT1 >= 10'd582 && Ball_Y_OUT1 <= 10'd322 && Ball_Y_OUT1 >= 10'd314)
+	storedata = 32'd53;  // Tilton
+if (Ball_X_OUT1 <= 10'd595 && Ball_X_OUT1 >= 10'd587 && Ball_Y_OUT1 <= 10'd311 && Ball_Y_OUT1 >= 10'd303)
+	storedata = 32'd54;  // Danville
+if (Ball_X_OUT1 <= 10'd548 && Ball_X_OUT1 >= 10'd540 && Ball_Y_OUT1 <= 10'd278 && Ball_Y_OUT1 >= 10'd270)
+	storedata = 32'd55;  // Collison
+if (Ball_X_OUT1 <= 10'd574 && Ball_X_OUT1 >= 10'd566 && Ball_Y_OUT1 <= 10'd253 && Ball_Y_OUT1 >= 10'd245)
+	storedata = 32'd56;  // Henning
+if (Ball_X_OUT1 <= 10'd581 && Ball_X_OUT1 >= 10'd573 && Ball_Y_OUT1 <= 10'd228 && Ball_Y_OUT1 >= 10'd220)
+	storedata = 32'd57;  // Rossville
+if (Ball_X_OUT1 <= 10'd580 && Ball_X_OUT1 >= 10'd572 && Ball_Y_OUT1 <= 10'd200 && Ball_Y_OUT1 >= 10'd192)
+	storedata = 32'd58;  // Hoopston
+if (Ball_X_OUT1 <= 10'd572 && Ball_X_OUT1 >= 10'd564 && Ball_Y_OUT1 <= 10'd144 && Ball_Y_OUT1 >= 10'd136)
+	storedata = 32'd59;  // Milford
+if (Ball_X_OUT1 <= 10'd565 && Ball_X_OUT1 >= 10'd557 && Ball_Y_OUT1 <= 10'd125 && Ball_Y_OUT1 >= 10'd117)
+	storedata = 32'd60;  // WoodlandJct.
+if (Ball_X_OUT1 <= 10'd561 && Ball_X_OUT1 >= 10'd553 && Ball_Y_OUT1 <= 10'd96 && Ball_Y_OUT1 >= 10'd88)
+	storedata = 32'd61;  // Watseka
+if (Ball_X_OUT1 <= 10'd594 && Ball_X_OUT1 >= 10'd586 && Ball_Y_OUT1 <= 10'd99 && Ball_Y_OUT1 >= 10'd91)
+	storedata = 32'd62;  // Webster
+if (Ball_X_OUT1 <= 10'd497 && Ball_X_OUT1 >= 10'd489 && Ball_Y_OUT1 <= 10'd101 && Ball_Y_OUT1 >= 10'd93)
+	storedata = 32'd63;  // Gilman
+if (Ball_X_OUT1 <= 10'd494 && Ball_X_OUT1 >= 10'd486 && Ball_Y_OUT1 <= 10'd121 && Ball_Y_OUT1 >= 10'd113)
+	storedata = 32'd64;  // Onarga
+if (Ball_X_OUT1 <= 10'd475 && Ball_X_OUT1 >= 10'd467 && Ball_Y_OUT1 <= 10'd204 && Ball_Y_OUT1 >= 10'd196)
+	storedata = 32'd65;  // Paxton
+if (Ball_X_OUT1 <= 10'd459 && Ball_X_OUT1 >= 10'd451 && Ball_Y_OUT1 <= 10'd253 && Ball_Y_OUT1 >= 10'd245)
+	storedata = 32'd66;  // Rantoul
+if (Ball_X_OUT1 <= 10'd480 && Ball_X_OUT1 >= 10'd472 && Ball_Y_OUT1 <= 10'd251 && Ball_Y_OUT1 >= 10'd243)
+	storedata = 32'd67;  // Dillsburg
+if (Ball_X_OUT1 <= 10'd414 && Ball_X_OUT1 >= 10'd406 && Ball_Y_OUT1 <= 10'd251 && Ball_Y_OUT1 >= 10'd243)
+	storedata = 32'd68;  // Fisher
+if (Ball_X_OUT1 <= 10'd453 && Ball_X_OUT1 >= 10'd445 && Ball_Y_OUT1 <= 10'd273 && Ball_Y_OUT1 >= 10'd265)
+	storedata = 32'd69;  // Thomasboro
+if (Ball_X_OUT1 <= 10'd447 && Ball_X_OUT1 >= 10'd439 && Ball_Y_OUT1 <= 10'd320 && Ball_Y_OUT1 >= 10'd312)
+	storedata = 32'd70;  // Urbana
+if (Ball_X_OUT1 <= 10'd398 && Ball_X_OUT1 >= 10'd390 && Ball_Y_OUT1 <= 10'd322 && Ball_Y_OUT1 >= 10'd314)
+	storedata = 32'd71;  // Champaign
+if (Ball_X_OUT1 <= 10'd439 && Ball_X_OUT1 >= 10'd431 && Ball_Y_OUT1 <= 10'd343 && Ball_Y_OUT1 >= 10'd335)
+	storedata = 32'd72;  // Savoy
+if (Ball_X_OUT1 <= 10'd434 && Ball_X_OUT1 >= 10'd426 && Ball_Y_OUT1 <= 10'd361 && Ball_Y_OUT1 >= 10'd353)
+	storedata = 32'd73;  // Tolono
+if (Ball_X_OUT1 <= 10'd484 && Ball_X_OUT1 >= 10'd476 && Ball_Y_OUT1 <= 10'd347 && Ball_Y_OUT1 >= 10'd339)
+	storedata = 32'd74;  // Sidney
+if (Ball_X_OUT1 <= 10'd508 && Ball_X_OUT1 >= 10'd500 && Ball_Y_OUT1 <= 10'd343 && Ball_Y_OUT1 >= 10'd335)
+	storedata = 32'd75;  // Homer
+if (Ball_X_OUT1 <= 10'd497 && Ball_X_OUT1 >= 10'd489 && Ball_Y_OUT1 <= 10'd320 && Ball_Y_OUT1 >= 10'd312)
+	storedata = 32'd76;  // Glover
+if (Ball_X_OUT1 <= 10'd551 && Ball_X_OUT1 >= 10'd543 && Ball_Y_OUT1 <= 10'd168 && Ball_Y_OUT1 >= 10'd160)
+	storedata = 32'd77;  // Goodwine
+if (Ball_X_OUT1 <= 10'd524 && Ball_X_OUT1 >= 10'd516 && Ball_Y_OUT1 <= 10'd169 && Ball_Y_OUT1 >= 10'd161)
+	storedata = 32'd78;  // CissnaPark
+if (Ball_X_OUT1 <= 10'd465 && Ball_X_OUT1 >= 10'd457 && Ball_Y_OUT1 <= 10'd400 && Ball_Y_OUT1 >= 10'd392)
+	storedata = 32'd79;  // VillaGrove
+if (Ball_X_OUT1 <= 10'd501 && Ball_X_OUT1 >= 10'd493 && Ball_Y_OUT1 <= 10'd385 && Ball_Y_OUT1 >= 10'd377)
+	storedata = 32'd80;  // Boradland
+if (Ball_X_OUT1 <= 10'd356 && Ball_X_OUT1 >= 10'd348 && Ball_Y_OUT1 <= 10'd384 && Ball_Y_OUT1 >= 10'd376)
+	storedata = 32'd81;  // Bement
+if (Ball_X_OUT1 <= 10'd315 && Ball_X_OUT1 >= 10'd307 && Ball_Y_OUT1 <= 10'd395 && Ball_Y_OUT1 >= 10'd387)
+	storedata = 32'd82;  // CerroGordo
+if (Ball_X_OUT1 <= 10'd318 && Ball_X_OUT1 >= 10'd310 && Ball_Y_OUT1 <= 10'd355 && Ball_Y_OUT1 >= 10'd347)
+	storedata = 32'd83;  // Cisco
+if (Ball_X_OUT1 <= 10'd355 && Ball_X_OUT1 >= 10'd347 && Ball_Y_OUT1 <= 10'd347 && Ball_Y_OUT1 >= 10'd339)
+	storedata = 32'd84;  // Monticello
+if (Ball_X_OUT1 <= 10'd361 && Ball_X_OUT1 >= 10'd353 && Ball_Y_OUT1 <= 10'd322 && Ball_Y_OUT1 >= 10'd314)
+	storedata = 32'd85;  // Lodge
+if (Ball_X_OUT1 <= 10'd373 && Ball_X_OUT1 >= 10'd365 && Ball_Y_OUT1 <= 10'd288 && Ball_Y_OUT1 >= 10'd280)
+	storedata = 32'd86;  // Mansfield
+if (Ball_X_OUT1 <= 10'd382 && Ball_X_OUT1 >= 10'd374 && Ball_Y_OUT1 <= 10'd252 && Ball_Y_OUT1 >= 10'd244)
+	storedata = 32'd87;  // Lotus
+if (Ball_X_OUT1 <= 10'd404 && Ball_X_OUT1 >= 10'd396 && Ball_Y_OUT1 <= 10'd204 && Ball_Y_OUT1 >= 10'd196)
+	storedata = 32'd88;  // GibsonCity
+if (Ball_X_OUT1 <= 10'd435 && Ball_X_OUT1 >= 10'd427 && Ball_Y_OUT1 <= 10'd170 && Ball_Y_OUT1 >= 10'd162)
+	storedata = 32'd89;  // Melvin
+if (Ball_X_OUT1 <= 10'd308 && Ball_X_OUT1 >= 10'd300 && Ball_Y_OUT1 <= 10'd244 && Ball_Y_OUT1 >= 10'd236)
+	storedata = 32'd90;  // LeRoy
+if (Ball_X_OUT1 <= 10'd346 && Ball_X_OUT1 >= 10'd338 && Ball_Y_OUT1 <= 10'd210 && Ball_Y_OUT1 >= 10'd202)
+	storedata = 32'd91;  // Arrowsmith
+if (Ball_X_OUT1 <= 10'd393 && Ball_X_OUT1 >= 10'd385 && Ball_Y_OUT1 <= 10'd140 && Ball_Y_OUT1 >= 10'd132)
+	storedata = 32'd92;  // Risk
+if (Ball_X_OUT1 <= 10'd343 && Ball_X_OUT1 >= 10'd335 && Ball_Y_OUT1 <= 10'd172 && Ball_Y_OUT1 >= 10'd164)
+	storedata = 32'd93;  // Colfax
+if (Ball_X_OUT1 <= 10'd423 && Ball_X_OUT1 >= 10'd415 && Ball_Y_OUT1 <= 10'd107 && Ball_Y_OUT1 >= 10'd99)
+	storedata = 32'd94;  // Chatsworth
+if (Ball_X_OUT1 <= 10'd396 && Ball_X_OUT1 >= 10'd388 && Ball_Y_OUT1 <= 10'd108 && Ball_Y_OUT1 >= 10'd100)
+	storedata = 32'd95;  // Forrest
+if (Ball_X_OUT1 <= 10'd364 && Ball_X_OUT1 >= 10'd356 && Ball_Y_OUT1 <= 10'd112 && Ball_Y_OUT1 >= 10'd104)
+	storedata = 32'd96;  // Fairbury
+if (Ball_X_OUT1 <= 10'd339 && Ball_X_OUT1 >= 10'd331 && Ball_Y_OUT1 <= 10'd277 && Ball_Y_OUT1 >= 10'd269)
+	storedata = 32'd97;  // FarmerCity

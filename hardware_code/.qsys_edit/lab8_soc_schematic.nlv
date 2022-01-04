@@ -1,0 +1,75 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst lab8_soc.timer_0 -pg 1 -lvl 3 -y 930
+preplace inst lab8_soc.otg_hpi_cs -pg 1 -lvl 3 -y 1890
+preplace inst lab8_soc.otg_hpi_address -pg 1 -lvl 3 -y 2590
+preplace inst lab8_soc.PATH3 -pg 1 -lvl 3 -y 630
+preplace inst lab8_soc.DEBUG_MIN_NUM -pg 1 -lvl 3 -y 530
+preplace inst lab8_soc -pg 1 -lvl 1 -y 40 -regml 5 -regy -20
+preplace inst lab8_soc.nios2_gen2_0.reset_bridge -pg 1
+preplace inst lab8_soc.nios2_gen2_0 -pg 1 -lvl 2 -y 720
+preplace inst lab8_soc.distancehigh -pg 1 -lvl 3 -y 130
+preplace inst lab8_soc.SOURCE_INDEX -pg 1 -lvl 3 -y 2790
+preplace inst lab8_soc.PATH4 -pg 1 -lvl 3 -y 2090
+preplace inst lab8_soc.otg_hpi_r -pg 1 -lvl 3 -y 2290
+preplace inst lab8_soc.TARGET_INDEX -pg 1 -lvl 3 -y 2990
+preplace inst lab8_soc.FINISH -pg 1 -lvl 3 -y 430
+preplace inst lab8_soc.keycode -pg 1 -lvl 3 -y 1030
+preplace inst lab8_soc.START -pg 1 -lvl 3 -y 2890
+preplace inst lab8_soc.nios2_gen2_0.cpu -pg 1
+preplace inst lab8_soc.otg_hpi_data -pg 1 -lvl 3 -y 1990
+preplace inst lab8_soc.POS_X -pg 1 -lvl 3 -y 2190
+preplace inst lab8_soc.DEBUG_MIN_INDEX -pg 1 -lvl 3 -y 30
+preplace inst lab8_soc.otg_hpi_w -pg 1 -lvl 3 -y 2490
+preplace inst lab8_soc.POS_Y -pg 1 -lvl 3 -y 2690
+preplace inst lab8_soc.MIN_PATH_LENGTH -pg 1 -lvl 3 -y 1230
+preplace inst lab8_soc.sdram_pll -pg 1 -lvl 3 -y 1530
+preplace inst lab8_soc.nios2_gen2_0.clock_bridge -pg 1
+preplace inst lab8_soc.jtag_uart_0 -pg 1 -lvl 3 -y 1130
+preplace inst lab8_soc.DEBUG_STATE -pg 1 -lvl 3 -y 230
+preplace inst lab8_soc.sdram -pg 1 -lvl 3 -y 1630
+preplace inst lab8_soc.ENDPOINT -pg 1 -lvl 3 -y 730
+preplace inst lab8_soc.otg_hpi_reset -pg 1 -lvl 3 -y 2390
+preplace inst lab8_soc.onchip_memory2_0 -pg 1 -lvl 3 -y 1730
+preplace inst lab8_soc.PATH1 -pg 1 -lvl 3 -y 1330
+preplace inst lab8_soc.BEGINPOINT -pg 1 -lvl 3 -y 330
+preplace inst lab8_soc.sysid_qsys_0 -pg 1 -lvl 3 -y 1810
+preplace inst lab8_soc.distancelow -pg 1 -lvl 3 -y 830
+preplace inst lab8_soc.clk_0 -pg 1 -lvl 1 -y 630
+preplace inst lab8_soc.PATH2 -pg 1 -lvl 3 -y 1430
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)START.external_connection,(SLAVE)lab8_soc.start_acc) 1 0 3 NJ 2920 NJ 2920 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)distancelow.external_connection,(SLAVE)lab8_soc.distancelow) 1 0 3 NJ 700 NJ 620 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)DEBUG_MIN_NUM.external_connection,(SLAVE)lab8_soc.debug_min_num) 1 0 3 NJ 560 NJ 560 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)lab8_soc.otg_hpi_w,(SLAVE)otg_hpi_w.external_connection) 1 0 3 NJ 2520 NJ 2520 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)lab8_soc.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>lab8_soc</net_container>(MASTER)clk_0.clk,(SLAVE)PATH1.clk,(SLAVE)DEBUG_MIN_INDEX.clk,(SLAVE)BEGINPOINT.clk,(SLAVE)otg_hpi_data.clk,(SLAVE)START.clk,(SLAVE)otg_hpi_r.clk,(SLAVE)POS_X.clk,(SLAVE)DEBUG_STATE.clk,(SLAVE)TARGET_INDEX.clk,(SLAVE)jtag_uart_0.clk,(SLAVE)onchip_memory2_0.clk1,(SLAVE)PATH2.clk,(SLAVE)sdram_pll.inclk_interface,(SLAVE)nios2_gen2_0.clk,(SLAVE)distancelow.clk,(SLAVE)otg_hpi_w.clk,(SLAVE)ENDPOINT.clk,(SLAVE)DEBUG_MIN_NUM.clk,(SLAVE)PATH4.clk,(SLAVE)timer_0.clk,(SLAVE)otg_hpi_cs.clk,(SLAVE)SOURCE_INDEX.clk,(SLAVE)FINISH.clk,(SLAVE)sysid_qsys_0.clk,(SLAVE)otg_hpi_reset.clk,(SLAVE)keycode.clk,(SLAVE)distancehigh.clk,(SLAVE)otg_hpi_address.clk,(SLAVE)PATH3.clk,(SLAVE)MIN_PATH_LENGTH.clk,(SLAVE)POS_Y.clk) 1 1 2 360 660 880
+preplace netloc INTERCONNECT<net_container>lab8_soc</net_container>(SLAVE)PATH1.s1,(SLAVE)BEGINPOINT.s1,(SLAVE)PATH4.s1,(MASTER)nios2_gen2_0.instruction_master,(SLAVE)nios2_gen2_0.debug_mem_slave,(SLAVE)otg_hpi_cs.s1,(SLAVE)sdram_pll.pll_slave,(SLAVE)DEBUG_MIN_NUM.s1,(SLAVE)MIN_PATH_LENGTH.s1,(SLAVE)POS_Y.s1,(SLAVE)otg_hpi_r.s1,(SLAVE)POS_X.s1,(SLAVE)FINISH.s1,(SLAVE)ENDPOINT.s1,(SLAVE)distancelow.s1,(SLAVE)START.s1,(SLAVE)PATH2.s1,(SLAVE)onchip_memory2_0.s1,(SLAVE)otg_hpi_reset.s1,(SLAVE)otg_hpi_address.s1,(SLAVE)otg_hpi_data.s1,(SLAVE)keycode.s1,(SLAVE)TARGET_INDEX.s1,(SLAVE)sdram.s1,(MASTER)nios2_gen2_0.data_master,(SLAVE)distancehigh.s1,(SLAVE)PATH3.s1,(SLAVE)SOURCE_INDEX.s1,(SLAVE)DEBUG_MIN_INDEX.s1,(SLAVE)timer_0.s1,(SLAVE)jtag_uart_0.avalon_jtag_slave,(SLAVE)otg_hpi_w.s1,(SLAVE)DEBUG_STATE.s1,(SLAVE)sysid_qsys_0.control_slave) 1 1 2 400 680 780
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)lab8_soc.source_index_acc,(SLAVE)SOURCE_INDEX.external_connection) 1 0 3 NJ 2820 NJ 2820 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)lab8_soc.otg_hpi_reset,(SLAVE)otg_hpi_reset.external_connection) 1 0 3 NJ 2420 NJ 2420 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)otg_hpi_data.external_connection,(SLAVE)lab8_soc.otg_hpi_data) 1 0 3 NJ 2020 NJ 2020 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)lab8_soc.min_path_length_acc,(SLAVE)MIN_PATH_LENGTH.external_connection) 1 0 3 NJ 1260 NJ 1260 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)PATH2.external_connection,(SLAVE)lab8_soc.path2) 1 0 3 NJ 1460 NJ 1460 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)lab8_soc.path1,(SLAVE)PATH1.external_connection) 1 0 3 NJ 1360 NJ 1360 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)otg_hpi_cs.external_connection,(SLAVE)lab8_soc.otg_hpi_cs) 1 0 3 NJ 1920 NJ 1920 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)lab8_soc.debug_min_index,(SLAVE)DEBUG_MIN_INDEX.external_connection) 1 0 3 NJ 60 NJ 60 NJ
+preplace netloc POINT_TO_POINT<net_container>lab8_soc</net_container>(SLAVE)sdram.clk,(MASTER)sdram_pll.c0) 1 2 2 900 1620 1140
+preplace netloc INTERCONNECT<net_container>lab8_soc</net_container>(SLAVE)otg_hpi_data.reset,(SLAVE)otg_hpi_cs.reset,(SLAVE)PATH4.reset,(SLAVE)jtag_uart_0.reset,(SLAVE)onchip_memory2_0.reset1,(MASTER)nios2_gen2_0.debug_reset_request,(SLAVE)SOURCE_INDEX.reset,(SLAVE)DEBUG_STATE.reset,(SLAVE)sdram.reset,(SLAVE)POS_Y.reset,(SLAVE)BEGINPOINT.reset,(SLAVE)otg_hpi_r.reset,(SLAVE)otg_hpi_address.reset,(SLAVE)otg_hpi_reset.reset,(SLAVE)distancelow.reset,(SLAVE)FINISH.reset,(SLAVE)MIN_PATH_LENGTH.reset,(SLAVE)timer_0.reset,(SLAVE)PATH1.reset,(SLAVE)PATH2.reset,(SLAVE)ENDPOINT.reset,(SLAVE)nios2_gen2_0.reset,(SLAVE)keycode.reset,(SLAVE)distancehigh.reset,(SLAVE)PATH3.reset,(SLAVE)DEBUG_MIN_INDEX.reset,(SLAVE)sdram_pll.inclk_interface_reset,(SLAVE)START.reset,(SLAVE)sysid_qsys_0.reset,(SLAVE)POS_X.reset,(SLAVE)DEBUG_MIN_NUM.reset,(SLAVE)TARGET_INDEX.reset,(MASTER)clk_0.clk_reset,(SLAVE)otg_hpi_w.reset) 1 1 2 380 640 820
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)otg_hpi_r.external_connection,(SLAVE)lab8_soc.otg_hpi_r) 1 0 3 NJ 2320 NJ 2320 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)lab8_soc.reset,(SLAVE)clk_0.clk_in_reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)FINISH.external_connection,(SLAVE)lab8_soc.finish_acc) 1 0 3 NJ 460 NJ 460 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)lab8_soc.keycode,(SLAVE)keycode.external_connection) 1 0 3 NJ 1060 NJ 1060 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)lab8_soc.beginpoint,(SLAVE)BEGINPOINT.external_connection) 1 0 3 NJ 360 NJ 360 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(MASTER)lab8_soc.sdram_clk,(MASTER)sdram_pll.c1) 1 3 2 NJ 1560 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)POS_X.external_connection,(SLAVE)lab8_soc.pos_x) 1 0 3 NJ 2220 NJ 2220 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)otg_hpi_address.external_connection,(SLAVE)lab8_soc.otg_hpi_address) 1 0 3 NJ 2620 NJ 2620 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)lab8_soc.pos_y,(SLAVE)POS_Y.external_connection) 1 0 3 NJ 2720 NJ 2720 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)lab8_soc.path3,(SLAVE)PATH3.external_connection) 1 0 3 NJ 580 NJ 580 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)lab8_soc.endpoint,(SLAVE)ENDPOINT.external_connection) 1 0 3 NJ 860 NJ 860 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)lab8_soc.distancehigh,(SLAVE)distancehigh.external_connection) 1 0 3 NJ 160 NJ 160 NJ
+preplace netloc FAN_OUT<net_container>lab8_soc</net_container>(SLAVE)jtag_uart_0.irq,(MASTER)nios2_gen2_0.irq,(SLAVE)timer_0.irq) 1 2 1 760
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)lab8_soc.target_index_acc,(SLAVE)TARGET_INDEX.external_connection) 1 0 3 NJ 3020 NJ 3020 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)lab8_soc.sdram_wire,(SLAVE)sdram.wire) 1 0 3 NJ 1700 NJ 1700 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)PATH4.external_connection,(SLAVE)lab8_soc.path4) 1 0 3 NJ 2120 NJ 2120 NJ
+preplace netloc EXPORT<net_container>lab8_soc</net_container>(SLAVE)lab8_soc.debug_state,(SLAVE)DEBUG_STATE.external_connection) 1 0 3 NJ 260 NJ 260 NJ
+levelinfo -pg 1 0 130 1360
+levelinfo -hier lab8_soc 140 170 520 950 1250 1270

@@ -1,0 +1,873 @@
+if(path1_export[0]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd20;
+		pos_y_out=10'd60;
+	end
+end
+
+if(path1_export[1]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd40;
+		pos_y_out=10'd110;
+	end
+end
+
+if(path1_export[2]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd47;
+		pos_y_out=10'd171;
+	end
+end
+
+if(path1_export[3]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd68;
+		pos_y_out=10'd450;
+	end
+end
+
+if(path1_export[4]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd79;
+		pos_y_out=10'd438;
+	end
+end
+
+if(path1_export[5]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd91;
+		pos_y_out=10'd418;
+	end
+end
+
+if(path1_export[6]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd108;
+		pos_y_out=10'd408;
+	end
+end
+
+if(path1_export[7]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd92;
+		pos_y_out=10'd390;
+	end
+end
+
+if(path1_export[8]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd68;
+		pos_y_out=10'd367;
+	end
+end
+
+if(path1_export[9]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd81;
+		pos_y_out=10'd258;
+	end
+end
+
+if(path1_export[10]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd81;
+		pos_y_out=10'd178;
+	end
+end
+
+if(path1_export[11]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd80;
+		pos_y_out=10'd143;
+	end
+end
+
+if(path1_export[12]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd74;
+		pos_y_out=10'd121;
+	end
+end
+
+if(path1_export[13]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd45;
+		pos_y_out=10'd59;
+	end
+end
+
+if(path1_export[14]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd100;
+		pos_y_out=10'd10;
+	end
+end
+
+if(path1_export[15]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd97;
+		pos_y_out=10'd70;
+	end
+end
+
+if(path1_export[16]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd106;
+		pos_y_out=10'd191;
+	end
+end
+
+if(path1_export[17]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd116;
+		pos_y_out=10'd74;
+	end
+end
+
+if(path1_export[18]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd138;
+		pos_y_out=10'd56;
+	end
+end
+
+if(path1_export[19]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd175;
+		pos_y_out=10'd47;
+	end
+end
+
+if(path1_export[20]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd236;
+		pos_y_out=10'd41;
+	end
+end
+
+if(path1_export[21]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd154;
+		pos_y_out=10'd282;
+	end
+end
+
+if(path1_export[22]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd169;
+		pos_y_out=10'd343;
+	end
+end
+
+if(path1_export[23]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd180;
+		pos_y_out=10'd406;
+	end
+end
+
+if(path1_export[24]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd218;
+		pos_y_out=10'd407;
+	end
+end
+
+if(path1_export[25]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd255;
+		pos_y_out=10'd408;
+	end
+end
+
+if(path1_export[26]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd226;
+		pos_y_out=10'd374;
+	end
+end
+
+if(path1_export[27]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd220;
+		pos_y_out=10'd306;
+	end
+end
+
+if(path1_export[28]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd248;
+		pos_y_out=10'd283;
+	end
+end
+
+if(path1_export[29]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd249;
+		pos_y_out=10'd218;
+	end
+end
+
+if(path1_export[30]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd184;
+		pos_y_out=10'd238;
+	end
+end
+
+if(path1_export[31]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd240;
+		pos_y_out=10'd148;
+	end
+end
+
+if(path1_export[32]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd205;
+		pos_y_out=10'd104;
+	end
+end
+
+if(path1_export[33]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd134;
+		pos_y_out=10'd84;
+	end
+end
+
+if(path1_export[34]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd294;
+		pos_y_out=10'd80;
+	end
+end
+
+if(path1_export[35]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd310;
+		pos_y_out=10'd38;
+	end
+end
+
+if(path1_export[36]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd243;
+		pos_y_out=10'd459;
+	end
+end
+
+if(path1_export[37]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd210;
+		pos_y_out=10'd473;
+	end
+end
+
+if(path1_export[38]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd234;
+		pos_y_out=10'd436;
+	end
+end
+
+if(path1_export[39]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd277;
+		pos_y_out=10'd443;
+	end
+end
+
+if(path1_export[40]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd279;
+		pos_y_out=10'd421;
+	end
+end
+
+if(path1_export[41]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd375;
+		pos_y_out=10'd426;
+	end
+end
+
+if(path1_export[42]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd372;
+		pos_y_out=10'd462;
+	end
+end
+
+if(path1_export[43]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd422;
+		pos_y_out=10'd424;
+	end
+end
+
+if(path1_export[44]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd418;
+		pos_y_out=10'd467;
+	end
+end
+
+if(path1_export[45]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd472;
+		pos_y_out=10'd424;
+	end
+end
+
+if(path1_export[46]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd495;
+		pos_y_out=10'd423;
+	end
+end
+
+if(path1_export[47]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd543;
+		pos_y_out=10'd421;
+	end
+end
+
+if(path1_export[48]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd573;
+		pos_y_out=10'd420;
+	end
+end
+
+if(path1_export[49]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd615;
+		pos_y_out=10'd418;
+	end
+end
+
+if(path1_export[50]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd577;
+		pos_y_out=10'd381;
+	end
+end
+
+if(path1_export[51]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd583;
+		pos_y_out=10'd330;
+	end
+end
+
+if(path1_export[52]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd581;
+		pos_y_out=10'd298;
+	end
+end
+
+if(path1_export[53]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd587;
+		pos_y_out=10'd284;
+	end
+end
+
+if(path1_export[54]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd540;
+		pos_y_out=10'd243;
+	end
+end
+
+if(path1_export[55]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd566;
+		pos_y_out=10'd212;
+	end
+end
+
+if(path1_export[56]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd572;
+		pos_y_out=10'd180;
+	end
+end
+
+if(path1_export[57]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd572;
+		pos_y_out=10'd146;
+	end
+end
+
+if(path1_export[58]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd564;
+		pos_y_out=10'd76;
+	end
+end
+
+if(path1_export[59]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd557;
+		pos_y_out=10'd52;
+	end
+end
+
+if(path1_export[60]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd553;
+		pos_y_out=10'd16;
+	end
+end
+
+if(path1_export[61]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd586;
+		pos_y_out=10'd19;
+	end
+end
+
+if(path1_export[62]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd488;
+		pos_y_out=10'd22;
+	end
+end
+
+if(path1_export[63]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd486;
+		pos_y_out=10'd47;
+	end
+end
+
+if(path1_export[64]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd467;
+		pos_y_out=10'd151;
+	end
+end
+
+if(path1_export[65]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd451;
+		pos_y_out=10'd212;
+	end
+end
+
+if(path1_export[66]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd471;
+		pos_y_out=10'd210;
+	end
+end
+
+if(path1_export[67]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd405;
+		pos_y_out=10'd210;
+	end
+end
+
+if(path1_export[68]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd445;
+		pos_y_out=10'd237;
+	end
+end
+
+if(path1_export[69]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd438;
+		pos_y_out=10'd295;
+	end
+end
+
+if(path1_export[70]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd389;
+		pos_y_out=10'd298;
+	end
+end
+
+if(path1_export[71]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd430;
+		pos_y_out=10'd325;
+	end
+end
+
+if(path1_export[72]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd426;
+		pos_y_out=10'd347;
+	end
+end
+
+if(path1_export[73]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd476;
+		pos_y_out=10'd329;
+	end
+end
+
+if(path1_export[74]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd500;
+		pos_y_out=10'd325;
+	end
+end
+
+if(path1_export[75]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd488;
+		pos_y_out=10'd295;
+	end
+end
+
+if(path1_export[76]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd542;
+		pos_y_out=10'd106;
+	end
+end
+
+if(path1_export[77]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd516;
+		pos_y_out=10'd106;
+	end
+end
+
+if(path1_export[78]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd456;
+		pos_y_out=10'd396;
+	end
+end
+
+if(path1_export[79]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd493;
+		pos_y_out=10'd377;
+	end
+end
+
+if(path1_export[80]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd348;
+		pos_y_out=10'd375;
+	end
+end
+
+if(path1_export[81]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd307;
+		pos_y_out=10'd389;
+	end
+end
+
+if(path1_export[82]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd310;
+		pos_y_out=10'd339;
+	end
+end
+
+if(path1_export[83]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd347;
+		pos_y_out=10'd329;
+	end
+end
+
+if(path1_export[84]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd352;
+		pos_y_out=10'd298;
+	end
+end
+
+if(path1_export[85]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd364;
+		pos_y_out=10'd256;
+	end
+end
+
+if(path1_export[86]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd373;
+		pos_y_out=10'd211;
+	end
+end
+
+if(path1_export[87]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd396;
+		pos_y_out=10'd151;
+	end
+end
+
+if(path1_export[88]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd426;
+		pos_y_out=10'd108;
+	end
+end
+
+if(path1_export[89]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd300;
+		pos_y_out=10'd201;
+	end
+end
+
+if(path1_export[90]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd337;
+		pos_y_out=10'd158;
+	end
+end
+
+if(path1_export[91]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd385;
+		pos_y_out=10'd70;
+	end
+end
+
+if(path1_export[92]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd335;
+		pos_y_out=10'd110;
+	end
+end
+
+if(path1_export[93]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd414;
+		pos_y_out=10'd30;
+	end
+end
+
+if(path1_export[94]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd387;
+		pos_y_out=10'd31;
+	end
+end
+
+if(path1_export[95]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd355;
+		pos_y_out=10'd36;
+	end
+end
+
+if(path1_export[96]==1)
+begin
+	if (DrawX <= str(int(points[counter, 0])+city_range) && DrawX >= str(int(points[counter, 0])-city_range) && DrawY <= 125 && DrawY >= 97)
+	begin
+		pos_x_out=10'd330;
+		pos_y_out=10'd242;
+	end
+end
+
