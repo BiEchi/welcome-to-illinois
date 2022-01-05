@@ -1,11 +1,36 @@
 # Welcome To Illinois - UIUC ECE 385 Final Project
 This is the public repository for the ECE385 Course Project in UIUC. Credits are given for [*Travelling by Chinese Speed*](https://github.com/Alex-Lian/shortest-path-search-on-FGPA/) by Alex Lian for initiating this project and we ameliorated his designs.
 
+Project Github: https://github.com/BiEchi/welcome-to-illinois
+
+Table of Contents
+=================
+
 [TOC]
 
 ## Introduction
 
+With the rapid development of public communications, travelling by bus becomes an inevitable skill to command by both locals and foreigners. As we ZJUIer’s are going to USA in one week, we introduced this project to act as a guide. We now introduce our project - Welcome to Illinois.
 
+![map](http://jacklovespictures.oss-cn-beijing.aliyuncs.com/2022-01-05-022725.bmp)
+
+This project acts as the final project for ECE 385 in UIUC, with curtsey for Professor Zuofu Cheng and Professor Chushan Li, and all the TAs. We highly appreciate their high-quality efforts to this course.
+
+
+
+## Construction
+
+If you want to reproduce our project, you need to construct the project first.
+
+### Construct the hardware part
+
+To construct the hardware part, you need to go to `hardware_code/lab8.qpf` and open it with Quartus II. After opening the project, you need to compile the files and program the file onto the DE2-115 board.
+
+### Construct the software part
+
+As the hardware part contains a CPU, you need to program the CPU then. To program the CPU, you need to open Eclipse in Quartus II and construct a new software workspace. Then you need to copy and paste all the code in `software_code/` into the workspace and compile it. Note that there is something more to do with the BSP directory according to **Junyan Li**.
+
+After construction, you can now travel using bus in Illinois!
 
 
 
@@ -41,7 +66,7 @@ This is the public repository for the ECE385 Course Project in UIUC. Credits are
 
 ### Bugs & Solution
 
-### 
+
 
 
 
