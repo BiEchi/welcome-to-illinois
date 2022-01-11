@@ -28,7 +28,7 @@ To construct the hardware part, you need to go to `hardware_code/lab8.qpf` and o
 
 ### Construct the software part
 
-As the hardware part contains a CPU, you need to program the CPU then. To program the CPU, you need to open Eclipse in Quartus II and construct a new software workspace. Then you need to copy and paste all the code in `software_code/` into the workspace and compile it. Note that there is something more to do with the BSP directory according to **Junyan Li**.
+As the hardware part contains a CPU, you need to program the CPU then. To program the CPU, you need to open Eclipse in Quartus II and construct a new software workspace. Then you need to copy and paste all the code in `software_code/` into the workspace and compile it. Before compilation, you need to use BSP editor to add timer0 as the timestamp generator for a precise timing behavior.
 
 After construction, you can now travel using bus in Illinois!
 
@@ -62,11 +62,54 @@ After connecting the keyboard by software part, he will be able to see the keyco
 
 ### `last_final_level.sv`
 
+### `accelerator.sv`
 
+Hardware accelerated Dijkstra algorithm is implemented in this module. It takes the source city index and the target city index as input, and output the minimum path length. A adjacent list is used to store the connections between cities. A state machine is used to control the algorithm. Several PIOs are used to output the result from hardware to NIOS II software. The time complexity for the accelerated version of Dijkstra is $O(n)$.
 
+### `minimum_finder.sv`
 
+Dijkstra needs to find the minimum current distance from source city among all possible cities in every round, so a minimum finder is implemented in this module. It applies hierarchical design to achieve a good trade-off between area and speed. A basic 8-elements minimum finder is first implemented, and it can select the minimum element among the 8 elements, both its value and index. Since we have 79 cities in total in our case, we use 16 basic 8-elements minimum finders as the first hierarchy. In the second hierarchy, two basic 8-elements minimum finders are built on top of the previous 16 basic 8-elements minimum finders, and finally a simple MUX is applied to find out the final minimum value among all cities as well as its index. This minimum finder system can work at a frequency up to 25 MHz.
 
+### `Top.v`
 
+It is the top-level module for the music player. This module can read the audio data from RAM and transfer it into the music player port (LINE OUT port). Moreover, there exists one MUX we use to switch different registers. For more details implement, please refer to the commends in this file.
+
+Port: Output BCLK is the clock signal for the input signal. Output DAC_LR_CLK is used for synchronizing the left channel and the right channel for the audio player. Output DAC_DATA is the sound data finished digital-to-analog conversion.
+
+### `final_high_level.sv`
+
+This is the top-level module for our final project. This module is obtained by modifying lab8. Specifically, to implement our mouse control needs and sound output needs, we added signals about the sound and the mouse work. In total, there are three different instances in this module: display and the pathfinding part (lab8) and sound playing part (Top).
+
+Port: Sound playing: Inout I2C_SDAT contains the I2C Data, while I2C_SCLK works as I2C clock. Output AUD_XCK, AUD_BCLK and AUD_DACLRCK are all the clock signal between the cyclone and CODEC chip. Inout AUD_DACDAT contains the DAC data for CODEC chip.
+
+### `ramstores`
+
+In our final project, we create five different modules to store different data we need to utilize. Since the principles of five different modules are similar, we only choose to illustrate one module. We also added 2 modules that were not used in the original project.
+
+This module is used to store the railway map of Illinois. The form of store data is one matrix whose size is 480*640*3. In this module, we can output the code of color (data) for the coordinates corresponding to DrawX and DrawY, and the module color_mapper finishes the decipher step.
+
+### `color_mapper.sv`
+
+This module is the most critical part of the hardware language. In this module, we accomplish the following tasks:
+
+1.   Display the cursor on the monitor.
+
+2. Display the map of Illinois and the background graph of railway on the monitor.
+3. Display the selected start and end cities with their name. 4. Complete the dynamic display of the optimal path. 5. Display the time spend on train travel. Port: Input Ball_X_OUT, Ball_Y_OUT, Ball_X_OUT1, Ball_Y_OUT1 represent the position of the cursor. Input cityname is used to decide whether to display the name of the chosen city. Input numbercode1 and numbercode2 are the time spent on train travel. Output storedata represents the code of the chosen city, which will be transferred to the ramstore2 module.
+
+### `detect_mouse.sv`
+
+This module deals with the interaction between NIOS-II and hardware modules. After the user selects the corresponding city, the module will pass the output to the two PIO modules, and then the NIOS-II CPU will complete the reading of the data. Output pos_x_out and pox_y_out means the position the user chooses as departure city or arrival city, which will be passed to two PIO modules.
+
+### `backgroundmusic.qip`
+
+This is a RAM file based on altsyncram [5] for storing the data of sound. Altsyncram is an IP core owned by the company Altera for synchronous RAM. The module can read and output the data stored in the address after receiving a determined address.
+
+Input address is the address we used to store the data of sound. Since we intend to satisfy the design of music looping, we have done this in the Top module using the loop input address. The input clock is the RAM reading clock. Input rden means “read enable.” It determines if the RAM can currently be read. Output q is the specific data.
+
+### `USB_Clock_PLL`
+
+This module is used to implement a phase-locked loop (PLL) circuit based on altpll module. PLL circuit is a kind of feedback control system that automatically adjusts the phase of the generated signal to match the phase of the input signal. It works by first selecting an oscillator frequency that matches the input signal frequency as the reference frequency, and when the input signal changes, a phase difference is generated between the input signal and the standard signal, and this is where the PLL gets its name.
 
 
 
@@ -85,6 +128,8 @@ We develop our project using a hybrid C + SystemVerilog + Verilog programming ap
 -   City name display. This feature allows the user to see the name of the city in the monitor after moving the cursor to the city's location. We implement this function in the color mapper module using a MUX and VGA display ports.
 -   Running time display. This feature allows the user to view the actual running time of a real-life train on the display once the optimal path has been obtained. To implement this function, we record the running time of trains between different cities when searching for the shortest path and add them up. After the CPU finishes searching for the optimal path, it will pass the tens place and ones place of running time to different PIO modules, and the data in the modules are then passed to the color mapper to complete the display.
 
+
+
 ### State Machine for Lab8.sv
 
 The state machine is implemented by `INPUTCONTROL.sv`.
@@ -97,25 +142,43 @@ This state machine is similar to a gate switch that ensures that the user can st
 
 
 
+### State Machine for Accelerator
+
+![state_machine_accelerator.drawio](.\images\state_machine_accelerator.drawio.png)
+
+Initial state is IDLE. Then, when START signal is on, PREPARE state will be entered to clear the registers and set correct values. Then, a loop for the following three states is performed to iteratively solve the shortest path problem using dijkstra algorithm. When the target index is reached, the accelerator stops and the result will be outputted until the START signal is off. Then, it returns to the IDLE state and wait for next START signal.
+
+
+
 ## Block Diagram
 
+![block_diagram](.\images\block_diagram.png)
 
+
+
+## Simulation Waveform
+
+When designing the hardware accelerator, RTL and Gate Level simulations are performed to make sure that the accelerator behaves as we expect. A sample waveform is shown below,
+
+![waveform](.\images\waveform.jpg)
+
+We set the source index to be 10 and the target index to be 20, then set START to be 1 to trigger the accelerator. After several clock cycles, it finishes and output a constant FINISH signal, as well as the minimum path length which is 235, the correct value.
 
 
 
 ## Analytical Data
 
-| Resource      | Amount |
-| ------------- | ------ |
-| LUT           |        |
-| DSP           |        |
-| RAM           |        |
-| DFF           |        |
-| Freq.         |        |
-| Static Power  |        |
-| Dynamic Power |        |
-| IO Power      |        |
-| Total Power   |        |
+| Resource      | Amount  |
+| ------------- | ------- |
+| LUT           | 60551   |
+| DSP           | 16      |
+| RAM           | 3227392 |
+| DFF           | 5041    |
+| Freq.         | 66.67   |
+| Static Power  | 114.64  |
+| Dynamic Power | 132.37  |
+| IO Power      | 88.68   |
+| Total Power   | 337.76  |
 
 
 
