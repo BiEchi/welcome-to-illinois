@@ -16,6 +16,7 @@ With the rapid development of public communications, travelling by bus becomes a
 
 This project acts as the final project for ECE 385 in UIUC, with curtsey for Professor Zuofu Cheng and Professor Chushan Li, and all the TAs. We highly appreciate their high-quality efforts to this course.
 
+A video introduction of our project in Chinese in shown [on BiliBili](https://www.bilibili.com/video/BV1PL411571f?spm_id_from=333.999.0.0).
 
 
 ## Construction
